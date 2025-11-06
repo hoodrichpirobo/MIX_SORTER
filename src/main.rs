@@ -1,3 +1,5 @@
+use serde_json::Value;
+use reqwest::Client;
 use rspotify::{
     prelude::*,
     scopes,
@@ -12,18 +14,189 @@ use rspotify::model::Modality;
 
 #[derive(Debug, Clone)]
 struct TrackInfo {
-    id: String,      // Spotify track ID (not URI)
-    name: String,
-    key: i32,        // 0–11 (Spotify pitch class)
-    mode: Modality,       // 1 = major, 0 = minor
+    id: String,      // Spotify track ID
+    name: String,    // track title
+    artist: String,  // main artist name
+    key: i32,        // 0–11
+    mode: Modality,  // Major / Minor
     tempo: f32,      // BPM
+}
+
+fn parse_getsong_key(key: &str) -> Option<(i32, Modality)> {
+    let trimmed = key.trim();
+    if trimmed.is_empty() {
+        return None;
+    }
+
+    // Normalize Unicode sharps/flats to ASCII # / b
+    let mut ascii = String::new();
+    for ch in trimmed.chars() {
+        match ch {
+            '♯' => ascii.push('#'),
+            '♭' => ascii.push('b'),
+            _ => ascii.push(ch),
+        }
+    }
+
+    let lower = ascii.to_ascii_lowercase();
+    // Very simple: if it contains 'm' and not 'maj', call it minor
+    let is_minor = lower.contains('m') && !lower.contains("maj");
+
+    // Root = first letter + optional #/b
+    let mut chars = ascii.chars();
+    let first = chars.next()?; // note the ?
+    let second = chars.next();
+
+    let mut root = String::new();
+    root.push(first.to_ascii_uppercase());
+    if let Some(c2) = second {
+        if c2 == '#' || c2 == 'b' || c2 == 'B' {
+            root.push(c2.to_ascii_uppercase());
+        }
+    }
+
+    let pitch = match root.as_str() {
+        "C"       => 0,
+        "C#"|"DB" => 1,
+        "D"       => 2,
+        "D#"|"EB" => 3,
+        "E"       => 4,
+        "F"       => 5,
+        "F#"|"GB" => 6,
+        "G"       => 7,
+        "G#"|"AB" => 8,
+        "A"       => 9,
+        "A#"|"BB" => 10,
+        "B"       => 11,
+        _ => return None,
+    };
+
+    let mode = if is_minor { Modality::Minor } else { Modality::Major };
+    Some((pitch, mode))
+}
+
+async fn fetch_getsong_features(
+    http: &Client,
+    api_key: &str,
+    title: &str,
+    artist: &str,
+) -> anyhow::Result<Option<(f32, i32, Modality)>> {
+    // Use the format recommended in the docs:
+    // type=both + lookup="song:<title> artist:<artist>"
+    let lookup = format!("song:{} artist:{}", title, artist);
+
+    let resp = http
+        .get("https://api.getsong.co/search/")
+        .query(&[
+            ("api_key", api_key),
+            ("type", "both"),
+            ("lookup", &lookup),
+            ("limit", "1"),
+        ])
+        .send()
+        .await?;
+
+    // Don’t crash on 4xx/5xx: just log and skip this track
+    let status = resp.status();
+    if !status.is_success() {
+        eprintln!(
+            "GetSongBPM HTTP {} for '{} - {}'",
+            status, artist, title
+        );
+        return Ok(None);
+    }
+
+    let body = resp.text().await?;
+
+    let v: Value = match serde_json::from_str(&body) {
+        Ok(v) => v,
+        Err(e) => {
+            eprintln!(
+                "GetSongBPM: JSON parse error for '{} - {}': {}. Body: {}",
+                artist, title, e, body
+            );
+            return Ok(None);
+        }
+    };
+
+    // Normal success case: { "search": [ { song1 }, { song2 }, ... ] }
+    let search_val = match v.get("search") {
+        Some(s) => s,
+        None => {
+            eprintln!(
+                "GetSongBPM: no 'search' field for '{} - {}': {}",
+                artist, title, v
+            );
+            return Ok(None);
+        }
+    };
+
+    // Error case you are seeing: { "search": { "error": "no result" } }
+    if let Some(obj) = search_val.as_object() {
+        if obj.get("error").is_some() {
+            // Explicit "no result" -> just skip quietly
+            return Ok(None);
+        }
+    }
+
+    let items = match search_val.as_array() {
+        Some(arr) if !arr.is_empty() => arr,
+        _ => return Ok(None),
+    };
+
+    let song = &items[0];
+
+    // tempo can be number or string
+    let tempo = match song.get("tempo") {
+        Some(t) => {
+            if let Some(n) = t.as_f64() {
+                n as f32
+            } else if let Some(s) = t.as_str() {
+                match s.parse::<f32>() {
+                    Ok(n) => n,
+                    Err(_) => {
+                        eprintln!(
+                            "GetSongBPM: cannot parse tempo for '{} - {}': {:?}",
+                            artist, title, t
+                        );
+                        return Ok(None);
+                    }
+                }
+            } else {
+                eprintln!(
+                    "GetSongBPM: unsupported tempo type for '{} - {}': {:?}",
+                    artist, title, t
+                );
+                return Ok(None);
+            }
+        }
+        None => return Ok(None),
+    };
+
+    let key_str = match song.get("key_of").and_then(|k| k.as_str()) {
+        Some(s) if !s.is_empty() => s,
+        _ => return Ok(None),
+    };
+
+    let (pitch, mode) = match parse_getsong_key(key_str) {
+        Some(pm) => pm,
+        None => {
+            eprintln!(
+                "GetSongBPM: cannot parse key_of '{}' for '{} - {}'",
+                key_str, artist, title
+            );
+            return Ok(None);
+        }
+    };
+
+    Ok(Some((tempo, pitch, mode)))
 }
 
 fn sort_tuple(key: i32, mode: Modality) -> (i32, i32) {
     let mode_val = match mode {
         Modality::Minor => 0,
         Modality::Major => 1,
-        _ => 2, // just in case Spotify adds something new
+        _ => 2,
     };
     (key, mode_val)
 }
@@ -79,16 +252,24 @@ async fn main() -> anyhow::Result<()> {
         for item in page.items {
             if let Some(PlayableItem::Track(track)) = item.track {
                 if let Some(id) = track.id {
+                    let artist_name = track
+                        .artists
+                        .get(0)
+                        .map(|a| a.name.clone())
+                        .unwrap_or_else(|| "Unknown".to_string());
+
                     all_tracks.push(TrackInfo {
-                        id: id.id().to_string(), // store plain track ID
+                        id: id.id().to_string(),
                         name: track.name.clone(),
-                        key: -1,                         // placeholder until features
-                        mode: Modality::Major,           // ✅ placeholder enum value
+                        artist: artist_name,
+                        key: -1,
+                        mode: Modality::Major, // placeholder, will be overwritten
                         tempo: 0.0,
                     });
                 }
             }
         }
+
         offset += 100;
         if page.next.is_none() {
             break;
@@ -97,29 +278,39 @@ async fn main() -> anyhow::Result<()> {
 
     println!("Found {} tracks", all_tracks.len());
 
-    // 5. Fetch audio features in batches of 100
-    for chunk in all_tracks.chunks_mut(100) {
-        let ids: Vec<TrackId> = chunk
-            .iter()
-            .map(|t| TrackId::from_id(&t.id).expect("bad track id"))
-            .collect();
+    let http = Client::new();
+    let gs_api_key = std::env::var("GETSONGBPM_API_KEY")
+        .expect("GETSONGBPM_API_KEY not set in env");
 
-        // tracks_features returns Option<Vec<AudioFeatures>>
-        let features_opt_vec = spotify.tracks_features(ids).await?;
-        let features_vec = match features_opt_vec {
-            Some(v) => v,
-            None => Vec::new(),
-        };
-
-        for (track_info, f) in chunk.iter_mut().zip(features_vec.into_iter()) {
-            track_info.key = f.key;
-            track_info.mode = f.mode;
-            track_info.tempo = f.tempo;
+    for track in &mut all_tracks {
+        // Try GetSongBPM; if it fails, leave defaults and skip
+        match fetch_getsong_features(&http, &gs_api_key, &track.name, &track.artist).await? {
+            Some((tempo, pitch, mode)) => {
+                track.tempo = tempo;
+                track.key = pitch;
+                track.mode = mode;
+            }
+            None => {
+                eprintln!("GetSongBPM: no match for '{}' - '{}'", track.artist, track.name);
+                // leave tempo/key/mode as defaults
+            }
         }
     }
 
-    // 6. Sort by key (and mode) then BPM
-    all_tracks.sort_by(|a, b| {
+    // 6. Split tracks: ones with features vs unknown, then sort only the known ones
+    let mut with_features: Vec<TrackInfo> = Vec::new();
+    let mut without_features: Vec<TrackInfo> = Vec::new();
+
+    for t in all_tracks.into_iter() {
+        if t.key >= 0 && t.tempo > 0.0 {
+            with_features.push(t);
+        } else {
+            without_features.push(t);
+        }
+    }
+
+    // Sort the tracks that actually have key/BPM
+    with_features.sort_by(|a, b| {
         let a_key = sort_tuple(a.key, a.mode);
         let b_key = sort_tuple(b.key, b.mode);
 
@@ -132,13 +323,17 @@ async fn main() -> anyhow::Result<()> {
             )
     });
 
+    // Put tracks without features at the end, preserving their relative order
+    with_features.extend(without_features);
+    let sorted_tracks = with_features;
+
     // OPTIONAL: print the new order before updating Spotify
-    for t in &all_tracks {
+    for t in &sorted_tracks {
         println!("{:?} – {:.1} BPM – {}", sort_tuple(t.key, t.mode), t.tempo, t.name);
     }
 
-    // 7. Replace playlist items with the new order
-    let playable_items: Vec<PlayableId> = all_tracks
+    // 7. Replace playlist items with the new order (Spotify max 100 items per request)
+    let playable_items: Vec<PlayableId> = sorted_tracks
         .iter()
         .map(|t| {
             let tid = TrackId::from_id(&t.id).expect("bad track id");
@@ -146,9 +341,21 @@ async fn main() -> anyhow::Result<()> {
         })
         .collect();
 
-    spotify
-        .playlist_replace_items(playlist_id, playable_items)
-        .await?;
+    // First chunk: replace playlist contents
+    let mut chunks = playable_items.chunks(100);
+
+    if let Some(first_chunk) = chunks.next() {
+        spotify
+            .playlist_replace_items(playlist_id.clone(), first_chunk.to_vec())
+            .await?;
+    }
+
+    // Remaining chunks: append
+    for chunk in chunks {
+        spotify
+            .playlist_add_items(playlist_id.clone(), chunk.to_vec(), None)
+            .await?;
+    }
 
     println!("Playlist reordered successfully.");
     Ok(())
