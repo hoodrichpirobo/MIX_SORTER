@@ -1,278 +1,149 @@
-# MIX_SORTER 🎚️🎧
+Here is the **ultimate README.md** for `MIX_SORTER`.
 
-*Reorder your Spotify playlists by musical key and BPM — in one CLI command.*
+I have updated it to reflect the **current architecture**: it now uses a **Local Database** (JSON) instead of external APIs, features **Advanced Fuzzy Matching**, and sorts by **Camelot Wheel**.
 
-> A small Rust tool that reshuffles a Spotify playlist into a smooth, DJ-friendly key & tempo progression, using the Spotify Web API plus external audio-feature data from [GetSongBPM.com](https://getsongbpm.com).
+-----
 
----
+# MIX\_SORTER 🎛️✨
 
-## ✨ What this does
+**Harmonic mixing for Spotify playlists — powered by Rust & Local Data.**
 
-* Connects to your **Spotify account** via OAuth.
-* Reads all tracks from a given **playlist** (with pagination, so big playlists are fine).
-* Looks up **key (major/minor)** and **tempo (BPM)** for each track via the GetSongBPM API.
-* Sorts tracks by:
+> A high-performance CLI tool that reorders Spotify playlists by **Camelot Key** and **BPM**. Built to bypass Spotify's API restrictions by using a local database with advanced fuzzy matching logic.
 
-  1. **Key** (C→B, including sharps/flats)
-  2. **Mode** (minor before major)
-  3. **Tempo** (ascending BPM)
-* Writes the **reordered playlist back to Spotify**, using official playlist endpoints (replace + add items, max 100 tracks per request).
-* Tracks where no key/BPM could be found are kept, but pushed to the **end**, preserving their original order.
+-----
 
-Perfect for:
+## 🔮 Why this exists
 
-* DJs who want playlists that **flow harmonically**
-* People who like their playlists a bit more **musically organized**
-* Rust enjoyers who want a concrete example of **Spotify Web API + external API + CLI** in one repo
+Spotify recently restricted access to their **Audio Features** API (Key, BPM, Energy), breaking many DJ tools.
 
----
+**MIX\_SORTER** solves this by decoupling the data from the platform. instead of relying on a flaky or restricted API, it uses a **`local_db.json`** file as a source of truth. It matches your Spotify tracks against this database using a robust scoring algorithm to ensure the right metadata is applied, even if the titles differ slightly (e.g., *"Remastered 2009"* vs *"Original Mix"*).
 
-## 🧠 Why not use Spotify’s own audio features?
+-----
 
-Spotify used to expose key, mode, and tempo directly via its **Audio Features** endpoints (`/v1/audio-features`). However, as of late 2024 those endpoints are **no longer available to new apps** unless they had “extended access” granted beforehand.
+## ✨ Features
 
-Because of that, MIX_SORTER does **not** call `audio-features` at all. Instead, it:
+  * **⚡ Blazing Fast:** Written in Rust using `rspotify` and async/await.
+  * **🧠 Smart Matching:** Uses normalization (accent removal, case insensitivity) and fuzzy logic to match Spotify tracks to your local database.
+  * **🎚️ Harmonic Sorting:** Sorts tracks primarily by **Camelot Key** (1A → 1B → 2A...) for perfect harmonic mixing, and secondarily by **BPM**.
+  * **🛡️ Conflict Resolution:** Verifies matches using **Track Duration** (±5s tolerance) and **Artist Name** containment to distinguish between remixes and originals.
+  * **💾 Local Control:** You own your data. No API rate limits. No subscription fees.
 
-* Pulls basic metadata (track name + main artist) from Spotify.
-* Sends those to **GetSongBPM**.
-* Uses GetSongBPM’s response to fill in `key`, `mode`, and `tempo`, then sorts.
+-----
 
-This keeps MIX_SORTER working even after Spotify’s policy changes.
+## 🛠️ Installation
 
----
+### 1\. Prerequisites
 
-## 🏗 Tech stack
+  * **Rust Toolchain:** [Install Rust](https://www.rust-lang.org/tools/install)
+  * **Spotify Developer App:** Create one at [developer.spotify.com](https://developer.spotify.com/dashboard).
+      * Set Redirect URI to: `http://localhost:8888/callback`
 
-* **Language:** Rust
-* **Spotify client:** [`rspotify`](https://crates.io/crates/rspotify)
-* **HTTP client:** [`reqwest`](https://crates.io/crates/reqwest)
-* **Config:** `.env` via [`dotenvy`](https://crates.io/crates/dotenvy)
-* **Audio features:** [GetSongBPM.com](https://getsongbpm.com)
-
----
-
-## ⚙️ How the sorting works
-
-Each track is represented internally as:
-
-```rust
-struct TrackInfo {
-    id: String,      // Spotify track ID
-    name: String,    // track title
-    artist: String,  // main artist
-    key: i32,        // 0–11 (C=0, C#/Db=1, ..., B=11; -1 => unknown)
-    mode: Modality,  // Major / Minor (Spotify-like enum)
-    tempo: f32,      // BPM (0.0 => unknown)
-}
-```
-
-1. **Key parsing**
-
-   * GetSongBPM might return things like `"D#m"`, `"A♯"`, `"F♯m"`, etc.
-   * These are normalized:
-
-     * Unicode sharps/flats → `#` / `b`
-     * Root note extracted (`C`, `C#`, `Db`, …)
-     * Mapped to `0–11` (C=0, C#/Db=1, …, B=11)
-   * Mode is inferred:
-
-     * If the string contains `m` and doesn’t say `maj`, it’s treated as **minor**, otherwise **major**.
-
-2. **Tempo**
-
-   * `tempo` can come back as a number or a string; both are supported.
-   * If parsing fails, tempo is left at `0.0` (unknown).
-
-3. **Sorting**
-
-   * Tracks with **known key & tempo** are sorted by:
-
-     ```text
-     1. (key, mode)  // key as 0–11, mode = minor(0) then major(1)
-     2. tempo (ascending BPM)
-     ```
-   * Tracks with **missing features** (`key < 0` or `tempo <= 0.0`) are:
-
-     * Not used in the sort
-     * Appended to the **end** of the playlist
-     * Kept in their **original order** so nothing feels totally random
-
----
-
-## 🔐 What this app does *not* do
-
-* It **does not delete** any playlists.
-* It **does not modify tracks** themselves — it only changes **order** in a single playlist.
-* It **does not store your tokens or credentials** in the repo; everything is read from environment variables at runtime.
-
-Still, you should always treat it like any script that can change playlists:
-**Test on a throwaway playlist first.**
-
----
-
-## 🧩 Prerequisites
-
-You’ll need:
-
-1. **Rust toolchain** (via [`rustup`](https://www.rust-lang.org/))
-2. A **Spotify Developer** account and a registered app (for client ID/secret).
-3. A **GetSongBPM API key** from [GetSongBPM.com](https://getsongbpm.com) / [api.getsong.co](https://api.getsong.co).
-
----
-
-## 🗂 Environment variables
-
-Create a `.env` file in the project root (it is *not* committed):
-
-```env
-RSPOTIFY_CLIENT_ID=your_spotify_client_id
-RSPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-RSPOTIFY_REDIRECT_URI=http://127.0.0.1:8888/callback
-
-GETSONGBPM_API_KEY=your_getsongbpm_api_key
-```
-
-Notes:
-
-* The redirect URI must match what you configure in the **Spotify Developer Dashboard**.
-* The `GETSONGBPM_API_KEY` is passed to `https://api.getsong.co/search/` to retrieve tempo & key.
-
----
-
-## 🚀 Installation
+### 2\. Clone & Configure
 
 ```bash
-git clone https://github.com/<your-username>/MIX_SORTER.git
+git clone https://github.com/your-username/MIX_SORTER.git
 cd MIX_SORTER
-
-# Build once to fetch dependencies
-cargo build --release
 ```
 
-Make sure your `.env` is in place before running.
+Create a `.env` file in the project root:
 
----
+```ini
+RSPOTIFY_CLIENT_ID=your_client_id_here
+RSPOTIFY_CLIENT_SECRET=your_client_secret_here
+RSPOTIFY_REDIRECT_URI=http://localhost:8888/callback
+```
 
-## ▶️ Usage
+### 3\. Prepare the Database
 
-Basic pattern:
+Ensure you have a `local_db.json` file in the root directory. It should look like this:
+
+```json
+[
+  {
+    "name": "Losing It",
+    "artist": "FISHER",
+    "bpm": 125,
+    "key_camelot": "10B",
+    "duration_ms": 248000
+  },
+  {
+    "name": "Space Song",
+    "artist": "Beach House",
+    "bpm": 147,
+    "key_camelot": "5A"
+  }
+]
+```
+
+-----
+
+## 🚀 Usage
+
+Run the tool by passing a **Spotify Playlist ID** or **URL**:
 
 ```bash
-cargo run -- <playlist_url_or_id>
+# Using ID
+cargo run -- 2nOsiUa2nlXBGuDMjDIbDb
+
+# Using URL
+cargo run -- "https://open.spotify.com/playlist/2nOsiUa2nlXBGuDMjDIbDb"
 ```
 
-Both of these work:
+### What happens next?
 
-```bash
-# Using a full URL:
-cargo run -- https://open.spotify.com/playlist/14GYKMTN0v1zxqLMufanlE
+1.  **Authentication:** A browser window opens. Log in to Spotify to authorize the app.
+2.  **Fetching:** The app downloads your playlist tracks.
+3.  **Enriching:** It scans your `local_db.json` to find metadata for every track using the fuzzy matcher.
+4.  **Sorting:** Tracks are reordered:
+      * **Primary:** Camelot Key (1A, 1B, 2A, 2B...)
+      * **Secondary:** BPM (Ascending)
+5.  **Updating:** The playlist on Spotify is instantly updated with the new order.
 
-# Using just the playlist ID:
-cargo run -- 14GYKMTN0v1zxqLMufanlE
-```
+-----
 
-What happens when you run it:
+## 🧠 How the Matching Works
 
-1. A browser window opens asking you to **authorize** the app for:
+Since Spotify titles often contain "fluff" (e.g., *"- 2011 Remaster"*, *"feat. X"*), strict string matching fails. MIX\_SORTER uses a **Weighted Scoring System**:
 
-   * `playlist-read-private`
-   * `playlist-modify-private`
-   * `playlist-modify-public`
-2. MIX_SORTER:
+1.  **Normalization:** Converts "Maldición" -\> "maldicion", removes curly quotes, trims whitespace.
+2.  **Lookup:** Finds potential candidates in the DB by normalized title.
+3.  **Scoring:**
+      * **+100 points:** Exact Artist match.
+      * **+80 points:** Partial Artist match (e.g. "Drake" in "Drake, Future").
+      * **+50 points:** Duration match (within 5 seconds).
+      * **-50 points:** Duration mismatch (likely a different remix).
+      * **+20 points:** Exact Title match (case-sensitive tie-breaker).
 
-   * Fetches all playlist tracks (100 at a time, until there are no more).
-   * Queries GetSongBPM for each track’s tempo & key.
-   * Sorts tracks according to the rules above.
-   * Writes them back to your playlist using Spotify’s playlist update endpoints.
-3. You’ll see a summary printed like:
+Only the candidate with the highest positive score is selected.
 
-   ```text
-   (0, 0) – 73.0 BPM – Space Song
-   (5, 1) – 112.0 BPM – Love/Paranoia
-   (11, 0) – 104.0 BPM – Breathe Deeper
-   ...
-   Playlist reordered successfully.
-   ```
+-----
 
-If something fails (e.g., GetSongBPM has no data for a track, network hiccup, etc.), the tool logs a message and carries on, keeping that track in the unknown section at the end.
+## 📦 Project Structure
 
----
+  * `src/main.rs`: The core logic.
+      * `LocalTrackData`: Struct for JSON parsing.
+      * `find_best_match`: The fuzzy matching engine.
+      * `get_sort_weight`: Converts Camelot keys to sortable integers.
+      * `camelot_to_spotify`: Maps Camelot strings (e.g., "5A") to Spotify Pitch/Modality.
 
-## 🧪 Development & hacking
+-----
 
-A few pointers if you want to extend this:
+## 🤝 Contributing
 
-* **Change the sorting logic**
+Got a better sorting algorithm? Want to add a CLI flag to reverse the sort order?
 
-  The core sort is currently:
+1.  Fork it.
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
 
-  ```rust
-  with_features.sort_by(|a, b| {
-      let a_key = sort_tuple(a.key, a.mode);
-      let b_key = sort_tuple(b.key, b.mode);
+-----
 
-      a_key
-          .cmp(&b_key)
-          .then(
-              a.tempo
-                  .partial_cmp(&b.tempo)
-                  .unwrap_or(std::cmp::Ordering::Equal),
-          )
-  });
-  ```
+## 📄 License
 
-  You could replace this with:
+Distributed under the MIT License. See `LICENSE` for more information.
 
-  * Camelot wheel ordering
-  * Grouping by BPM ranges (e.g. warm-up vs peak-time)
-  * Custom “energy level” rules
+-----
 
-* **Swap out the audio-feature source**
-
-  All the GetSongBPM logic lives in a single `fetch_getsong_features` function that uses `reqwest`. You can point that at any other service that returns key/BPM from track metadata.
-
-* **Alternative modes**
-
-  Ideas:
-
-  * `--by-duration` – sort by track length instead of key/BPM.
-  * `--dry-run` – show the new order without updating Spotify.
-  * `--output-json` – dump the sorted order as JSON for inspection.
-
----
-
-## 🧱 Project structure (high level)
-
-* `main.rs`
-
-  * Auth setup (`Credentials::from_env`, `OAuth::from_env`, Authorization Code flow).
-  * Playlist reading with `playlist_items_manual` (handles pagination).
-  * Track collection into `Vec<TrackInfo>`.
-  * GetSongBPM feature lookup via `reqwest`.
-  * Sorting logic & split into “with features” vs “without features”.
-  * Playlist update (`playlist_replace_items` + `playlist_add_items` in chunks of 100).
-
----
-
-## ⚠️ Disclaimer
-
-* This is a **personal tool**, not affiliated with or endorsed by Spotify or GetSongBPM.
-* APIs and policies can change; always check the latest Spotify Web API and GetSongBPM documentation if something stops working.
-
-Use at your own risk — and always keep a backup or duplicate of playlists you really care about.
-
----
-
-## 🙏 Acknowledgements
-
-* [Spotify Web API](https://developer.spotify.com/documentation/web-api) for playlist access.
-* [GetSongBPM.com](https://getsongbpm.com) / `api.getsong.co` for tempo & key data.
-* [`rspotify`](https://crates.io/crates/rspotify) for making Spotify + Rust pleasant.
-* Everyone sharing tricks & alternatives after Spotify’s audio-feature changes.
-
----
-
-## 📜 License
-
-MIT License – see LICENSE file for details.
-
+*“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.”*
