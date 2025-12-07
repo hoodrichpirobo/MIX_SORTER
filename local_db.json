@@ -1,4635 +1,1071 @@
 [
-  {
-    "name": "Space Song",
-    "artist": "Beach House",
-    "bpm": 147,
-    "key_camelot": "5A"
+  { "name": "Space Song", "artist": "Beach House", "bpm": 147, "key_camelot": "5A" },
+  { "name": "En Las Noches Frias", "artist": "Ñengo Flow", "bpm": 81, "key_camelot": "5A" },
+  { "name": "Como los Maestros", "artist": "Kaydy Cain", "bpm": 90, "key_camelot": "5A" },
+  { "name": "Cuando Perriabas", "artist": "Bad Bunny", "bpm": 164, "key_camelot": "12B" },
+  { "name": "Glopeta No Se Callen", "artist": "Ñengo Flow", "bpm": 91, "key_camelot": "8B" },
+  { "name": "Entramos Disparando", "artist": "Ñengo Flow", "bpm": 90, "key_camelot": "12A" },
+  { "name": "Pa' Que Retozen", "artist": "Tego Calderón", "bpm": 92, "key_camelot": "12A" },
+  { "name": "Traficando", "artist": "Ñengo Flow", "bpm": 180, "key_camelot": "3B" },
+  { "name": "I Thought About Killing You", "artist": "Kanye West", "bpm": 116, "key_camelot": "10B" },
+  { "name": "Versatility", "artist": "Ñengo Flow", "bpm": 91, "key_camelot": "10B" },
+  { "name": "No Dice Na", "artist": "Ñengo Flow", "bpm": 170, "key_camelot": "10B" },
+  { "name": "Destruccion Masiva", "artist": "Ñengo Flow", "bpm": 91, "key_camelot": "10B" },
+  { "name": "Corta y Palo", "artist": "Ñengo Flow", "bpm": 91, "key_camelot": "9A" },
+  { "name": "Pineapple", "artist": "KAROL G", "bpm": 95, "key_camelot": "9A" },
+  { "name": "Haciéndote El Amor", "artist": "Ñengo Flow", "bpm": 172, "key_camelot": "9A" },
+  { "name": "Infierno", "artist": "Yung Beef", "bpm": 92, "key_camelot": "12B" },
+  { "name": "Mayor Que Yo", "artist": "Baby Ranks", "bpm": 180, "key_camelot": "8A" },
+  { "name": "Multiorgásmica", "artist": "La Mafia del Amor", "bpm": 92, "key_camelot": "4A" },
+  { "name": "Tu Eres Otra Cosa", "artist": "Ñengo Flow", "bpm": 174, "key_camelot": "11A" },
+  { "name": "Sinfonico Con Yampi", "artist": "Ñengo Flow", "bpm": 94, "key_camelot": "2B" },
+  { "name": "Ghost Town", "artist": "Kanye West", "bpm": 83, "key_camelot": "6A" },
+  { "name": "Dembow", "artist": "Wisin & Yandel", "bpm": 93, "key_camelot": "6A" },
+  { "name": "Blessed", "artist": "Kaydy Cain", "bpm": 90, "key_camelot": "9B" },
+  { "name": "Cuando Me Dirá", "artist": "Ñengo Flow", "bpm": 88, "key_camelot": "9B" },
+  { "name": "R.I.P.", "artist": "Playboi Carti", "bpm": 140, "key_camelot": "1A" },
+  { "name": "Trátame", "artist": "Kaydy Cain", "bpm": 90, "key_camelot": "4B" },
+  { "name": "Xapiadora", "artist": "La Mafia del Amor", "bpm": 90, "key_camelot": "8A" },
+  { "name": "La Prision", "artist": "Ñengo Flow", "bpm": 90, "key_camelot": "3A" },
+  { "name": "Gansta Shit", "artist": "Ñengo Flow", "bpm": 92, "key_camelot": "3A" },
+  { "name": "Pam Pam", "artist": "Wisin & Yandel", "bpm": 95, "key_camelot": "6B" },
+  { "name": "I Know You", "artist": "Faye Webster", "bpm": 155, "key_camelot": "6B" },
+  { "name": "Alto Cargo Pt. 2", "artist": "Gloosito", "bpm": 92, "key_camelot": "1A" },
+  { "name": "CHORRITO PA LAS ANIMAS", "artist": "Feid", "bpm": 96, "key_camelot": "1A" },
+  { "name": "Yebba’s Heartbreak", "artist": "Drake", "bpm": 120, "key_camelot": "1A" },
+  { "name": "Castigo", "artist": "Feid", "bpm": 180, "key_camelot": "1A" },
+  { "name": "Yo Sé Que Tú Quieres", "artist": "Sammy & Falsetto", "bpm": 180, "key_camelot": "1A" },
+  { "name": "Que Quieres De Mi", "artist": "Gotay \"El Autentiko\"", "bpm": 93, "key_camelot": "1B" },
+  { "name": "Me Conformo", "artist": "Kaydy Cain", "bpm": 98, "key_camelot": "1B" },
+  { "name": "CLASSY 101", "artist": "Feid", "bpm": 100, "key_camelot": "1B" },
+  { "name": "47", "artist": "Anuel AA", "bpm": 146, "key_camelot": "1B" },
+  { "name": "Vamp Anthem", "artist": "Playboi Carti", "bpm": 164, "key_camelot": "1B" },
+  { "name": "Désolé", "artist": "Kaydy Cain", "bpm": 88, "key_camelot": "2A" },
+  { "name": "A Ti No", "artist": "Yaga & Mackie", "bpm": 96, "key_camelot": "2A" },
+  { "name": "Coco Chanel", "artist": "Eladio Carrion", "bpm": 140, "key_camelot": "2A" },
+  { "name": "FE!N (feat. Playboi Carti)", "artist": "Travis Scott", "bpm": 148, "key_camelot": "2A" },
+  { "name": "Perreo Pesau'", "artist": "Rauw Alejandro", "bpm": 172, "key_camelot": "2A" },
+  { "name": "Hummingbird (Metro Boomin & James Blake)", "artist": "Metro Boomin", "bpm": 81, "key_camelot": "2B" },
+  { "name": "Gangsta Life", "artist": "Ñengo Flow", "bpm": 90, "key_camelot": "2B" },
+  { "name": "Oye Mi Canto (with Tego Calderon, Nina Sky, Gemstar, Big Mato)", "artist": "N.O.R.E.", "bpm": 96, "key_camelot": "2B" },
+  { "name": "Seguimo a lo Under", "artist": "Ñengo Flow", "bpm": 98, "key_camelot": "2B" },
+  { "name": "Mega Ñengo Flow", "artist": "Mister Remix", "bpm": 180, "key_camelot": "10A" },
+  { "name": "Novinha", "artist": "MC Buzzz", "bpm": 130, "key_camelot": "2B" },
+  { "name": "18", "artist": "Yan Block", "bpm": 90, "key_camelot": "3A" },
+  { "name": "50 PALOS", "artist": "Feid", "bpm": 94, "key_camelot": "3A" },
+  { "name": "secuestro", "artist": "Slayter", "bpm": 94, "key_camelot": "3A" },
+  { "name": "Alocate", "artist": "Zion", "bpm": 94, "key_camelot": "3A" },
+  { "name": "333", "artist": "Cris MJ", "bpm": 106, "key_camelot": "3A" },
+  { "name": "El Cielo", "artist": "Sky Rompiendo", "bpm": 106, "key_camelot": "3A" },
+  { "name": "EL CLúB", "artist": "Bad Bunny", "bpm": 111, "key_camelot": "3A" },
+  { "name": "BABY NUEVA", "artist": "Bad Bunny", "bpm": 118, "key_camelot": "3A" },
+  { "name": "Rush", "artist": "Troye Sivan", "bpm": 126, "key_camelot": "3A" },
+  { "name": "intro", "artist": "Slayter", "bpm": 128, "key_camelot": "3A" },
+  { "name": "Freestyle 1", "artist": "Kaydy Cain", "bpm": 150, "key_camelot": "3A" },
+  { "name": "New Tank", "artist": "Playboi Carti", "bpm": 151, "key_camelot": "3A" },
+  { "name": "La Ganga Rg4l", "artist": "Ñengo Flow", "bpm": 178, "key_camelot": "3A" },
+  { "name": "Rap City", "artist": "Kaydy Cain", "bpm": 80, "key_camelot": "3B" },
+  { "name": "Oohh Shit", "artist": "Kaydy Cain", "bpm": 90, "key_camelot": "3B" },
+  { "name": "Guasa Guasa (feat. Voltio)", "artist": "Tego Calderón", "bpm": 95, "key_camelot": "3B" },
+  { "name": "Media Hora", "artist": "Yan Block", "bpm": 95, "key_camelot": "3B" },
+  { "name": "FINA", "artist": "Bad Bunny", "bpm": 95, "key_camelot": "3B" },
+  { "name": "LATINA FOREVA", "artist": "KAROL G", "bpm": 98, "key_camelot": "3B" },
+  { "name": "NO ME QUIERO CASAR", "artist": "Bad Bunny", "bpm": 99, "key_camelot": "3B" },
+  { "name": "HATRED", "artist": "The Kid LAROI", "bpm": 124, "key_camelot": "3B" },
+  { "name": "Pain", "artist": "PinkPantheress", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Deli", "artist": "Ice Spice", "bpm": 140, "key_camelot": "3B" },
+  { "name": "The Truth", "artist": "Kaydy Cain", "bpm": 146, "key_camelot": "3B" },
+  { "name": "EVIL JORDAN", "artist": "Playboi Carti", "bpm": 154, "key_camelot": "3B" },
+  { "name": "Tití Me Preguntó", "artist": "Bad Bunny", "bpm": 107, "key_camelot": "4A" },
+  { "name": "Snap My Finger (feat. PinkPantheress)", "artist": "KAYTRANADA", "bpm": 118, "key_camelot": "4A" },
+  { "name": "D3MON", "artist": "Yan Block", "bpm": 120, "key_camelot": "4A" },
+  { "name": "Vacile", "artist": "Yan Block", "bpm": 120, "key_camelot": "4A" },
+  { "name": "Anya Mmiri", "artist": "CKay", "bpm": 126, "key_camelot": "4A" },
+  { "name": "Yo sé", "artist": "Yan Block", "bpm": 136, "key_camelot": "4A" },
+  { "name": "Miss The Rage", "artist": "Trippie Redd", "bpm": 77, "key_camelot": "4B" },
+  { "name": "Puro Parcerito", "artist": "Oblivion's Mighty Trash", "bpm": 95, "key_camelot": "4B" },
+  { "name": "Espresso Martini", "artist": "Rauw Alejandro", "bpm": 123, "key_camelot": "4B" },
+  { "name": "Fuletazo de Besos (feat. Jenay)", "artist": "Ñengo Flow", "bpm": 172, "key_camelot": "4B" },
+  { "name": "Permitame (feat. Yandel)", "artist": "Tony Dize", "bpm": 214, "key_camelot": "4B" },
+  { "name": "SUERTE", "artist": "Yan Block", "bpm": 118, "key_camelot": "5A" },
+  { "name": "Korazón de Piedra", "artist": "Yan Block", "bpm": 120, "key_camelot": "5A" },
+  { "name": "Illegal", "artist": "PinkPantheress", "bpm": 141, "key_camelot": "5A" },
+  { "name": "Amor Prohibido", "artist": "Kaydy Cain", "bpm": 84, "key_camelot": "6A" },
+  { "name": "ALAKRAN", "artist": "Feid", "bpm": 98, "key_camelot": "6A" },
+  { "name": "Got Me Started", "artist": "Troye Sivan", "bpm": 127, "key_camelot": "6A" },
+  { "name": "Over", "artist": "Playboi Carti", "bpm": 130, "key_camelot": "6A" },
+  { "name": "La Calle Está Cabrona", "artist": "Kaydy Cain", "bpm": 170, "key_camelot": "6A" },
+  { "name": "Más Que Tú", "artist": "Kaydy Cain", "bpm": 172, "key_camelot": "6B" },
+  { "name": "NOKIA", "artist": "Drake", "bpm": 106, "key_camelot": "7B" },
+  { "name": "Levels", "artist": "BigXthaPlug", "bpm": 122, "key_camelot": "7B" },
+  { "name": "Boy's a Liar", "artist": "PinkPantheress", "bpm": 133, "key_camelot": "7B" },
+  { "name": "Feminomania", "artist": "Kaydy Cain", "bpm": 95, "key_camelot": "8A" },
+  { "name": "BITTERSUITE", "artist": "Billie Eilish", "bpm": 125, "key_camelot": "8A" },
+  { "name": "La Llevo Al Cielo (Ft. Ñengo Flow)", "artist": "Chris Jedi", "bpm": 170, "key_camelot": "8A" },
+  { "name": "K-Llao", "artist": "Kaydy Cain", "bpm": 172, "key_camelot": "8A" },
+  { "name": "Te Hable Claro", "artist": "Gotay \"El Autentiko\"", "bpm": 174, "key_camelot": "8A" },
+  { "name": "GANGSTERS Y PISTOLAS", "artist": "Feid", "bpm": 90, "key_camelot": "8B" },
+  { "name": "MorFina Freestyle", "artist": "Ñengo Flow", "bpm": 100, "key_camelot": "8B" },
+  { "name": "Pretty Girl", "artist": "Clairo", "bpm": 112, "key_camelot": "8B" },
+  { "name": "Sofia", "artist": "Clairo", "bpm": 113, "key_camelot": "8B" },
+  { "name": "Just for Me", "artist": "PinkPantheress", "bpm": 133, "key_camelot": "8B" },
+  { "name": "In Ha Mood", "artist": "Ice Spice", "bpm": 141, "key_camelot": "8B" },
+  { "name": "Medellin", "artist": "Kaydy Cain", "bpm": 146, "key_camelot": "8B" },
+  { "name": "MIFAI", "artist": "Oblivion's Mighty Trash", "bpm": 86, "key_camelot": "9A" },
+  { "name": "ILoveUIHateU", "artist": "Playboi Carti", "bpm": 135, "key_camelot": "9A" },
+  { "name": "Desaparecido", "artist": "Ñengo Flow", "bpm": 164, "key_camelot": "9A" },
+  { "name": "En el Infierno de Tu Gloria - 2016", "artist": "Kaydy Cain", "bpm": 88, "key_camelot": "9B" },
+  { "name": "Guerrilla", "artist": "Ñengo Flow", "bpm": 95, "key_camelot": "9B" },
+  { "name": "CHIHIRO", "artist": "Billie Eilish", "bpm": 110, "key_camelot": "9B" },
+  { "name": "Not My Problem", "artist": "Laila!", "bpm": 138, "key_camelot": "9B" },
+  { "name": "Still Lovin' - No Estés Triste", "artist": "Kaydy Cain", "bpm": 92, "key_camelot": "10A" },
+  { "name": "One Of Your Girls", "artist": "Troye Sivan", "bpm": 93, "key_camelot": "10A" },
+  { "name": "Evangélicos de Calle - Remix", "artist": "Tony Money", "bpm": 95, "key_camelot": "10A" },
+  { "name": "Mosquito", "artist": "PinkPantheress", "bpm": 163, "key_camelot": "10A" },
+  { "name": "Perdedores del Barrio", "artist": "Kaydy Cain", "bpm": 168, "key_camelot": "10A" },
+  { "name": "Evergreen", "artist": "Yebba", "bpm": 73, "key_camelot": "10B" },
+  { "name": "Lego Ring", "artist": "Faye Webster", "bpm": 83, "key_camelot": "10B" },
+  { "name": "BIRDS OF A FEATHER", "artist": "Billie Eilish", "bpm": 105, "key_camelot": "10B" },
+  { "name": "...And To Those I Love, Thanks For Sticking Around", "artist": "$uicideboy$", "bpm": 114, "key_camelot": "10B" },
+  { "name": "Sky", "artist": "Playboi Carti", "bpm": 140, "key_camelot": "10B" },
+  { "name": "#Freemolly (Intro)", "artist": "Yung Beef", "bpm": 141, "key_camelot": "10B" },
+  { "name": "Type Shit", "artist": "Future", "bpm": 145, "key_camelot": "10B" },
+  { "name": "El Papasito (feat. Cookin Soul)", "artist": "Yung Beef", "bpm": 178, "key_camelot": "10B" },
+  { "name": "El Rey Del Narcotrafico", "artist": "Ñengo Flow", "bpm": 76, "key_camelot": "11A" },
+  { "name": "IDK WHAT TO TELL YOU", "artist": "Bktherula", "bpm": 132, "key_camelot": "11A" },
+  { "name": "Evangélicos de Calle", "artist": "Tony Money", "bpm": 96, "key_camelot": "11B" },
+  { "name": "Mmhmm", "artist": "BigXthaPlug", "bpm": 126, "key_camelot": "11B" },
+  { "name": "L'AMOUR DE MA VIE", "artist": "Billie Eilish", "bpm": 145, "key_camelot": "11B" },
+  { "name": "Fo Ma Shooters", "artist": "Kaydy Cain", "bpm": 166, "key_camelot": "11B" },
+  { "name": "K-LLAO Mix", "artist": "Kaydy Cain", "bpm": 175, "key_camelot": "11B" },
+  { "name": "Soldado Y Profeta (feat. Ozuna, Almighty, Kendo & Ñengo Flow)", "artist": "Anuel AA", "bpm": 87, "key_camelot": "12A" },
+  { "name": "Eres Tu (feat. Arcangel)", "artist": "Ñengo Flow", "bpm": 88, "key_camelot": "12A" },
+  { "name": "No Me Acuerdo", "artist": "Oblivion's Mighty Trash", "bpm": 88, "key_camelot": "12A" },
+  { "name": "Purgatorio", "artist": "Kaydy Cain", "bpm": 139, "key_camelot": "12A" },
+  { "name": "Medallo Bullies", "artist": "Oblivion's Mighty Trash", "bpm": 96, "key_camelot": "12B" },
+  { "name": "Think U The Shit (Fart)", "artist": "Ice Spice", "bpm": 122, "key_camelot": "12B" },
+  { "name": "Efecto", "artist": "Bad Bunny", "bpm": 98, "key_camelot": "6A" },
+  { "name": "Gently (feat. Bad Bunny)", "artist": "Drake", "bpm": 108, "key_camelot": "6A" },
+  { "name": "KELOIDE", "artist": "Feid", "bpm": 94, "key_camelot": "6B" },
+  { "name": "Yo Voy (feat. Daddy Yankee)", "artist": "Zion & Lennox", "bpm": 95, "key_camelot": "6B" },
+  { "name": "5'3", "artist": "Yan Block", "bpm": 140, "key_camelot": "7A" },
+  { "name": "VeLDÁ", "artist": "Bad Bunny", "bpm": 91, "key_camelot": "7B" },
+  { "name": "Feliz Cumpleaños Ferxxo", "artist": "Feid", "bpm": 95, "key_camelot": "7B" },
+  { "name": "PERRO NEGRO", "artist": "Bad Bunny", "bpm": 96, "key_camelot": "7B" },
+  { "name": "DILUVIO", "artist": "Rauw Alejandro", "bpm": 96, "key_camelot": "8A" },
+  { "name": "La Old Skul", "artist": "Rauw Alejandro", "bpm": 105, "key_camelot": "8A" },
+  { "name": "NUEVAYOL", "artist": "Bad Bunny", "bpm": 117, "key_camelot": "8A" },
+  { "name": "WHERE SHE GOES", "artist": "Bad Bunny", "bpm": 144, "key_camelot": "8A" },
+  { "name": "La Calle Me Lo Pidio", "artist": "Yandel", "bpm": 95, "key_camelot": "8B" },
+  { "name": "PUNTO 40", "artist": "Rauw Alejandro", "bpm": 107, "key_camelot": "8B" },
+  { "name": "Dile a El", "artist": "Rauw Alejandro", "bpm": 90, "key_camelot": "9A" },
+  { "name": "Religión", "artist": "Yan Block", "bpm": 96, "key_camelot": "9A" },
+  { "name": "VOY A LLEVARTE PA PR", "artist": "Bad Bunny", "bpm": 100, "key_camelot": "9A" },
+  { "name": "ESQUIRLA", "artist": "Feid", "bpm": 100, "key_camelot": "10A" },
+  { "name": "Te Colaboro - Remix", "artist": "Brray", "bpm": 100, "key_camelot": "10A" },
+  { "name": "LOKERA", "artist": "Rauw Alejandro", "bpm": 102, "key_camelot": "10A" },
+  { "name": "Qué Pasaría...", "artist": "Rauw Alejandro", "bpm": 105, "key_camelot": "10A" },
+  { "name": "Tarot", "artist": "Bad Bunny", "bpm": 114, "key_camelot": "10A" },
+  { "name": "Mastercard", "artist": "Yan Block", "bpm": 119, "key_camelot": "10A" },
+  { "name": "La Corriente", "artist": "Bad Bunny", "bpm": 196, "key_camelot": "10A" },
+  { "name": "Lady Mi Amor", "artist": "Feid", "bpm": 93, "key_camelot": "10B" },
+  { "name": "FRIKI", "artist": "Feid", "bpm": 95, "key_camelot": "11A" },
+  { "name": "PPCP", "artist": "Feid", "bpm": 105, "key_camelot": "11A" },
+  { "name": "Yandel 150", "artist": "Yandel", "bpm": 168, "key_camelot": "11A" },
+  { "name": "3 Doritos", "artist": "Yan Block", "bpm": 96, "key_camelot": "11B" },
+  { "name": "Party", "artist": "Bad Bunny", "bpm": 97, "key_camelot": "11B" },
+  { "name": "piña", "artist": "Slayter", "bpm": 98, "key_camelot": "11B" },
+  { "name": "Revolú", "artist": "Rauw Alejandro", "bpm": 196, "key_camelot": "11B" },
+  { "name": "+57", "artist": "KAROL G", "bpm": 92, "key_camelot": "12A" },
+  { "name": "Costilla de Raxet", "artist": "LaBlackie", "bpm": 98, "key_camelot": "12A" },
+  { "name": "444", "artist": "Yan Block", "bpm": 119, "key_camelot": "12A" },
+  { "name": "EoO", "artist": "Bad Bunny", "bpm": 102, "key_camelot": "12B" },
+  { "name": "Dona-Dona", "artist": "Gloosito", "bpm": 112, "key_camelot": "1A" },
+  { "name": "Talking Shit", "artist": "Gloosito", "bpm": 98, "key_camelot": "3A" },
+  { "name": "Suchito Mission (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 136, "key_camelot": "3A" },
+  { "name": "PACO DE LUCÍA", "artist": "Gloosito", "bpm": 120, "key_camelot": "3B" },
+  { "name": "Luz V€Rd€ (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 105, "key_camelot": "4A" },
+  { "name": "Outro S.U.V", "artist": "Gloosito", "bpm": 86, "key_camelot": "6A" },
+  { "name": "Why U Actin?", "artist": "Dano", "bpm": 103, "key_camelot": "6B" },
+  { "name": "Arrogant", "artist": "Gloosito", "bpm": 98, "key_camelot": "7B" },
+  { "name": "El Single", "artist": "Gloosito", "bpm": 96, "key_camelot": "8B" },
+  { "name": "As Bestas (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 100, "key_camelot": "9A" },
+  { "name": "Flavour Chaser (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 100, "key_camelot": "9A" },
+  { "name": "Metroit (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 160, "key_camelot": "9A" },
+  { "name": "Lo mío", "artist": "Gloosito", "bpm": 100, "key_camelot": "10B" },
+  { "name": "No Competition (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 105, "key_camelot": "10B" },
+  { "name": "Rico para Siempre (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 90, "key_camelot": "11A" },
+  { "name": "Never Take Personal (feat. Kris R., La Exce)", "artist": "Gloosito", "bpm": 200, "key_camelot": "11A" },
+  { "name": "12Pound Freestyle (feat. Baby Pantera)", "artist": "Gloosito", "bpm": 92, "key_camelot": "12B" },
+  { "name": "Traigo", "artist": "Natanael Cano", "bpm": 97, "key_camelot": "5A" },
+  { "name": "El Gordo Trae El Mando", "artist": "Chino Pacas", "bpm": 140, "key_camelot": "6A" },
+  { "name": "Soy El Diablo", "artist": "Natanael Cano", "bpm": 75, "key_camelot": "7B" },
+  { "name": "El Azul", "artist": "Junior H", "bpm": 144, "key_camelot": "8B" },
+  { "name": "Igualito a Mi Apá", "artist": "Fuerza Regida", "bpm": 145, "key_camelot": "9A" },
+  { "name": "AMG", "artist": "Natanael Cano", "bpm": 136, "key_camelot": "10A" },
+  { "name": "Pal Que Dijo Que No", "artist": "Natanael Cano", "bpm": 129, "key_camelot": "10B" },
+  { "name": "Me Acostumbre A Lo Bueno", "artist": "Fuerza Regida", "bpm": 102, "key_camelot": "11A" },
+  { "name": "TÚ ET MOI", "artist": "Judeline", "bpm": 96, "key_camelot": "2A" },
+  { "name": "Slip", "artist": "Elliot Moss", "bpm": 64, "key_camelot": "5A" },
+  { "name": "Me Desculpa Jay Z", "artist": "Baco Exu do Blues", "bpm": 146, "key_camelot": "8B" },
+  { "name": "Nangs", "artist": "Tame Impala", "bpm": 168, "key_camelot": "8B" },
+  { "name": "White Ferrari", "artist": "Frank Ocean", "bpm": 109, "key_camelot": "8B" },
+  { "name": "Save Your Tears", "artist": "The Weeknd", "bpm": 118, "key_camelot": "8B" },
+  { "name": "Circles", "artist": "Post Malone", "bpm": 120, "key_camelot": "8B" },
+  { "name": "Feeling Whitney", "artist": "Post Malone", "bpm": 80, "key_camelot": "8B" },
+  { "name": "Yes I'm Changing", "artist": "Tame Impala", "bpm": 180, "key_camelot": "8B" },
+  { "name": "To All of You", "artist": "Syd Matters", "bpm": 104, "key_camelot": "12A" },
+  { "name": "Afterthought", "artist": "Joji", "bpm": 84, "key_camelot": "3B" },
+  { "name": "Lost In Yesterday", "artist": "Tame Impala", "bpm": 183, "key_camelot": "3B" },
+  { "name": "Mic Check", "artist": "Cornelius", "bpm": 101, "key_camelot": "3B" },
+  { "name": "Bags", "artist": "Clairo", "bpm": 105, "key_camelot": "3B" },
+  { "name": "One More Year", "artist": "Tame Impala", "bpm": 114, "key_camelot": "3B" },
+  { "name": "YEAH RIGHT", "artist": "Joji", "bpm": 169, "key_camelot": "3B" },
+  { "name": "Redbone", "artist": "Childish Gambino", "bpm": 160, "key_camelot": "3B" },
+  { "name": "Sunflower - Spider-Man: Into the Spider-Verse", "artist": "Post Malone", "bpm": 90, "key_camelot": "10B" },
+  { "name": "Purple Haze", "artist": "Jimi Hendrix", "bpm": 109, "key_camelot": "10B" },
+  { "name": "Reality In Motion", "artist": "Tame Impala", "bpm": 115, "key_camelot": "10B" },
+  { "name": "It Might Be Time", "artist": "Tame Impala", "bpm": 116, "key_camelot": "10B" },
+  { "name": "LSD", "artist": "A$AP Rocky", "bpm": 120, "key_camelot": "10B" },
+  { "name": "On Melancholy Hill", "artist": "Gorillaz", "bpm": 120, "key_camelot": "10B" },
+  { "name": "I'm God", "artist": "Clams Casino", "bpm": 142, "key_camelot": "10B" },
+  { "name": "On Track", "artist": "Tame Impala", "bpm": 164, "key_camelot": "10B" },
+  { "name": "Super Rich Kids", "artist": "Frank Ocean", "bpm": 60, "key_camelot": "2A" },
+  { "name": "I THINK", "artist": "Tyler, The Creator", "bpm": 121, "key_camelot": "1A" },
+  { "name": "Wait a Minute!", "artist": "WILLOW", "bpm": 101, "key_camelot": "2A" },
+  { "name": "SLOW DANCING IN THE DARK", "artist": "Joji", "bpm": 89, "key_camelot": "5B" },
+  { "name": "Love Buzz", "artist": "Nirvana", "bpm": 138, "key_camelot": "4A" },
+  { "name": "Groove Bom", "artist": "Natiruts", "bpm": 101, "key_camelot": "9B" },
+  { "name": "Break My Heart Again", "artist": "FINNEAS", "bpm": 144, "key_camelot": "9A" },
+  { "name": "One More Hour", "artist": "Tame Impala", "bpm": 102, "key_camelot": "12B" },
+  { "name": "The Less I Know The Better", "artist": "Tame Impala", "bpm": 117, "key_camelot": "12B" },
+  { "name": "Ribs", "artist": "Lorde", "bpm": 128, "key_camelot": "12B" },
+  { "name": "Lovers Rock", "artist": "TV Girl", "bpm": 105, "key_camelot": "4A" },
+  { "name": "Everything In Its Right Place", "artist": "Radiohead", "bpm": 124, "key_camelot": "4A" },
+  { "name": "Walking On A Dream", "artist": "Empire Of The Sun", "bpm": 127, "key_camelot": "4A" },
+  { "name": "Pyramids", "artist": "Frank Ocean", "bpm": 108, "key_camelot": "4A" },
+  { "name": "Like a Tattoo", "artist": "Sade", "bpm": 136, "key_camelot": "4A" },
+  { "name": "Nights", "artist": "Frank Ocean", "bpm": 90, "key_camelot": "4A" },
+  { "name": "Stargirl Interlude", "artist": "The Weeknd", "bpm": 180, "key_camelot": "4A" },
+  { "name": "Small Worlds", "artist": "Mac Miller", "bpm": 78, "key_camelot": "7B" },
+  { "name": "Love/Paranoia", "artist": "Tame Impala", "bpm": 111, "key_camelot": "7B" },
+  { "name": "Me and Your Mama", "artist": "Childish Gambino", "bpm": 118, "key_camelot": "7B" },
+  { "name": "Disciples", "artist": "Tame Impala", "bpm": 127, "key_camelot": "7B" },
+  { "name": "Let's Fall in Love for the Night", "artist": "FINNEAS", "bpm": 128, "key_camelot": "7B" },
+  { "name": "The Adults Are Talking", "artist": "The Strokes", "bpm": 165, "key_camelot": "7B" },
+  { "name": "Stay", "artist": "Post Malone", "bpm": 86, "key_camelot": "7B" },
+  { "name": "Video Games", "artist": "Lana Del Rey", "bpm": 73, "key_camelot": "11A" },
+  { "name": "White Rabbit", "artist": "Jefferson Airplane", "bpm": 107, "key_camelot": "10B" },
+  { "name": "Raçaman", "artist": "Natiruts", "bpm": 78, "key_camelot": "11A" },
+  { "name": "Congratulations", "artist": "Post Malone", "bpm": 123, "key_camelot": "2B" },
+  { "name": "Headlock", "artist": "Imogen Heap", "bpm": 120, "key_camelot": "6A" },
+  { "name": "Past Life", "artist": "Tame Impala", "bpm": 146, "key_camelot": "6A" },
+  { "name": "rockstar (feat. 21 Savage)", "artist": "Post Malone", "bpm": 160, "key_camelot": "4A" },
+  { "name": "Mr. Rager", "artist": "Kid Cudi", "bpm": 102, "key_camelot": "9B" },
+  { "name": "The Moment", "artist": "Tame Impala", "bpm": 119, "key_camelot": "9B" },
+  { "name": "White Iverson", "artist": "Post Malone", "bpm": 130, "key_camelot": "9B" },
+  { "name": "Deja Vu", "artist": "Post Malone", "bpm": 134, "key_camelot": "9B" },
+  { "name": "Posthumous Forgiveness", "artist": "Tame Impala", "bpm": 154, "key_camelot": "9B" },
+  { "name": "Guilty Conscience", "artist": "070 Shake", "bpm": 180, "key_camelot": "9B" },
+  { "name": "She", "artist": "Tyler, The Creator", "bpm": 83, "key_camelot": "1A" },
+  { "name": "Are You Bored Yet? (feat. Clairo)", "artist": "Wallows", "bpm": 120, "key_camelot": "1A" },
+  { "name": "Self Control", "artist": "Frank Ocean", "bpm": 80, "key_camelot": "4B" },
+  { "name": "Nikes", "artist": "Frank Ocean", "bpm": 138, "key_camelot": "4B" },
+  { "name": "I Don't Think I Can Do This Again (with Clairo)", "artist": "Mura Masa", "bpm": 139, "key_camelot": "4B" },
+  { "name": "New Person, Same Old Mistakes", "artist": "Tame Impala", "bpm": 152, "key_camelot": "4B" },
+  { "name": "Eventually", "artist": "Tame Impala", "bpm": 78, "key_camelot": "8A" },
+  { "name": "Ain't No Grave", "artist": "Johnny Cash", "bpm": 80, "key_camelot": "8A" },
+  { "name": "Hurt", "artist": "Johnny Cash", "bpm": 90, "key_camelot": "8A" },
+  { "name": "Veridis Quo", "artist": "Daft Punk", "bpm": 107, "key_camelot": "8A" },
+  { "name": "Ivy", "artist": "Frank Ocean", "bpm": 116, "key_camelot": "8A" },
+  { "name": "Show Me How", "artist": "Men I Trust", "bpm": 166, "key_camelot": "7B" },
+  { "name": "Washing Machine Heart", "artist": "Mitski", "bpm": 106, "key_camelot": "11B" },
+  { "name": "'Cause I'm A Man", "artist": "Tame Impala", "bpm": 145, "key_camelot": "11B" },
+  { "name": "Pink + White", "artist": "Frank Ocean", "bpm": 160, "key_camelot": "11B" },
+  { "name": "Redemption Day", "artist": "Johnny Cash", "bpm": 92, "key_camelot": "3A" },
+  { "name": "Genesis", "artist": "Grimes", "bpm": 166, "key_camelot": "3A" },
+  { "name": "Instant Destiny", "artist": "Tame Impala", "bpm": 166, "key_camelot": "6B" },
+  { "name": "Wow.", "artist": "Post Malone", "bpm": 100, "key_camelot": "10A" },
+  { "name": "Gossip", "artist": "Tame Impala", "bpm": 119, "key_camelot": "10A" },
+  { "name": "Chamber Of Reflection", "artist": "Mac DeMarco", "bpm": 131, "key_camelot": "1B" },
+  { "name": "Flaming Hot Cheetos", "artist": "Clairo", "bpm": 110, "key_camelot": "6A" },
+  { "name": "hotline (edit)", "artist": "Billie Eilish", "bpm": 57, "key_camelot": "8A" },
+  { "name": "Female Energy, Part 2", "artist": "WILLOW", "bpm": 120, "key_camelot": "9A" },
+  { "name": "No One Noticed", "artist": "The Marías", "bpm": 98, "key_camelot": "9B" },
+  { "name": "Bubble Gum", "artist": "Clairo", "bpm": 208, "key_camelot": "11B" },
+  { "name": "Spin Me Around", "artist": "The Marías", "bpm": 76, "key_camelot": "12A" },
+  { "name": "BANDIT", "artist": "Don Toliver", "bpm": 130, "key_camelot": "10B" },
+  { "name": "if u think i'm pretty", "artist": "Artemas", "bpm": 144, "key_camelot": "4B" },
+  { "name": "Una Velita", "artist": "Bad Bunny", "bpm": 114, "key_camelot": "9A" },
+  { "name": "Juna", "artist": "Clairo", "bpm": 142, "key_camelot": "5B" },
+  { "name": "Sexy to Someone", "artist": "Clairo", "bpm": 98, "key_camelot": "5A" },
+  { "name": "Glimpse of Us", "artist": "Joji", "bpm": 170, "key_camelot": "4B" },
+  { "name": "Die For You", "artist": "Joji", "bpm": 148, "key_camelot": "4B" },
+  { "name": "Flowers", "artist": "WILLOW", "bpm": 87, "key_camelot": "6A" },
+  { "name": "Mystery of Love", "artist": "Sufjan Stevens", "bpm": 132, "key_camelot": "9A" },
+  { "name": "Angel", "artist": "FINNEAS", "bpm": 130, "key_camelot": "7B" },
+  { "name": "Amour plastique", "artist": "Videoclub", "bpm": 120, "key_camelot": "11A" },
+  { "name": "Música da Lagoa", "artist": "Hermeto Pascoal", "bpm": 102, "key_camelot": "5A" },
+  { "name": "Sorri, Sou Rei (feat. Claudia Leitte)", "artist": "Natiruts", "bpm": 101, "key_camelot": "8A" },
+  { "name": "Pérola Negra (feat. Luiz Melodia) - Ao Vivo", "artist": "Natiruts", "bpm": 130, "key_camelot": "3A" },
+  { "name": "Sorri, Sou Rei - Faixa Bônus Ao Vivo", "artist": "Natiruts", "bpm": 103, "key_camelot": "8A" },
+  { "name": "Supernova - Ao Vivo", "artist": "Natiruts", "bpm": 100, "key_camelot": "3A" },
+  { "name": "No Mar - Ao Vivo", "artist": "Natiruts", "bpm": 105, "key_camelot": "9A" },
+  { "name": "Breathe (In the Air)", "artist": "Pink Floyd", "bpm": 128, "key_camelot": "10A" },
+  { "name": "In My Room", "artist": "Frank Ocean", "bpm": 158, "key_camelot": "9B" },
+  { "name": "Chanel", "artist": "Frank Ocean", "bpm": 110, "key_camelot": "5A" },
+  { "name": "Whisper Of A Thrill", "artist": "Thomas Newman", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Where This Flower Blooms (feat. Frank Ocean)", "artist": "Tyler, The Creator", "bpm": 130, "key_camelot": "1A" },
+  { "name": "16", "artist": "Baby Keem", "bpm": 94, "key_camelot": "3B" },
+  { "name": "Parallel Desire", "artist": "Vera Blue", "bpm": 100, "key_camelot": "5A" },
+  { "name": "I Wish you Roses", "artist": "Kali Uchis", "bpm": 142, "key_camelot": "3A" },
+  { "name": "storm", "artist": "Night Tapes", "bpm": 120, "key_camelot": "4B" },
+  { "name": "But, I loved", "artist": "Highasakite", "bpm": 101, "key_camelot": "8B" },
+  { "name": "Ex-Factor", "artist": "Ms. Lauryn Hill", "bpm": 80, "key_camelot": "2A" },
+  { "name": "Melting", "artist": "Kali Uchis", "bpm": 115, "key_camelot": "4B" },
+  { "name": "25 Metres", "artist": "Silver Gore", "bpm": 143, "key_camelot": "8B" },
+  { "name": "NIGHTS LIKE THIS PT 2", "artist": "The Kid LAROI", "bpm": 95, "key_camelot": "3B" },
+  { "name": "Mrs Magic", "artist": "Strawberry Guy", "bpm": 133, "key_camelot": "4B" },
+  { "name": "BLUE", "artist": "Billie Eilish", "bpm": 142, "key_camelot": "9B" },
+  { "name": "360", "artist": "Charli xcx", "bpm": 120, "key_camelot": "8B" },
+  { "name": "Only In My Dreams", "artist": "The Marías", "bpm": 144, "key_camelot": "6B" },
+  { "name": "The Abyss (feat. Lana Del Rey)", "artist": "The Weeknd", "bpm": 81, "key_camelot": "5A" },
+  { "name": "The Mannequin Song", "artist": "Hotel Ugly", "bpm": 130, "key_camelot": "12A" },
+  { "name": "Pendant", "artist": "Cuco", "bpm": 135, "key_camelot": "5B" },
+  { "name": "Ocho Rios", "artist": "Daniel Caesar", "bpm": 128, "key_camelot": "10B" },
+  { "name": "Lithonia", "artist": "Childish Gambino", "bpm": 140, "key_camelot": "3B" },
+  { "name": "Image", "artist": "Magdalena Bay", "bpm": 128, "key_camelot": "4A" },
+  { "name": "My Love Mine All Mine", "artist": "Mitski", "bpm": 114, "key_camelot": "11B" },
+  { "name": "Novacane", "artist": "Frank Ocean", "bpm": 94, "key_camelot": "5B" },
+  { "name": "Who Hurt You?", "artist": "Daniel Caesar", "bpm": 105, "key_camelot": "10A" },
+  { "name": "Alesis", "artist": "Mk.gee", "bpm": 108, "key_camelot": "10A" },
+  { "name": "luther (with sza)", "artist": "Kendrick Lamar", "bpm": 138, "key_camelot": "10B" },
+  { "name": "Kyle (i found you)", "artist": "Fred again..", "bpm": 112, "key_camelot": "4A" },
+  { "name": "Midnight", "artist": "James Blake", "bpm": 72, "key_camelot": "5B" },
+  { "name": "Death & Romance", "artist": "Magdalena Bay", "bpm": 106, "key_camelot": "2B" },
+  { "name": "NO SZNS", "artist": "Jean Dawson", "bpm": 112, "key_camelot": "7B" },
+  { "name": "Open Arms (feat. Travis Scott)", "artist": "SZA", "bpm": 78, "key_camelot": "11B" },
+  { "name": "Fallout (with Gus Dapperton, Lil Yachty & Joey Bada$$)", "artist": "Lyrical Lemonade", "bpm": 130, "key_camelot": "8A" },
+  { "name": "Space Oddity - 2015 Remaster", "artist": "David Bowie", "bpm": 134, "key_camelot": "8B" },
+  { "name": "Float (feat. Seun Kuti & Egypt 80)", "artist": "Janelle Monáe", "bpm": 126, "key_camelot": "4A" },
+  { "name": "Distance", "artist": "Yebba", "bpm": 140, "key_camelot": "8B" },
+  { "name": "JACKIE BROWN", "artist": "Brent Faiyaz", "bpm": 138, "key_camelot": "6B" },
+  { "name": "adore u", "artist": "Fred again..", "bpm": 124, "key_camelot": "8B" },
+  { "name": "Girl With The Tattoo Enter.lewd", "artist": "Miguel", "bpm": 113, "key_camelot": "11A" },
+  { "name": "Die For Me (feat. Lil Yachty)", "artist": "Jean Dawson", "bpm": 132, "key_camelot": "5B" },
+  { "name": "EYES", "artist": "The Blaze", "bpm": 120, "key_camelot": "8B" },
+  { "name": "Dead Man Walking", "artist": "Brent Faiyaz", "bpm": 144, "key_camelot": "8A" },
+  { "name": "30 For 30 (with Kendrick Lamar)", "artist": "SZA", "bpm": 140, "key_camelot": "12A" },
+  { "name": "Innerbloom - Radio Edit", "artist": "RÜFÜS DU SOL", "bpm": 122, "key_camelot": "5B" },
+  { "name": "Good Looking", "artist": "Suki Waterhouse", "bpm": 150, "key_camelot": "12B" },
+  { "name": "PIMMIE'S DILEMMA", "artist": "Pimmie", "bpm": 130, "key_camelot": "1B" },
+  { "name": "Let Go", "artist": "Ark Patrol", "bpm": 82, "key_camelot": "8B" },
+  { "name": "Show Me Love", "artist": "WizTheMc", "bpm": 107, "key_camelot": "3B" },
+  { "name": "Double Fantasy (with Future)", "artist": "The Weeknd", "bpm": 119, "key_camelot": "8A" },
+  { "name": "ILYSM", "artist": "Kali Uchis", "bpm": 131, "key_camelot": "7B" },
+  { "name": "did i tell u that i miss u", "artist": "adore", "bpm": 112, "key_camelot": "11B" },
+  { "name": "Tadow", "artist": "Masego", "bpm": 122, "key_camelot": "8A" },
+  { "name": "Pretend Lovers", "artist": "Montell Fish", "bpm": 120, "key_camelot": "4B" },
+  { "name": "Solitude - Felsmann + Tiley Reinterpretation", "artist": "M83", "bpm": 122, "key_camelot": "8B" },
+  { "name": "Die For You - Remix", "artist": "The Weeknd", "bpm": 67, "key_camelot": "12A" },
+  { "name": "Hell N Back", "artist": "Bakar", "bpm": 210, "key_camelot": "3A" },
+  { "name": "You & Me - Flume Remix", "artist": "Disclosure", "bpm": 75, "key_camelot": "3A" },
+  { "name": "Valentina", "artist": "Daniel Caesar", "bpm": 92, "key_camelot": "5A" },
+  { "name": "Saturn", "artist": "SZA", "bpm": 178, "key_camelot": "3B" },
+  { "name": "Yeah - bonus", "artist": "Mac Miller", "bpm": 148, "key_camelot": "4B" },
+  { "name": "Seasons", "artist": "Sam Austins", "bpm": 137, "key_camelot": "11A" },
+  { "name": "Echo", "artist": "The Marías", "bpm": 81, "key_camelot": "7A" },
+  { "name": "End of Beginning", "artist": "Djo", "bpm": 160, "key_camelot": "10B" },
+  { "name": "the perfect pair", "artist": "beabadoobee", "bpm": 146, "key_camelot": "1B" },
+  { "name": "Afro Trap Pt. 7 (La puissance)", "artist": "MHD", "bpm": 120, "key_camelot": "1A" },
+  { "name": "Fresh Morocco", "artist": "Aiman JR", "bpm": 103, "key_camelot": "4A" },
+  { "name": "Madrid", "artist": "Aiman JR", "bpm": 138, "key_camelot": "5A" },
+  { "name": "Ma rue n'est pas à vendre", "artist": "Moha La Squale", "bpm": 90, "key_camelot": "4A" },
+  { "name": "Bandolero", "artist": "Moha La Squale", "bpm": 100, "key_camelot": "8A" },
+  { "name": "Bendero", "artist": "Moha La Squale", "bpm": 90, "key_camelot": "2B" },
+  { "name": "Vatos Locos", "artist": "Jul", "bpm": 189, "key_camelot": "10A" },
+  { "name": "Bande organisée", "artist": "Kofs", "bpm": 143, "key_camelot": "2B" },
+  { "name": "Amigo", "artist": "Cheb Bilal", "bpm": 110, "key_camelot": "6A" },
+  { "name": "Beso Prohibido", "artist": "Beny Jr", "bpm": 107, "key_camelot": "9B" },
+  { "name": "Eurovision (feat. Rondodasosa, Baby Gang, A2 Anti, Morad, Beny Jr, Ashe 22 & Freeze corleone)", "artist": "Central Cee", "bpm": 144, "key_camelot": "3A" },
+  { "name": "Color Caramelo", "artist": "Beny Jr", "bpm": 132, "key_camelot": "9A" },
+  { "name": "Mariachi", "artist": "Beny Jr", "bpm": 125, "key_camelot": "4B" },
+  { "name": "Combo la L", "artist": "Beny Jr", "bpm": 137, "key_camelot": "5A" },
+  { "name": "Parao", "artist": "Beny Jr", "bpm": 117, "key_camelot": "12A" },
+  { "name": "Kardash", "artist": "Beny Jr", "bpm": 95, "key_camelot": "7A" },
+  { "name": "A Escondidas", "artist": "Skyhook", "bpm": 98, "key_camelot": "5B" },
+  { "name": "Pelele", "artist": "Morad", "bpm": 145, "key_camelot": "12A" },
+  { "name": "Se Grita", "artist": "Morad", "bpm": 94, "key_camelot": "10A" },
+  { "name": "Casablanca (feat. Morad)", "artist": "Baby Gang", "bpm": 120, "key_camelot": "9B" },
+  { "name": "La street", "artist": "Jul", "bpm": 135, "key_camelot": "9A" },
+  { "name": "Paris Como Hakimi", "artist": "Morad", "bpm": 133, "key_camelot": "11A" },
+  { "name": "Cómo Están?", "artist": "Morad", "bpm": 87, "key_camelot": "2B" },
+  { "name": "Les Duele", "artist": "Morad", "bpm": 128, "key_camelot": "1A" },
+  { "name": "Chandal", "artist": "Morad", "bpm": 131, "key_camelot": "12A" },
+  { "name": "Seguimos", "artist": "Morad", "bpm": 90, "key_camelot": "5A" },
+  { "name": "Yo No Voy", "artist": "Morad", "bpm": 144, "key_camelot": "7A" },
+  { "name": "Normal", "artist": "Morad", "bpm": 90, "key_camelot": "9A" },
+  { "name": "No Hace Na", "artist": "Morad", "bpm": 104, "key_camelot": "8A" },
+  { "name": "Recuerdos - Freestyle", "artist": "Morad", "bpm": 131, "key_camelot": "4A" },
+  { "name": "Pensamientos", "artist": "Morad", "bpm": 104, "key_camelot": "2A" },
+  { "name": "Que Viene el Álbum - Freestyle", "artist": "Morad", "bpm": 125, "key_camelot": "8B" },
+  { "name": "Lo Que Quiera", "artist": "Morad", "bpm": 196, "key_camelot": "10A" },
+  { "name": "Frontera Nada", "artist": "TiiwTiiw", "bpm": 180, "key_camelot": "9B" },
+  { "name": "Oh qu'elle est belle", "artist": "Jul", "bpm": 97, "key_camelot": "6A" },
+  { "name": "Maghrebins", "artist": "Mister You", "bpm": 78, "key_camelot": "6A" },
+  { "name": "ENAMORAO' DE MÍ", "artist": "3dnan", "bpm": 126, "key_camelot": "11A" },
+  { "name": "AMOR AL AZAR", "artist": "3dnan", "bpm": 100, "key_camelot": "8A" },
+  { "name": "Tourner Dans Le Vide", "artist": "Indila", "bpm": 120, "key_camelot": "11A" },
+  { "name": "Thé à la menthe (The Lazer Dance Version) [Instrumental]", "artist": "La Caution", "bpm": 99, "key_camelot": "1A" },
+  { "name": "Busca de Más", "artist": "Wise", "bpm": 118, "key_camelot": "12A" },
+  { "name": "Afro Trap Part. 11 (King Kong)", "artist": "MHD", "bpm": 124, "key_camelot": "10A" },
+  { "name": "Réseaux", "artist": "Niska", "bpm": 150, "key_camelot": "3B" },
+  { "name": "Dolce Camara", "artist": "Booba", "bpm": 112, "key_camelot": "12A" },
+  { "name": "Meleğim", "artist": "Soolking", "bpm": 95, "key_camelot": "2A" },
+  { "name": "Casanova", "artist": "Soolking", "bpm": 132, "key_camelot": "6A" },
+  { "name": "Cheb Marlboro", "artist": "Khaled", "bpm": 176, "key_camelot": "8B" },
+  { "name": "Chouf U Skout", "artist": "Khaled", "bpm": 88, "key_camelot": "12A" },
+  { "name": "Hiya", "artist": "Khaled", "bpm": 145, "key_camelot": "3B" },
+  { "name": "La Vendicion", "artist": "Khaled", "bpm": 91, "key_camelot": "9A" },
+  { "name": "Volando Recto", "artist": "Khaled", "bpm": 95, "key_camelot": "9A" },
+  { "name": "Wombass", "artist": "Tiësto", "bpm": 125, "key_camelot": "4B" },
+  { "name": "Body Work", "artist": "Pickle", "bpm": 126, "key_camelot": "8B" },
+  { "name": "Blow", "artist": "Pickle", "bpm": 125, "key_camelot": "9B" },
+  { "name": "Losing It", "artist": "FISHER", "bpm": 125, "key_camelot": "10B" },
+  { "name": "ALL MY FRIENDS ARE IN THE BATHROOM", "artist": "FJAAK", "bpm": 133, "key_camelot": "1B" },
+  { "name": "Galactic Symphony", "artist": "Mandragora", "bpm": 100, "key_camelot": "5A" },
+  { "name": "To Ü (feat. AlunaGeorge)", "artist": "Jack Ü", "bpm": 160, "key_camelot": "3A" },
+  { "name": "Mind (feat. Kai)", "artist": "Jack Ü", "bpm": 174, "key_camelot": "3B" },
+  { "name": "Would You Ever", "artist": "Skrillex", "bpm": 126, "key_camelot": "6B" },
+  { "name": "Show Me Love - Skrillex Remix", "artist": "Hundred Waters", "bpm": 130, "key_camelot": "1B" },
+  { "name": "Summit (feat. Ellie Goulding)", "artist": "Skrillex", "bpm": 140, "key_camelot": "2B" },
+  { "name": "Internet Friends", "artist": "Knife Party", "bpm": 128, "key_camelot": "4A" },
+  { "name": "Illuminati", "artist": "ShayGray", "bpm": 144, "key_camelot": "9B" },
+  { "name": "Piece Of Your Heart", "artist": "MEDUZA", "bpm": 124, "key_camelot": "3A" },
+  { "name": "Deep Down Low", "artist": "Valentino Khan", "bpm": 126, "key_camelot": "4A" },
+  { "name": "Memories (feat. Kid Cudi)", "artist": "David Guetta", "bpm": 130, "key_camelot": "4B" },
+  { "name": "Harder, Better, Faster, Stronger", "artist": "Daft Punk", "bpm": 123, "key_camelot": "11A" },
+  { "name": "Robot Rock", "artist": "Daft Punk", "bpm": 112, "key_camelot": "9B" },
+  { "name": "The Parade - Original Radio Version", "artist": "Da Corry", "bpm": 132, "key_camelot": "6B" },
+  { "name": "Bridged By A Lightwave - Radio Edit", "artist": "deadmau5", "bpm": 128, "key_camelot": "10A" },
+  { "name": "GG", "artist": "deadmau5", "bpm": 128, "key_camelot": "7B" },
+  { "name": "Bonfire", "artist": "Knife Party", "bpm": 174, "key_camelot": "3B" },
+  { "name": "Mumbai Power", "artist": "Skrillex", "bpm": 140, "key_camelot": "4B" },
+  { "name": "Stars Come Out", "artist": "Zedd", "bpm": 128, "key_camelot": "4A" },
+  { "name": "Kyoto (feat. Sirah)", "artist": "Skrillex", "bpm": 175, "key_camelot": "9A" },
+  { "name": "Dancin (feat. Luvli) - Krono Remix", "artist": "Aaron Smith", "bpm": 120, "key_camelot": "3A" },
+  { "name": "U Got That", "artist": "Halogen", "bpm": 124, "key_camelot": "8B" },
+  { "name": "In My Mind", "artist": "Dynoro", "bpm": 126, "key_camelot": "2B" },
+  { "name": "Heads Will Roll - A-Trak Remix", "artist": "Yeah Yeah Yeahs", "bpm": 132, "key_camelot": "1A" },
+  { "name": "Bunnydance", "artist": "Oliver Heldens", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Planet Rock", "artist": "Afrika Bambaataa", "bpm": 127, "key_camelot": "11A" },
+  { "name": "World Destruction", "artist": "Time Zone", "bpm": 138, "key_camelot": "10A" },
+  { "name": "Afrika Shox", "artist": "Leftfield", "bpm": 130, "key_camelot": "4B" },
+  { "name": "212", "artist": "Azealia Banks", "bpm": 126, "key_camelot": "10A" },
+  { "name": "Supernature", "artist": "Cerrone", "bpm": 123, "key_camelot": "4A" },
+  { "name": "Voodoo?", "artist": "L'Impératrice", "bpm": 108, "key_camelot": "11A" },
+  { "name": "White Lines (Don't Do It)", "artist": "Grandmaster Flash", "bpm": 115, "key_camelot": "8B" },
+  { "name": "Run Baby Run", "artist": "Paul Ritch", "bpm": 126, "key_camelot": "9B" },
+  { "name": "How Deep Is Your Love", "artist": "Calvin Harris", "bpm": 122, "key_camelot": "9A" },
+  { "name": "Vapo Vapo", "artist": "Mandragora", "bpm": 150, "key_camelot": "3B" },
+  { "name": "Memories (feat. Kid Cudi) - 2021 Remix", "artist": "David Guetta", "bpm": 127, "key_camelot": "4A" },
+  { "name": "Get Got", "artist": "Death Grips", "bpm": 87, "key_camelot": "9B" },
+  { "name": "Freed From Desire", "artist": "Gala", "bpm": 129, "key_camelot": "7A" },
+  { "name": "Bassiani", "artist": "FJAAK", "bpm": 135, "key_camelot": "10A" },
+  { "name": "Over", "artist": "Tsuki", "bpm": 134, "key_camelot": "11A" },
+  { "name": "Oblivion", "artist": "Grimes", "bpm": 156, "key_camelot": "10B" },
+  { "name": "Cry (feat. Grimes)", "artist": "Ashnikko", "bpm": 174, "key_camelot": "4A" },
+  { "name": "Liverpool Street In The Rain", "artist": "Mall Grab", "bpm": 130, "key_camelot": "11A" },
+  { "name": "COASTED - Jay Robinson Remix", "artist": "deadmau5", "bpm": 124, "key_camelot": "9B" },
+  { "name": "Over", "artist": "C.O.Z", "bpm": 125, "key_camelot": "1A" },
+  { "name": "the last dance", "artist": "ricky retro", "bpm": 124, "key_camelot": "9B" },
+  { "name": "Home", "artist": "Solomun", "bpm": 120, "key_camelot": "10B" },
+  { "name": "Gravity", "artist": "Boris Brejcha", "bpm": 125, "key_camelot": "9B" },
+  { "name": "Never Been Better", "artist": "Mandragora", "bpm": 136, "key_camelot": "3B" },
+  { "name": "Saxo Aletoso (Mashbeat)", "artist": "Aleteo Musik", "bpm": 128, "key_camelot": "8B" },
+  { "name": "Me Provocas (Mashbeat)", "artist": "Aleteo Musik", "bpm": 128, "key_camelot": "4A" },
+  { "name": "Sailor Moon Mashbeat Guaracha Mix", "artist": "Aleteo Musik", "bpm": 127, "key_camelot": "3B" },
+  { "name": "Ritmo (Mashbeat)", "artist": "Aleteo Musik", "bpm": 126, "key_camelot": "5A" },
+  { "name": "Pre Continental Colonization Trap", "artist": "Javier Estrada", "bpm": 140, "key_camelot": "3B" },
+  { "name": "Somos Mayas", "artist": "Javier Estrada", "bpm": 132, "key_camelot": "8A" },
+  { "name": "La Noche del Jaguar", "artist": "Javier Estrada", "bpm": 132, "key_camelot": "3A" },
+  { "name": "Single Feather Remix (feat. Tribe Called Red)", "artist": "Black Bear", "bpm": 104, "key_camelot": "3B" },
+  { "name": "Old School Is for Lovers (feat. Morningstar River)", "artist": "Shub", "bpm": 140, "key_camelot": "11A" },
+  { "name": "M.O.S.T.C.O. (feat. Northern Cree Singers)", "artist": "Shub", "bpm": 150, "key_camelot": "10B" },
+  { "name": "Native Puppy Love", "artist": "The Halluci Nation", "bpm": 130, "key_camelot": "4A" },
+  { "name": "Smoke Circle", "artist": "Akkord", "bpm": 200, "key_camelot": "1B" },
+  { "name": "Stadium Pow Wow", "artist": "The Halluci Nation", "bpm": 140, "key_camelot": "1B" },
+  { "name": "Gimme! Gimme! Gimme! (A Man After Midnight)", "artist": "ABBA", "bpm": 120, "key_camelot": "6B" },
+  { "name": "Rasputin", "artist": "Majestic", "bpm": 128, "key_camelot": "11A" },
+  { "name": "in heat.", "artist": "Hentai Xander", "bpm": 128, "key_camelot": "3B" },
+  { "name": "Distance - Volac Remix", "artist": "Apashe", "bpm": 126, "key_camelot": "8B" },
+  { "name": "300000003", "artist": "999999999", "bpm": 133, "key_camelot": "10B" },
+  { "name": "Ani Kuni - Edit", "artist": "Polo & Pan", "bpm": 121, "key_camelot": "8B" },
+  { "name": "Nana", "artist": "Polo & Pan", "bpm": 94, "key_camelot": "9A" },
+  { "name": "Canopée", "artist": "Polo & Pan", "bpm": 96, "key_camelot": "4A" },
+  { "name": "Ani Kuni", "artist": "Polo & Pan", "bpm": 121, "key_camelot": "8B" },
+  { "name": "Tunnel", "artist": "Polo & Pan", "bpm": 120, "key_camelot": "10B" },
+  { "name": "Quien Es El Patron?", "artist": "Systema Solar", "bpm": 130, "key_camelot": "10B" },
+  { "name": "Quien es el patron?", "artist": "Systema Solar", "bpm": 115, "key_camelot": "9A" },
+  { "name": "Orion - Original", "artist": "Onur Özer", "bpm": 127, "key_camelot": "9B" },
+  { "name": "Rock 'n' Roll (Will Take You to the Mountain)", "artist": "Skrillex", "bpm": 128, "key_camelot": "8B" },
+  { "name": "First of the Year (Equinox)", "artist": "Skrillex", "bpm": 116, "key_camelot": "4A" },
+  { "name": "Bangarang (feat. Sirah)", "artist": "Skrillex", "bpm": 110, "key_camelot": "9B" },
+  { "name": "Try It Out (with Alvin Risk) - Neon Mix", "artist": "Skrillex", "bpm": 139, "key_camelot": "8B" },
+  { "name": "Ruffneck - Full Flex", "artist": "Skrillex", "bpm": 140, "key_camelot": "7B" },
+  { "name": "Jungle", "artist": "Fred again..", "bpm": 134, "key_camelot": "12A" },
+  { "name": "Supersonic (My Existence) [with Noisia, josh pan & Dylan Brady]", "artist": "Skrillex", "bpm": 172, "key_camelot": "11B" },
+  { "name": "Goosebumps - Remix", "artist": "Travis Scott", "bpm": 125, "key_camelot": "3B" },
+  { "name": "Butterflies", "artist": "Skrillex", "bpm": 128, "key_camelot": "7A" },
+  { "name": "Make It Bun Dem", "artist": "Skrillex", "bpm": 105, "key_camelot": "9B" },
+  { "name": "voltage (see you again)", "artist": "Skrillex", "bpm": 150, "key_camelot": "8B" },
+  { "name": "Where Are Ü Now (with Justin Bieber)", "artist": "Jack Ü", "bpm": 139, "key_camelot": "9A" },
+  { "name": "VOLVER", "artist": "Tainy", "bpm": 155, "key_camelot": "10A" },
+  { "name": "In Da Getto", "artist": "J Balvin", "bpm": 127, "key_camelot": "4B" },
+  { "name": "LA NOCHE", "artist": "Chris Lake", "bpm": 127, "key_camelot": "4B" },
+  { "name": "Rumble", "artist": "Skrillex", "bpm": 140, "key_camelot": "12A" },
+  { "name": "glow", "artist": "Fred again..", "bpm": 129, "key_camelot": "12B" },
+  { "name": "Baby again..", "artist": "Fred again..", "bpm": 127, "key_camelot": "10B" },
+  { "name": "HUMBLE. - SKRILLEX REMIX", "artist": "Skrillex", "bpm": 150, "key_camelot": "1B" },
+  { "name": "RATATA", "artist": "Skrillex", "bpm": 124, "key_camelot": "11B" },
+  { "name": "fuze", "artist": "Skrillex", "bpm": 140, "key_camelot": "6A" },
+  { "name": "move ting", "artist": "Skrillex", "bpm": 140, "key_camelot": "12A" },
+  { "name": "Fine Day Anthem", "artist": "Skrillex", "bpm": 138, "key_camelot": "12A" },
+  { "name": "Supersonic (my existence)", "artist": "Skrillex", "bpm": 86, "key_camelot": "8A" },
+  { "name": "Wild for the Night (feat. Skrillex & Birdy Nam Nam)", "artist": "A$AP Rocky", "bpm": 140, "key_camelot": "10B" },
+  { "name": "SPITFIRE", "artist": "Skrillex", "bpm": 150, "key_camelot": "3B" },
+  { "name": "hit me where it hurts x", "artist": "Skrillex", "bpm": 150, "key_camelot": "11A" },
+  { "name": "THINGS I PROMISED", "artist": "Skrillex", "bpm": 148, "key_camelot": "4A" },
+  { "name": "while you were sleeping", "artist": "Skrillex", "bpm": 150, "key_camelot": "1A" },
+  { "name": "Working For It", "artist": "ZHU", "bpm": 100, "key_camelot": "4A" },
+  { "name": "Scary Monsters and Nice Sprites", "artist": "Skrillex", "bpm": 140, "key_camelot": "6A" },
+  { "name": "ANDY", "artist": "Skrillex", "bpm": 75, "key_camelot": "10B" },
+  { "name": "En Mi Cuarto", "artist": "JHAYCO", "bpm": 115, "key_camelot": "11A" },
+  { "name": "Ego Death (feat. Kanye West, FKA twigs & Skrillex)", "artist": "Ty Dolla $ign", "bpm": 111, "key_camelot": "3A" },
+  { "name": "RECOVERY", "artist": "Skrillex", "bpm": 150, "key_camelot": "3B" },
+  { "name": "Get Up! (feat. Skrillex)", "artist": "Korn", "bpm": 140, "key_camelot": "3B" },
+  { "name": "TEARS LOST DROP", "artist": "Skrillex", "bpm": 150, "key_camelot": "4B" },
+  { "name": "Leave Me Like This", "artist": "Skrillex", "bpm": 125, "key_camelot": "3A" },
+  { "name": "Push", "artist": "Skrillex", "bpm": 140, "key_camelot": "9B" },
+  { "name": "HOLD ON", "artist": "Skrillex", "bpm": 149, "key_camelot": "1A" },
+  { "name": "BADDERS", "artist": "PEEKABOO", "bpm": 73, "key_camelot": "4B" },
+  { "name": "El Chapo - Bonus Track", "artist": "The Game", "bpm": 127, "key_camelot": "11A" },
+  { "name": "Don't Go (with Justin Bieber & Don Toliver)", "artist": "Skrillex", "bpm": 75, "key_camelot": "1B" },
+  { "name": "Hydrate", "artist": "Skrillex", "bpm": 75, "key_camelot": "3A" },
+  { "name": "Face My Fears (English Version)", "artist": "Hikaru Utada", "bpm": 160, "key_camelot": "12A" },
+  { "name": "Ragga Bomb (with Ragga Twins)", "artist": "Skrillex", "bpm": 174, "key_camelot": "9B" },
+  { "name": "Take Ü There (feat. Kiesza)", "artist": "Jack Ü", "bpm": 160, "key_camelot": "11A" },
+  { "name": "Under The Sheets - Jakwob Remix", "artist": "Ellie Goulding", "bpm": 138, "key_camelot": "8B" },
+  { "name": "Night (Radio Edit) [Extended]", "artist": "Benga", "bpm": 140, "key_camelot": "12A" },
+  { "name": "Levels - Skrillex Remix", "artist": "Avicii", "bpm": 140, "key_camelot": "4A" },
+  { "name": "In For The Kill - Skream's Let's Get Ravey Remix", "artist": "La Roux", "bpm": 146, "key_camelot": "11A" },
+  { "name": "Katy on a Mission", "artist": "Katy B", "bpm": 140, "key_camelot": "4B" },
+  { "name": "Decisions (feat. Miley Cyrus)", "artist": "Borgore", "bpm": 140, "key_camelot": "6A" },
+  { "name": "Changes", "artist": "Mala", "bpm": 139, "key_camelot": "10A" },
+  { "name": "I Can't Stop", "artist": "Flux Pavilion", "bpm": 140, "key_camelot": "5A" },
+  { "name": "Eyes on Fire - Zeds Dead Remix", "artist": "Blue Foundation", "bpm": 145, "key_camelot": "1B" },
+  { "name": "Intensive Snare feat. Skepta - Original Mix", "artist": "Plastician", "bpm": 70, "key_camelot": "8B" },
+  { "name": "Lone Wolf", "artist": "Zomboy", "bpm": 150, "key_camelot": "3B" },
+  { "name": "Skeng", "artist": "The Bug", "bpm": 140, "key_camelot": "4B" },
+  { "name": "Centipede", "artist": "Knife Party", "bpm": 140, "key_camelot": "3B" },
+  { "name": "Stone Cold", "artist": "groove chronicles", "bpm": 135, "key_camelot": "8A" },
+  { "name": "Hard", "artist": "Breakage", "bpm": 140, "key_camelot": "11B" },
+  { "name": "Air & Lack Thereof", "artist": "James Blake", "bpm": 139, "key_camelot": "7B" },
+  { "name": "Jah War - Loefah Remix", "artist": "The Bug", "bpm": 139, "key_camelot": "9A" },
+  { "name": "Hyph Mngo", "artist": "Joy Orbison", "bpm": 140, "key_camelot": "3B" },
+  { "name": "Perfect Stranger (feat. Magnetic Man)", "artist": "Katy B", "bpm": 143, "key_camelot": "8A" },
+  { "name": "Anti War Dub", "artist": "Mala", "bpm": 139, "key_camelot": "10A" },
+  { "name": "Still Getting It", "artist": "Foreign Beggars", "bpm": 140, "key_camelot": "4A" },
+  { "name": "Midnight Request Line", "artist": "Skream", "bpm": 140, "key_camelot": "3B" },
+  { "name": "Like A Bitch", "artist": "Zomboy", "bpm": 150, "key_camelot": "2B" },
+  { "name": "Perfect Stranger (feat. Katy B)", "artist": "Magnetic Man", "bpm": 143, "key_camelot": "8A" },
+  { "name": "Crush On You", "artist": "NERO", "bpm": 140, "key_camelot": "3B" },
+  { "name": "The Knowledge", "artist": "Toasty", "bpm": 142, "key_camelot": "12B" },
+  { "name": "9 Samurai", "artist": "Kode9", "bpm": 140, "key_camelot": "3B" },
+  { "name": "Wut", "artist": "Girl Unit", "bpm": 140, "key_camelot": "4A" },
+  { "name": "Feel Good", "artist": "Modestep", "bpm": 140, "key_camelot": "11A" },
+  { "name": "Broken Home", "artist": "Burial", "bpm": 140, "key_camelot": "6A" },
+  { "name": "Innocence", "artist": "NERO", "bpm": 137, "key_camelot": "6A" },
+  { "name": "Roll with the Punches", "artist": "Peverelist", "bpm": 138, "key_camelot": "9A" },
+  { "name": "Heartbeat - Chase & Status We Just Bought A Guitar Mix", "artist": "Nneka", "bpm": 144, "key_camelot": "10A" },
+  { "name": "Eastern Jam", "artist": "Chase & Status", "bpm": 140, "key_camelot": "10A" },
+  { "name": "Liverpool Street In The Rain", "artist": "Mall Grab", "bpm": 130, "key_camelot": "11A" },
+  { "name": "Menace II Society", "artist": "Mall Grab", "bpm": 128, "key_camelot": "3A" },
+  { "name": "District 8", "artist": "FJAAK", "bpm": 138, "key_camelot": "3A" },
+  { "name": "I Wish My Bird Was This Dirty", "artist": "Sons Of Charlie", "bpm": 140, "key_camelot": "6A" },
+  { "name": "Rave 4 love", "artist": "999999999", "bpm": 133, "key_camelot": "2A" },
+  { "name": "Groove District", "artist": "Starjunk 95", "bpm": 125, "key_camelot": "8B" },
+  { "name": "Bayside - Radio Edit", "artist": "Obskür", "bpm": 123, "key_camelot": "3B" },
+  { "name": "It's Time Again", "artist": "FJAAK", "bpm": 133, "key_camelot": "9A" },
+  { "name": "Love Shy - Subjoi's Tuff Jam Rework", "artist": "Subjoi", "bpm": 121, "key_camelot": "4A" },
+  { "name": "COULD BE WRONG", "artist": "LOSTBOYJAY", "bpm": 129, "key_camelot": "8B" },
+  { "name": "Bancroft", "artist": "Lemtom", "bpm": 129, "key_camelot": "3A" },
+  { "name": "Pigalle", "artist": "Bellaire", "bpm": 125, "key_camelot": "5A" },
+  { "name": "D&C", "artist": "JAYC", "bpm": 130, "key_camelot": "8B" },
+  { "name": "places to be", "artist": "Fred again..", "bpm": 174, "key_camelot": "6A" },
+  { "name": "Beautiful People - Obskür Remix", "artist": "Barbara Tucker", "bpm": 128, "key_camelot": "10A" },
+  { "name": "Da Fonk (feat. Joni)", "artist": "Mochakk", "bpm": 127, "key_camelot": "8A" },
+  { "name": "Pilsplaat", "artist": "Bonkers", "bpm": 125, "key_camelot": "12A" },
+  { "name": "Lost", "artist": "RSCL", "bpm": 126, "key_camelot": "10A" },
+  { "name": "FORMATIONS", "artist": "Mild Minds", "bpm": 114, "key_camelot": "9A" },
+  { "name": "GET LOST", "artist": "MATVEÏ", "bpm": 125, "key_camelot": "11A" },
+  { "name": "MARLBORO CLUB", "artist": "PXRKX", "bpm": 120, "key_camelot": "4A" },
+  { "name": "Old' On", "artist": "JACK MARLOW", "bpm": 128, "key_camelot": "10A" },
+  { "name": "Play My Tune", "artist": "Lombard Street", "bpm": 122, "key_camelot": "11A" },
+  { "name": "Vent", "artist": "NOIT", "bpm": 126, "key_camelot": "2A" },
+  { "name": "Namerakana", "artist": "Lemtom", "bpm": 130, "key_camelot": "12A" },
+  { "name": "Untitled28", "artist": "Soft Blade", "bpm": 120, "key_camelot": "10B" },
+  { "name": "Hope he'll never die", "artist": "Soft Blade", "bpm": 125, "key_camelot": "3A" },
+  { "name": "Polynomial-C", "artist": "Aphex Twin", "bpm": 72, "key_camelot": "3B" },
+  { "name": "wants and needs", "artist": "Jake Antonio", "bpm": 132, "key_camelot": "8A" },
+  { "name": "Frankenstein - Joyhauser Mix", "artist": "Editors", "bpm": 128, "key_camelot": "9A" },
+  { "name": "On My Knees", "artist": "RÜFÜS DU SOL", "bpm": 120, "key_camelot": "3B" },
+  { "name": "Unspoken Thoughts", "artist": "Rad&Co", "bpm": 127, "key_camelot": "8A" },
+  { "name": "Vision", "artist": "Palace", "bpm": 128, "key_camelot": "10B" },
+  { "name": "Wanna See U", "artist": "Lemtom", "bpm": 129, "key_camelot": "6A" },
+  { "name": "Fast Life", "artist": "GEE LEE", "bpm": 125, "key_camelot": "11A" },
+  { "name": "Shoreditch", "artist": "Vard.", "bpm": 132, "key_camelot": "1B" },
+  { "name": "Bring It Back", "artist": "SOSA", "bpm": 132, "key_camelot": "8B" },
+  { "name": "LIQUOR STORE", "artist": "Adi T", "bpm": 120, "key_camelot": "11A" },
+  { "name": "Everything In Its Right Place - Blurry Face Films - Slowed", "artist": "Alexandra Fever", "bpm": 99, "key_camelot": "12B" },
+  { "name": "Suffocation", "artist": "Crystal Castles", "bpm": 120, "key_camelot": "1B" },
+  { "name": "MICHELIN CLUB", "artist": "MARXO", "bpm": 120, "key_camelot": "1B" },
+  { "name": "Stephanie", "artist": "Cloonee", "bpm": 130, "key_camelot": "11B" },
+  { "name": "Make Me - Franky Rizardo Remix", "artist": "Boral & Denham Audio", "bpm": 130, "key_camelot": "2B" },
+  { "name": "You Are In My System - Club Mix", "artist": "Kerri Chandler", "bpm": 128, "key_camelot": "2A" },
+  { "name": "Too Much For Me", "artist": "SELKER", "bpm": 128, "key_camelot": "6B" },
+  { "name": "U Weren't Here I Really Miss You", "artist": "Cult Member", "bpm": 123, "key_camelot": "9B" },
+  { "name": "Free", "artist": "Don Carlos", "bpm": 123, "key_camelot": "9B" },
+  { "name": "LOST SIGNAL", "artist": "Adi T", "bpm": 119, "key_camelot": "11A" },
+  { "name": "404", "artist": "Adi T", "bpm": 115, "key_camelot": "11A" },
+  { "name": "HhhshsHHHHhaahhahhshs", "artist": "Sgarz", "bpm": 120, "key_camelot": "9B" },
+  { "name": "without me", "artist": "Sillage", "bpm": 130, "key_camelot": "12A" },
+  { "name": "ok, i can love u.", "artist": "withoutessence", "bpm": 124, "key_camelot": "2B" },
+  { "name": "Magic Button", "artist": "EJ3000", "bpm": 134, "key_camelot": "5A" },
+  { "name": "MAKING STANG", "artist": "camo mane", "bpm": 145, "key_camelot": "9B" },
+  { "name": "DEAD AND GONE", "artist": "camo mane", "bpm": 137, "key_camelot": "10A" },
+  { "name": "my body my software", "artist": "joanna ^..^", "bpm": 142, "key_camelot": "11A" },
+  { "name": "Right Now", "artist": "LNRT", "bpm": 130, "key_camelot": "3A" },
+  { "name": "Do To Me", "artist": "Tim Sanders", "bpm": 128, "key_camelot": "9B" },
+  { "name": "Come Together", "artist": "Nox Vahn", "bpm": 79, "key_camelot": "9B" },
+  { "name": "Uhu", "artist": "Kleinefrigo", "bpm": 125, "key_camelot": "7B" },
+  { "name": "Start Movin", "artist": "CHRONOSONDER", "bpm": 125, "key_camelot": "11A" },
+  { "name": "While We're Young", "artist": "No_4mat", "bpm": 142, "key_camelot": "11A" },
+  { "name": "Black Sapphire", "artist": "AL-90", "bpm": 114, "key_camelot": "9B" },
+  { "name": "nightrunner", "artist": "Future Calling", "bpm": 118, "key_camelot": "11B" },
+  { "name": "Warm The Room", "artist": "Vales", "bpm": 125, "key_camelot": "9B" },
+  { "name": "FANTASY", "artist": "Adi T", "bpm": 121, "key_camelot": "12A" },
+  { "name": "All Night Long", "artist": "Chris Stussy", "bpm": 133, "key_camelot": "4A" },
+  { "name": "three", "artist": "Cult Member", "bpm": 126, "key_camelot": "10A" },
+  { "name": "BIOS", "artist": "Zorrovian", "bpm": 168, "key_camelot": "1B" },
+  { "name": "Ascension", "artist": "Marsh", "bpm": 123, "key_camelot": "3A" },
+  { "name": "Never Sleep Again", "artist": "Solomun", "bpm": 120, "key_camelot": "4B" },
+  { "name": "Bass Inside", "artist": "AC Slater", "bpm": 126, "key_camelot": "2B" },
+  { "name": "Glass Coffin, Pt. 2", "artist": "Sidewalks and Skeletons", "bpm": 127, "key_camelot": "3A" },
+  { "name": "The Progress", "artist": "Kromestar", "bpm": 85, "key_camelot": "10B" },
+  { "name": "Keepmastik", "artist": "Phlegmatic Dogs", "bpm": 124, "key_camelot": "9B" },
+  { "name": "Rej", "artist": "Âme", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Adderall", "artist": "Atom Pushers", "bpm": 127, "key_camelot": "9B" },
+  { "name": "We Do What We Want", "artist": "Alan Fitzpatrick", "bpm": 126, "key_camelot": "2B" },
+  { "name": "Brian's Proper Dun One", "artist": "Alan Fitzpatrick", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Tsukuyomi", "artist": "Lucas Martins", "bpm": 144, "key_camelot": "9B" },
+  { "name": "The Plan", "artist": "Am$trad Billionaire", "bpm": 114, "key_camelot": "9B" },
+  { "name": "Sandevistan", "artist": "Revengeday", "bpm": 135, "key_camelot": "1B" },
+  { "name": "ACID PLAAT", "artist": "Krabi", "bpm": 75, "key_camelot": "12B" },
+  { "name": "Terrorist", "artist": "Karma", "bpm": 138, "key_camelot": "10A" },
+  { "name": "NUMB BELL", "artist": "Moderat", "bpm": 124, "key_camelot": "8A" },
+  { "name": "A New Error", "artist": "Moderat", "bpm": 111, "key_camelot": "10A" },
+  { "name": "Milk", "artist": "Moderat", "bpm": 115, "key_camelot": "3B" },
+  { "name": "Xtal", "artist": "Aphex Twin", "bpm": 115, "key_camelot": "8A" },
+  { "name": "Pulsewidth", "artist": "Aphex Twin", "bpm": 119, "key_camelot": "3B" },
+  { "name": "It's Not The Same", "artist": "Yppah", "bpm": 92, "key_camelot": "8A" },
+  { "name": "Whether the Weather - Laurent Garnier Remix", "artist": "Myd", "bpm": 126, "key_camelot": "3A" },
+  { "name": "Adieu", "artist": "Tchami", "bpm": 126, "key_camelot": "10A" },
+  { "name": "Don't Let Go", "artist": "Supershy", "bpm": 121, "key_camelot": "1A" },
+  { "name": "On Hold - Jamie xx Remix", "artist": "The xx", "bpm": 128, "key_camelot": "5A" },
+  { "name": "The Hacker x Desire - Silver Machine", "artist": "Desire", "bpm": 122, "key_camelot": "1B" },
+  { "name": "What To Do - &ME Remix", "artist": "Guy Gerber", "bpm": 122, "key_camelot": "6A" },
+  { "name": "Juno Love", "artist": "Nico Morano", "bpm": 120, "key_camelot": "9A" },
+  { "name": "Midnight In A Perfect World", "artist": "DJ Shadow", "bpm": 80, "key_camelot": "6A" },
+  { "name": "16114205181", "artist": "Soft Blade", "bpm": 125, "key_camelot": "11A" },
+  { "name": "Dub City", "artist": "DELACOUR", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Told You", "artist": "Jake Jeffery", "bpm": 124, "key_camelot": "3A" },
+  { "name": "Darling", "artist": "Rad&Co", "bpm": 125, "key_camelot": "4A" },
+  { "name": "groove that never stops", "artist": "Jake Antonio", "bpm": 130, "key_camelot": "11A" },
+  { "name": "1992", "artist": "No_4mat", "bpm": 128, "key_camelot": "2A" },
+  { "name": "Deep Space", "artist": "Malkov", "bpm": 120, "key_camelot": "2B" },
+  { "name": "The Touch", "artist": "Rampa", "bpm": 125, "key_camelot": "7B" },
+  { "name": "Cobra", "artist": "SebaLazi", "bpm": 110, "key_camelot": "12A" },
+  { "name": "analog odyssey", "artist": "lofi cassette", "bpm": 119, "key_camelot": "8B" },
+  { "name": "velvet dreams", "artist": "lofi cassette", "bpm": 119, "key_camelot": "8A" },
+  { "name": "sunset serenade", "artist": "lofi cassette", "bpm": 119, "key_camelot": "2B" },
+  { "name": "desolate - Slowed", "artist": "ByErik ♫", "bpm": 168, "key_camelot": "3B" },
+  { "name": "Urban Nights", "artist": "Meanetik", "bpm": 124, "key_camelot": "4B" },
+  { "name": "On Board", "artist": "Dosem", "bpm": 123, "key_camelot": "3B" },
+  { "name": "+100", "artist": "Boris Brejcha", "bpm": 125, "key_camelot": "9B" },
+  { "name": "Magic Hour", "artist": "Satoshi Tomiie", "bpm": 122, "key_camelot": "3B" },
+  { "name": "The 90's generation", "artist": "Cosmjn", "bpm": 127, "key_camelot": "9B" },
+  { "name": "Buggin' - Edit", "artist": "Hot Since 82", "bpm": 124, "key_camelot": "8B" },
+  { "name": "Eye of the Storm", "artist": "Hot Since 82", "bpm": 120, "key_camelot": "3B" },
+  { "name": "Nightfall", "artist": "Hot Since 82", "bpm": 123, "key_camelot": "10A" },
+  { "name": "Paradise", "artist": "dentist", "bpm": 119, "key_camelot": "9B" },
+  { "name": "Are You Sure?", "artist": "ERHA", "bpm": 130, "key_camelot": "3B" },
+  { "name": "Everything", "artist": "Mall Grab", "bpm": 140, "key_camelot": "10B" },
+  { "name": "Zerkalo", "artist": "Soft Blade", "bpm": 124, "key_camelot": "10B" },
+  { "name": "Live from the ice cave", "artist": "Soft Blade", "bpm": 121, "key_camelot": "11B" },
+  { "name": "Pesnya Volchonka", "artist": "Soft Blade", "bpm": 180, "key_camelot": "8B" },
+  { "name": "1992 - Slowed + Reverb Mix", "artist": "No_4mat", "bpm": 102, "key_camelot": "8B" },
+  { "name": "Solitude", "artist": "Juno", "bpm": 111, "key_camelot": "3B" },
+  { "name": "Untitled 14", "artist": "AL-90", "bpm": 107, "key_camelot": "8A" },
+  { "name": "Fantastic Life", "artist": "Cult Member", "bpm": 122, "key_camelot": "9A" },
+  { "name": "Lazer Sky", "artist": "Cult Member", "bpm": 121, "key_camelot": "11B" },
+  { "name": "Red Armor", "artist": "Niki Istrefi", "bpm": 140, "key_camelot": "10A" },
+  { "name": "Temptation", "artist": "Can U", "bpm": 132, "key_camelot": "3B" },
+  { "name": "Playin' Games", "artist": "LNRT", "bpm": 132, "key_camelot": "3B" },
+  { "name": "Outsider House", "artist": "Can U", "bpm": 125, "key_camelot": "5A" },
+  { "name": "FM'92", "artist": "Willix", "bpm": 132, "key_camelot": "9A" },
+  { "name": "Embrace", "artist": "Pastel Ghost", "bpm": 128, "key_camelot": "5A" },
+  { "name": "Nude", "artist": "Soft Blade", "bpm": 120, "key_camelot": "4B" },
+  { "name": "Porsche Majeure", "artist": "TVAM", "bpm": 88, "key_camelot": "9B" },
+  { "name": "Solitude - Felsmann + Tiley Reinterpretation", "artist": "M83", "bpm": 122, "key_camelot": "8B" },
+  { "name": "I Lost 200€ in a Club", "artist": "Tell", "bpm": 117, "key_camelot": "2B" },
+  { "name": "First Time I Heard It", "artist": "Video Unknown", "bpm": 132, "key_camelot": "5A" },
+  { "name": "Eternal Rest", "artist": "Wuldo", "bpm": 127, "key_camelot": "11A" },
+  { "name": "Cinderella 99", "artist": "Cult Member", "bpm": 124, "key_camelot": "7B" },
+  { "name": "Thinkin' Bout You", "artist": "Hush Hush", "bpm": 125, "key_camelot": "2B" },
+  { "name": "At Night", "artist": "Dj Cinéma Quartier Latin", "bpm": 127, "key_camelot": "7A" },
+  { "name": "Risk", "artist": "Paluma Sound", "bpm": 118, "key_camelot": "5A" },
+  { "name": "Formula", "artist": "Soft Blade", "bpm": 120, "key_camelot": "9B" },
+  { "name": "Morphine", "artist": "Boy Harsher", "bpm": 130, "key_camelot": "9B" },
+  { "name": "In The After Hours", "artist": "No_4mat", "bpm": 138, "key_camelot": "2B" },
+  { "name": "The Cigarette", "artist": "LNRT", "bpm": 130, "key_camelot": "10A" },
+  { "name": "Players Only", "artist": "LNRT", "bpm": 132, "key_camelot": "11B" },
+  { "name": "меланхолия нимфоманки", "artist": "vecher 1998", "bpm": 122, "key_camelot": "5B" },
+  { "name": "One More Cartoon, Please", "artist": "Niki Istrefi", "bpm": 142, "key_camelot": "1B" },
+  { "name": "Miami - Original Mix", "artist": "Jasper Byrne", "bpm": 95, "key_camelot": "10B" },
+  { "name": "Posle Nas", "artist": "Soft Blade", "bpm": 136, "key_camelot": "8A" },
+  { "name": "Winona", "artist": "DJ BORING", "bpm": 122, "key_camelot": "4A" },
+  { "name": "Paris Hilton Is My Stylist", "artist": "Kleinefrigo", "bpm": 125, "key_camelot": "4B" },
+  { "name": "296/Simplicity", "artist": "Fullempty", "bpm": 129, "key_camelot": "10A" },
+  { "name": "Mind Control", "artist": "Berserk", "bpm": 120, "key_camelot": "8A" },
+  { "name": "You", "artist": "Dj Cinéma Quartier Latin", "bpm": 122, "key_camelot": "3A" },
+  { "name": "Time is a Loop", "artist": "No_4mat", "bpm": 128, "key_camelot": "11B" },
+  { "name": "One Line", "artist": "ERHA", "bpm": 130, "key_camelot": "3B" },
+  { "name": "midnight district", "artist": "airshade", "bpm": 117, "key_camelot": "3B" },
+  { "name": "ur last text.", "artist": "witxoutessence", "bpm": 122, "key_camelot": "11A" },
+  { "name": "Lolibox", "artist": "Sewerslvt", "bpm": 128, "key_camelot": "2A" },
+  { "name": "Before Your Eyes", "artist": "Soft Blade", "bpm": 172, "key_camelot": "9B" },
+  { "name": "What a Mess - Bauhouse Remix", "artist": "Uliou", "bpm": 132, "key_camelot": "8B" },
+  { "name": "Positive", "artist": "Jamback", "bpm": 130, "key_camelot": "6B" },
+  { "name": "Allegri", "artist": "Thylacine", "bpm": 118, "key_camelot": "3B" },
+  { "name": "shattered love heart", "artist": "witxoutessence", "bpm": 122, "key_camelot": "8B" },
+  { "name": "distance", "artist": "dlsctr4k", "bpm": 130, "key_camelot": "2A" },
+  { "name": "People Of The Night", "artist": "GIGSTA", "bpm": 131, "key_camelot": "5A" },
+  { "name": "comin at ya", "artist": "upper class", "bpm": 124, "key_camelot": "8B" },
+  { "name": "You Thought", "artist": "Mall Grab", "bpm": 136, "key_camelot": "2B" },
+  { "name": "New York", "artist": "Mall Grab", "bpm": 143, "key_camelot": "6B" },
+  { "name": "iluv", "artist": "Etty", "bpm": 138, "key_camelot": "8B" },
+  { "name": "Workout", "artist": "Mall Grab", "bpm": 142, "key_camelot": "4B" },
+  { "name": "78 To Stanley Bay", "artist": "Chaos In The CBD", "bpm": 119, "key_camelot": "6A" },
+  { "name": "Alive - Solomun Remix", "artist": "RÜFÜS DU SOL", "bpm": 122, "key_camelot": "3A" },
+  { "name": "and the colour red", "artist": "Underworld", "bpm": 127, "key_camelot": "9B" },
+  { "name": "g-town euphoria (luna)", "artist": "Underworld", "bpm": 142, "key_camelot": "4A" },
+  { "name": "denver luna", "artist": "Underworld", "bpm": 135, "key_camelot": "4A" },
+  { "name": "Losing It", "artist": "FISHER", "bpm": 125, "key_camelot": "10B" },
+  { "name": "You Little Beauty", "artist": "FISHER", "bpm": 124, "key_camelot": "11A" },
+  { "name": "California Dreamin' (feat. High Jinx)", "artist": "Chris Lorenzo", "bpm": 128, "key_camelot": "11B" },
+  { "name": "Toca Toca - Radio Edit", "artist": "Fly Project", "bpm": 126, "key_camelot": "3A" },
+  { "name": "Give It To Me - Full Vocal Mix", "artist": "Matt Sassari", "bpm": 126, "key_camelot": "12A" },
+  { "name": "It Feels So Good", "artist": "Matt Sassari", "bpm": 128, "key_camelot": "4A" },
+  { "name": "Massive", "artist": "Drake", "bpm": 125, "key_camelot": "9A" },
+  { "name": "Isla de Mujeres", "artist": "JOHN ELLE", "bpm": 127, "key_camelot": "1B" },
+  { "name": "Gimme Gimme - Club Mix", "artist": "Kevin McKay", "bpm": 126, "key_camelot": "7A" },
+  { "name": "LET'S GO", "artist": "Jaden Bojsen", "bpm": 129, "key_camelot": "12A" },
+  { "name": "Let's Go", "artist": "Jaden Bojsen", "bpm": 129, "key_camelot": "1A" },
+  { "name": "World Hold On (Children Of The Sky) - FISHER Rework", "artist": "Bob Sinclar", "bpm": 127, "key_camelot": "12A" },
+  { "name": "Move", "artist": "Adam Port", "bpm": 120, "key_camelot": "1A" },
+  { "name": "Who Loves The Sun feat. Jo.Ke - Edit", "artist": "Nu", "bpm": 120, "key_camelot": "3A" },
+  { "name": "It's Not Right - Radio Edit", "artist": "Gianni Romano", "bpm": 123, "key_camelot": "3B" },
+  { "name": "7 Seconds", "artist": "Joezi", "bpm": 124, "key_camelot": "12A" },
+  { "name": "Seven", "artist": "John Alenca", "bpm": 123, "key_camelot": "12A" },
+  { "name": "Say My Name", "artist": "Souhail Amwork", "bpm": 120, "key_camelot": "7B" },
+  { "name": "Yamore", "artist": "MoBlack", "bpm": 120, "key_camelot": "12A" },
+  { "name": "Famax", "artist": "RAFFA GUIDO", "bpm": 121, "key_camelot": "2A" },
+  { "name": "Dirty Cash (Money Talks)", "artist": "PAWSA", "bpm": 132, "key_camelot": "8B" },
+  { "name": "WACUKA", "artist": "AVAION", "bpm": 130, "key_camelot": "8B" },
+  { "name": "More Love - Rampa &ME Remix", "artist": "Moderat", "bpm": 122, "key_camelot": "9A" },
+  { "name": "Morenita", "artist": "HUGEL", "bpm": 124, "key_camelot": "3B" },
+  { "name": "El Sueno", "artist": "HUGEL", "bpm": 126, "key_camelot": "9B" },
+  { "name": "Aguila (feat. Cumbiafrica)", "artist": "HUGEL", "bpm": 125, "key_camelot": "11A" },
+  { "name": "On My Mind", "artist": "Diplo", "bpm": 123, "key_camelot": "9B" },
+  { "name": "Marea (we've lost dancing)", "artist": "Fred again..", "bpm": 123, "key_camelot": "4A" },
+  { "name": "The Parade", "artist": "Joel Corry", "bpm": 124, "key_camelot": "3A" },
+  { "name": "Satisfaction", "artist": "David Guetta", "bpm": 126, "key_camelot": "1B" },
+  { "name": "Alors On Danse - DubDogz Remix", "artist": "Stromae", "bpm": 123, "key_camelot": "12A" },
+  { "name": "Be My Lover (feat. La Bouche) - 2023 Mix", "artist": "Hypaton", "bpm": 126, "key_camelot": "4B" },
+  { "name": "Fuego", "artist": "TCTS", "bpm": 126, "key_camelot": "3B" },
+  { "name": "Don't Be so Shy - Filatov & Karas Remix", "artist": "Imany", "bpm": 120, "key_camelot": "1A" },
+  { "name": "Titatite - Radio Edit", "artist": "Luch", "bpm": 122, "key_camelot": "9A" },
+  { "name": "Tu Calor", "artist": "Lucca Saettone", "bpm": 121, "key_camelot": "12A" },
+  { "name": "I Adore You (feat. Daecolm)", "artist": "HUGEL", "bpm": 120, "key_camelot": "10A" },
+  { "name": "3 Malas", "artist": "JOHN ELLE", "bpm": 125, "key_camelot": "6B" },
+  { "name": "Morenita - Matroda Remix", "artist": "HUGEL", "bpm": 126, "key_camelot": "1A" },
+  { "name": "Forever (feat. Malou & Yuna)", "artist": "HUGEL", "bpm": 120, "key_camelot": "8A" },
+  { "name": "Ilusiones", "artist": "Aaron Sevilla", "bpm": 123, "key_camelot": "10A" },
+  { "name": "Varón", "artist": "Tokischa", "bpm": 112, "key_camelot": "11B" },
+  { "name": "Hiccup", "artist": "GRECAS", "bpm": 128, "key_camelot": "8A" },{
+    "name": "Kalashnikov",
+    "artist": "Clave Especial",
+    "bpm": 145,
+    "key_camelot": "6A"
   },
   {
-    "name": "En Las Noches Frias",
-    "artist": "Ñengo Flow",
-    "bpm": 81,
-    "key_camelot": "5A"
+    "name": "RÁPIDO SOY",
+    "artist": "Clave Especial",
+    "bpm": 145,
+    "key_camelot": "6A"
   },
   {
-    "name": "Como los Maestros",
-    "artist": "Kaydy Cain",
-    "bpm": 90,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Cuando Perriabas",
-    "artist": "Bad Bunny",
-    "bpm": 164,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Glopeta No Se Callen",
-    "artist": "Ñengo Flow",
-    "bpm": 91,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Entramos Disparando",
-    "artist": "Ñengo Flow",
-    "bpm": 90,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Pa' Que Retozen",
-    "artist": "Tego Calderón",
-    "bpm": 92,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Traficando",
-    "artist": "Ñengo Flow",
-    "bpm": 180,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "I Thought About Killing You",
-    "artist": "Kanye West",
-    "bpm": 116,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Versatility",
-    "artist": "Ñengo Flow",
-    "bpm": 91,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "No Dice Na",
-    "artist": "Ñengo Flow",
-    "bpm": 170,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Destruccion Masiva",
-    "artist": "Ñengo Flow",
-    "bpm": 91,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Corta y Palo",
-    "artist": "Ñengo Flow",
-    "bpm": 91,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Pineapple",
-    "artist": "KAROL G",
-    "bpm": 95,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Haciéndote El Amor",
-    "artist": "Ñengo Flow",
-    "bpm": 172,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Infierno",
-    "artist": "Yung Beef",
-    "bpm": 92,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Mayor Que Yo",
-    "artist": "Baby Ranks",
-    "bpm": 180,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Multiorgásmica",
-    "artist": "La Mafia del Amor",
-    "bpm": 92,
+    "name": "Billete Grande (En Vivo)",
+    "artist": "Fuerza Regida",
+    "bpm": 101,
     "key_camelot": "4A"
   },
   {
-    "name": "Tu Eres Otra Cosa",
-    "artist": "Ñengo Flow",
-    "bpm": 174,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Sinfonico Con Yampi",
-    "artist": "Ñengo Flow",
-    "bpm": 94,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Ghost Town",
-    "artist": "Kanye West",
-    "bpm": 83,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Dembow",
-    "artist": "Wisin & Yandel",
-    "bpm": 93,
-    "key_camelot": "6A"
-  },{
-    "name": "Blessed",
-    "artist": "Kaydy Cain",
-    "bpm": 90,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Cuando Me Dirá",
-    "artist": "Ñengo Flow",
-    "bpm": 88,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "R.I.P.",
-    "artist": "Playboi Carti",
-    "bpm": 140,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Trátame",
-    "artist": "Kaydy Cain",
-    "bpm": 90,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Xapiadora",
-    "artist": "La Mafia del Amor",
-    "bpm": 90,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "La Prision",
-    "artist": "Ñengo Flow",
-    "bpm": 90,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Gansta Shit",
-    "artist": "Ñengo Flow",
-    "bpm": 92,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Kingston",
-    "artist": "Faye Webster",
-    "bpm": 142,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Pam Pam",
-    "artist": "Wisin & Yandel",
-    "bpm": 95,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "I Know You",
-    "artist": "Faye Webster",
-    "bpm": 155,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Alto Cargo Pt. 2",
-    "artist": "Gloosito",
-    "bpm": 92,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "CHORRITO PA LAS ANIMAS",
-    "artist": "Feid",
-    "bpm": 96,
-    "key_camelot": "1A"
-  },{
-    "name": "Yebba’s Heartbreak",
-    "artist": "Drake",
-    "bpm": 120,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Castigo",
-    "artist": "Feid",
-    "bpm": 180,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Yo Sé Que Tú Quieres",
-    "artist": "Sammy & Falsetto",
-    "bpm": 180,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Que Quieres De Mi",
-    "artist": "Gotay \"El Autentiko\"",
-    "bpm": 93,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Me Conformo",
-    "artist": "Kaydy Cain",
-    "bpm": 98,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "CLASSY 101",
-    "artist": "Feid",
-    "bpm": 100,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "47",
-    "artist": "Anuel AA",
-    "bpm": 146,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Vamp Anthem",
-    "artist": "Playboi Carti",
-    "bpm": 164,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Désolé",
-    "artist": "Kaydy Cain",
-    "bpm": 88,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "A Ti No",
-    "artist": "Yaga & Mackie",
-    "bpm": 96,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Coco Chanel",
-    "artist": "Eladio Carrion",
-    "bpm": 140,
-    "key_camelot": "2A"
-  },{
-    "name": "FE!N (feat. Playboi Carti)",
-    "artist": "Travis Scott",
+    "name": "Ella Baila Sola",
+    "artist": "Eslabon Armado",
     "bpm": 148,
-    "key_camelot": "2A"
+    "key_camelot": "4A"
   },
   {
-    "name": "Perreo Pesau'",
-    "artist": "Rauw Alejandro",
-    "bpm": 172,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Hummingbird (Metro Boomin & James Blake)",
-    "artist": "Metro Boomin",
-    "bpm": 81,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Gangsta Life",
-    "artist": "Ñengo Flow",
-    "bpm": 90,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Oye Mi Canto (with Tego Calderon, Nina Sky, Gemstar, Big Mato)",
-    "artist": "N.O.R.E.",
-    "bpm": 96,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Seguimo a lo Under",
-    "artist": "Ñengo Flow",
-    "bpm": 98,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Mega Ñengo Flow",
-    "artist": "Mister Remix",
-    "bpm": 180,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Novinha",
-    "artist": "MC Buzzz",
-    "bpm": 130,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "18",
-    "artist": "Yan Block",
-    "bpm": 90,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "50 PALOS",
-    "artist": "Feid",
-    "bpm": 94,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "secuestro",
-    "artist": "Slayter",
-    "bpm": 94,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Alocate",
-    "artist": "Zion",
-    "bpm": 94,
-    "key_camelot": "3A"
-  },{
-    "name": "333",
-    "artist": "Cris MJ",
-    "bpm": 106,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "El Cielo",
-    "artist": "Sky Rompiendo",
-    "bpm": 106,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "EL CLúB",
-    "artist": "Bad Bunny",
-    "bpm": 111,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "BABY NUEVA",
-    "artist": "Bad Bunny",
-    "bpm": 118,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Rush",
-    "artist": "Troye Sivan",
-    "bpm": 126,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "intro",
-    "artist": "Slayter",
-    "bpm": 128,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Freestyle 1",
-    "artist": "Kaydy Cain",
-    "bpm": 150,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "New Tank",
-    "artist": "Playboi Carti",
-    "bpm": 151,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "La Ganga Rg4l",
-    "artist": "Ñengo Flow",
-    "bpm": 178,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Rap City",
-    "artist": "Kaydy Cain",
+    "name": "ME JALO",
+    "artist": "Fuerza Regida",
     "bpm": 80,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Oohh Shit",
-    "artist": "Kaydy Cain",
-    "bpm": 90,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Guasa Guasa (feat. Voltio)",
-    "artist": "Tego Calderón",
-    "bpm": 95,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Media Hora",
-    "artist": "Yan Block",
-    "bpm": 95,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "FINA",
-    "artist": "Bad Bunny",
-    "bpm": 95,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "LATINA FOREVA",
-    "artist": "KAROL G",
-    "bpm": 98,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "NO ME QUIERO CASAR",
-    "artist": "Bad Bunny",
-    "bpm": 99,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "HATRED",
-    "artist": "The Kid LAROI",
-    "bpm": 124,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Pain",
-    "artist": "PinkPantheress",
-    "bpm": 126,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Deli",
-    "artist": "Ice Spice",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },{
-    "name": "The Truth",
-    "artist": "Kaydy Cain",
-    "bpm": 146,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "EVIL JORDAN",
-    "artist": "Playboi Carti",
-    "bpm": 154,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Tití Me Preguntó",
-    "artist": "Bad Bunny",
-    "bpm": 107,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Snap My Finger (feat. PinkPantheress)",
-    "artist": "KAYTRANADA",
-    "bpm": 118,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "D3MON",
-    "artist": "Yan Block",
-    "bpm": 120,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Vacile",
-    "artist": "Yan Block",
-    "bpm": 120,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Anya Mmiri",
-    "artist": "CKay",
-    "bpm": 126,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Yo sé",
-    "artist": "Yan Block",
-    "bpm": 136,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Miss The Rage",
-    "artist": "Trippie Redd",
-    "bpm": 77,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Puro Parcerito",
-    "artist": "Oblivion's Mighty Trash",
-    "bpm": 95,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Espresso Martini",
-    "artist": "Rauw Alejandro",
-    "bpm": 123,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Fuletazo de Besos (feat. Jenay)",
-    "artist": "Ñengo Flow",
-    "bpm": 172,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Permitame (feat. Yandel)",
-    "artist": "Tony Dize",
-    "bpm": 214,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "SUERTE",
-    "artist": "Yan Block",
-    "bpm": 118,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Korazón de Piedra",
-    "artist": "Yan Block",
-    "bpm": 120,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Illegal",
-    "artist": "PinkPantheress",
-    "bpm": 141,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Amor Prohibido",
-    "artist": "Kaydy Cain",
-    "bpm": 84,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "ALAKRAN",
-    "artist": "Feid",
-    "bpm": 98,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Got Me Started",
-    "artist": "Troye Sivan",
-    "bpm": 127,
-    "key_camelot": "6A"
-  },{
-    "name": "Over",
-    "artist": "Playboi Carti",
-    "bpm": 130,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "La Calle Está Cabrona",
-    "artist": "Kaydy Cain",
-    "bpm": 170,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Más Que Tú",
-    "artist": "Kaydy Cain",
-    "bpm": 172,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "NOKIA",
-    "artist": "Drake",
-    "bpm": 106,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Levels",
-    "artist": "BigXthaPlug",
-    "bpm": 122,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Boy's a Liar",
-    "artist": "PinkPantheress",
-    "bpm": 133,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Feminomania",
-    "artist": "Kaydy Cain",
-    "bpm": 95,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "BITTERSUITE",
-    "artist": "Billie Eilish",
-    "bpm": 125,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "La Llevo Al Cielo (Ft. Ñengo Flow)",
-    "artist": "Chris Jedi",
-    "bpm": 170,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "K-Llao",
-    "artist": "Kaydy Cain",
-    "bpm": 172,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Te Hable Claro",
-    "artist": "Gotay \"El Autentiko\"",
-    "bpm": 174,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "GANGSTERS Y PISTOLAS",
-    "artist": "Feid",
-    "bpm": 90,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "MorFina Freestyle",
-    "artist": "Ñengo Flow",
-    "bpm": 100,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Pretty Girl",
-    "artist": "Clairo",
-    "bpm": 112,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Sofia",
-    "artist": "Clairo",
-    "bpm": 113,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Just for Me",
-    "artist": "PinkPantheress",
-    "bpm": 133,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "In Ha Mood",
-    "artist": "Ice Spice",
-    "bpm": 141,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Medellin",
-    "artist": "Kaydy Cain",
-    "bpm": 146,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "MIFAI",
-    "artist": "Oblivion's Mighty Trash",
-    "bpm": 86,
-    "key_camelot": "9A"
-  },{
-    "name": "ILoveUIHateU",
-    "artist": "Playboi Carti",
-    "bpm": 135,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Desaparecido",
-    "artist": "Ñengo Flow",
-    "bpm": 164,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "En el Infierno de Tu Gloria - 2016",
-    "artist": "Kaydy Cain",
-    "bpm": 88,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Guerrilla",
-    "artist": "Ñengo Flow",
-    "bpm": 95,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "CHIHIRO",
-    "artist": "Billie Eilish",
-    "bpm": 110,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Not My Problem",
-    "artist": "Laila!",
-    "bpm": 138,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Still Lovin' - No Estés Triste",
-    "artist": "Kaydy Cain",
-    "bpm": 92,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "One Of Your Girls",
-    "artist": "Troye Sivan",
-    "bpm": 93,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Evangélicos de Calle - Remix",
-    "artist": "Tony Money",
-    "bpm": 95,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Mosquito",
-    "artist": "PinkPantheress",
-    "bpm": 163,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Perdedores del Barrio",
-    "artist": "Kaydy Cain",
-    "bpm": 168,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Evergreen",
-    "artist": "Yebba",
-    "bpm": 73,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Lego Ring",
-    "artist": "Faye Webster",
-    "bpm": 83,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "BIRDS OF A FEATHER",
-    "artist": "Billie Eilish",
-    "bpm": 105,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "...And To Those I Love, Thanks For Sticking Around",
-    "artist": "$uicideboy$",
-    "bpm": 114,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Sky",
-    "artist": "Playboi Carti",
-    "bpm": 140,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "#Freemolly (Intro)",
-    "artist": "Yung Beef",
-    "bpm": 141,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Type Shit",
-    "artist": "Future",
-    "bpm": 145,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "El Papasito (feat. Cookin Soul)",
-    "artist": "Yung Beef",
-    "bpm": 178,
-    "key_camelot": "10B"
-  },{
-    "name": "El Rey Del Narcotrafico",
-    "artist": "Ñengo Flow",
-    "bpm": 76,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "IDK WHAT TO TELL YOU",
-    "artist": "Bktherula",
-    "bpm": 132,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Evangélicos de Calle",
-    "artist": "Tony Money",
-    "bpm": 96,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Mmhmm",
-    "artist": "BigXthaPlug",
-    "bpm": 126,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "L'AMOUR DE MA VIE",
-    "artist": "Billie Eilish",
-    "bpm": 145,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Fo Ma Shooters",
-    "artist": "Kaydy Cain",
-    "bpm": 166,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "K-LLAO Mix",
-    "artist": "Kaydy Cain",
-    "bpm": 175,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Soldado Y Profeta (feat. Ozuna, Almighty, Kendo & Ñengo Flow)",
-    "artist": "Anuel AA",
-    "bpm": 87,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Eres Tu (feat. Arcangel)",
-    "artist": "Ñengo Flow",
-    "bpm": 88,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "No Me Acuerdo",
-    "artist": "Oblivion's Mighty Trash",
-    "bpm": 88,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Purgatorio",
-    "artist": "Kaydy Cain",
-    "bpm": 139,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Medallo Bullies",
-    "artist": "Oblivion's Mighty Trash",
-    "bpm": 96,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Think U The Shit (Fart)",
-    "artist": "Ice Spice",
-    "bpm": 122,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Efecto",
-    "artist": "Bad Bunny",
-    "bpm": 98,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Gently (feat. Bad Bunny)",
-    "artist": "Drake",
-    "bpm": 108,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "KELOIDE",
-    "artist": "Feid",
-    "bpm": 94,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Yo Voy (feat. Daddy Yankee)",
-    "artist": "Zion & Lennox",
-    "bpm": 95,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "5'3",
-    "artist": "Yan Block",
-    "bpm": 140,
     "key_camelot": "7A"
   },
   {
-    "name": "VeLDÁ",
-    "artist": "Bad Bunny",
-    "bpm": 91,
-    "key_camelot": "7B"
-  },{
-    "name": "Feliz Cumpleaños Ferxxo",
-    "artist": "Feid",
-    "bpm": 95,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "PERRO NEGRO",
-    "artist": "Bad Bunny",
-    "bpm": 96,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "DILUVIO",
-    "artist": "Rauw Alejandro",
-    "bpm": 96,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "La Old Skul",
-    "artist": "Rauw Alejandro",
-    "bpm": 105,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "NUEVAYOL",
-    "artist": "Bad Bunny",
-    "bpm": 117,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "WHERE SHE GOES",
-    "artist": "Bad Bunny",
-    "bpm": 144,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "La Calle Me Lo Pidio",
-    "artist": "Yandel",
-    "bpm": 95,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "PUNTO 40",
-    "artist": "Rauw Alejandro",
-    "bpm": 107,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Dile a El",
-    "artist": "Rauw Alejandro",
-    "bpm": 90,
+    "name": "CRAZYZ",
+    "artist": "Fuerza Regida",
+    "bpm": 126,
     "key_camelot": "9A"
   },
   {
-    "name": "Religión",
-    "artist": "Yan Block",
-    "bpm": 96,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "VOY A LLEVARTE PA PR",
-    "artist": "Bad Bunny",
-    "bpm": 100,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "ESQUIRLA",
-    "artist": "Feid",
-    "bpm": 100,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Te Colaboro - Remix",
-    "artist": "Brray",
-    "bpm": 100,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "LOKERA",
-    "artist": "Rauw Alejandro",
-    "bpm": 102,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Qué Pasaría...",
-    "artist": "Rauw Alejandro",
-    "bpm": 105,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Tarot",
-    "artist": "Bad Bunny",
-    "bpm": 114,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Mastercard",
-    "artist": "Yan Block",
-    "bpm": 119,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "La Corriente",
-    "artist": "Bad Bunny",
-    "bpm": 196,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Lady Mi Amor",
-    "artist": "Feid",
-    "bpm": 93,
+    "name": "Dinero",
+    "artist": "Trinidad Cardona",
+    "bpm": 120,
     "key_camelot": "10B"
   },
   {
-    "name": "FRIKI",
-    "artist": "Feid",
-    "bpm": 95,
-    "key_camelot": "11A"
+    "name": "Jugaste y Sufrí",
+    "artist": "Eslabon Armado",
+    "bpm": 200,
+    "key_camelot": "9B"
   },
   {
-    "name": "PPCP",
-    "artist": "Feid",
-    "bpm": 105,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Yandel 150",
-    "artist": "Yandel",
-    "bpm": 168,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "3 Doritos",
-    "artist": "Yan Block",
-    "bpm": 96,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Party",
-    "artist": "Bad Bunny",
-    "bpm": 97,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "piña",
-    "artist": "Slayter",
-    "bpm": 98,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Revolú",
-    "artist": "Rauw Alejandro",
-    "bpm": 196,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "+57",
-    "artist": "KAROL G",
-    "bpm": 92,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Costilla de Raxet",
-    "artist": "LaBlackie",
-    "bpm": 98,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "444",
-    "artist": "Yan Block",
-    "bpm": 119,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "EoO",
-    "artist": "Bad Bunny",
-    "bpm": 102,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Dona-Dona",
-    "artist": "Gloosito",
-    "bpm": 112,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Talking Shit",
-    "artist": "Gloosito",
-    "bpm": 98,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Suchito Mission (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 136,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "PACO DE LUCÍA",
-    "artist": "Gloosito",
-    "bpm": 120,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Luz V€Rd€ (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 105,
+    "name": "NUEVA VIDA",
+    "artist": "Peso Pluma",
+    "bpm": 180,
     "key_camelot": "4A"
   },
   {
-    "name": "Outro S.U.V",
-    "artist": "Gloosito",
-    "bpm": 86,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Why U Actin?",
-    "artist": "Dano",
-    "bpm": 103,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Arrogant",
-    "artist": "Gloosito",
-    "bpm": 98,
-    "key_camelot": "7B"
-  },{
-    "name": "El Single",
-    "artist": "Gloosito",
-    "bpm": 96,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "As Bestas (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 100,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Flavour Chaser (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 100,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Metroit (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 160,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Lo mío",
-    "artist": "Gloosito",
-    "bpm": 100,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "No Competition (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 105,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Rico para Siempre (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 90,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Never Take Personal (feat. Kris R., La Exce)",
-    "artist": "Gloosito",
-    "bpm": 200,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "12Pound Freestyle (feat. Baby Pantera)",
-    "artist": "Gloosito",
-    "bpm": 92,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Traigo",
-    "artist": "Natanael Cano",
-    "bpm": 97,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "El Gordo Trae El Mando",
+    "name": "Dijeron Que No La Iba Lograr",
     "artist": "Chino Pacas",
-    "bpm": 140,
+    "bpm": 142,
     "key_camelot": "6A"
   },
   {
-    "name": "Soy El Diablo",
-    "artist": "Natanael Cano",
-    "bpm": 75,
-    "key_camelot": "7B"
+    "name": "LADY GAGA",
+    "artist": "Peso Pluma",
+    "bpm": 140,
+    "key_camelot": "4A"
   },
   {
-    "name": "El Azul",
+    "name": "QUE ONDA",
+    "artist": "Calle 24",
+    "bpm": 125,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "GPI",
+    "artist": "Clave Especial",
+    "bpm": 133,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "PIÉNSALO",
     "artist": "Junior H",
-    "bpm": 144,
-    "key_camelot": "8B"
+    "bpm": 98,
+    "key_camelot": "7A"
   },
   {
-    "name": "Igualito a Mi Apá",
-    "artist": "Fuerza Regida",
-    "bpm": 145,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "AMG",
-    "artist": "Natanael Cano",
-    "bpm": 136,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Pal Que Dijo Que No",
-    "artist": "Natanael Cano",
-    "bpm": 129,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Me Acostumbre A Lo Bueno",
-    "artist": "Fuerza Regida",
-    "bpm": 102,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "TÚ ET MOI",
-    "artist": "Judeline",
-    "bpm": 96,
-    "key_camelot": "2A"
-  },{
-    "name": "Varón",
-    "artist": "Tokischa",
-    "bpm": 112,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Hiccup",
-    "artist": "GRECAS",
-    "bpm": 128,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Evangélicos de Calle",
-    "artist": "Tony Money",
-    "bpm": 96,
-    "key_camelot": "11B"
-  },{
-    "name": "Slip",
-    "artist": "Elliot Moss",
-    "bpm": 64,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Me Desculpa Jay Z",
-    "artist": "Baco Exu do Blues",
-    "bpm": 146,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Nangs",
-    "artist": "Tame Impala",
-    "bpm": 168,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "White Ferrari",
-    "artist": "Frank Ocean",
-    "bpm": 109,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Save Your Tears",
-    "artist": "The Weeknd",
-    "bpm": 118,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Circles",
-    "artist": "Post Malone",
-    "bpm": 120,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Feeling Whitney",
-    "artist": "Post Malone",
-    "bpm": 80,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Yes I'm Changing",
-    "artist": "Tame Impala",
-    "bpm": 180,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "To All of You",
-    "artist": "Syd Matters",
-    "bpm": 104,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Afterthought",
-    "artist": "Joji",
-    "bpm": 84,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Lost In Yesterday",
-    "artist": "Tame Impala",
-    "bpm": 183,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Mic Check",
-    "artist": "Cornelius",
-    "bpm": 101,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Bags",
-    "artist": "Clairo",
-    "bpm": 105,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "One More Year",
-    "artist": "Tame Impala",
-    "bpm": 114,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "YEAH RIGHT",
-    "artist": "Joji",
-    "bpm": 169,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Redbone",
-    "artist": "Childish Gambino",
-    "bpm": 160,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Sunflower - Spider-Man: Into the Spider-Verse",
-    "artist": "Post Malone",
-    "bpm": 90,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Purple Haze",
-    "artist": "Jimi Hendrix",
-    "bpm": 109,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Reality In Motion",
-    "artist": "Tame Impala",
-    "bpm": 115,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "It Might Be Time",
-    "artist": "Tame Impala",
-    "bpm": 116,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "LSD",
-    "artist": "A$AP Rocky",
-    "bpm": 120,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "On Melancholy Hill",
-    "artist": "Gorillaz",
-    "bpm": 120,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "I'm God",
-    "artist": "Clams Casino",
-    "bpm": 142,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "On Track",
-    "artist": "Tame Impala",
-    "bpm": 164,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Super Rich Kids",
-    "artist": "Frank Ocean",
-    "bpm": 60,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "I THINK",
-    "artist": "Tyler, The Creator",
-    "bpm": 121,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Wait a Minute!",
-    "artist": "WILLOW",
-    "bpm": 101,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "SLOW DANCING IN THE DARK",
-    "artist": "Joji",
-    "bpm": 89,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Love Buzz",
-    "artist": "Nirvana",
-    "bpm": 138,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Groove Bom",
-    "artist": "Natiruts",
-    "bpm": 101,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Break My Heart Again",
-    "artist": "FINNEAS",
-    "bpm": 144,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "One More Hour",
-    "artist": "Tame Impala",
-    "bpm": 102,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "The Less I Know The Better",
-    "artist": "Tame Impala",
-    "bpm": 117,
-    "key_camelot": "12B"
-  },{
-    "name": "Ribs",
-    "artist": "Lorde",
-    "bpm": 128,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Lovers Rock",
-    "artist": "TV Girl",
-    "bpm": 105,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Everything In Its Right Place",
-    "artist": "Radiohead",
-    "bpm": 124,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Walking On A Dream",
-    "artist": "Empire Of The Sun",
-    "bpm": 127,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Pyramids",
-    "artist": "Frank Ocean",
+    "name": "Se Amerita",
+    "artist": "Junior H",
     "bpm": 108,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Like a Tattoo",
-    "artist": "Sade",
-    "bpm": 136,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Nights",
-    "artist": "Frank Ocean",
-    "bpm": 90,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Stargirl Interlude",
-    "artist": "The Weeknd",
-    "bpm": 180,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Small Worlds",
-    "artist": "Mac Miller",
-    "bpm": 78,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Love/Paranoia",
-    "artist": "Tame Impala",
-    "bpm": 111,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Me and Your Mama",
-    "artist": "Childish Gambino",
-    "bpm": 118,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Disciples",
-    "artist": "Tame Impala",
-    "bpm": 127,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Let's Fall in Love for the Night",
-    "artist": "FINNEAS",
-    "bpm": 128,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "The Adults Are Talking",
-    "artist": "The Strokes",
-    "bpm": 165,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Stay",
-    "artist": "Post Malone",
-    "bpm": 86,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Video Games",
-    "artist": "Lana Del Rey",
-    "bpm": 73,
     "key_camelot": "11A"
   },
   {
-    "name": "White Rabbit",
-    "artist": "Jefferson Airplane",
-    "bpm": 107,
-    "key_camelot": "10B"
+    "name": "LUZ VERDE",
+    "artist": "Clave Especial",
+    "bpm": 109,
+    "key_camelot": "2B"
   },
   {
-    "name": "Raçaman",
-    "artist": "Natiruts",
-    "bpm": 78,
-    "key_camelot": "11A"
+    "name": "3",
+    "artist": "Neton Vega",
+    "bpm": 124,
+    "key_camelot": "3A"
   },
   {
-    "name": "Congratulations",
-    "artist": "Post Malone",
+    "name": "MIENTRAS DUERMES",
+    "artist": "Junior H",
+    "bpm": 125,
+    "key_camelot": "1B"
+  },{
+    "name": "Marea (we’ve lost dancing)",
+    "artist": "Fred again..",
     "bpm": 123,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Headlock",
-    "artist": "Imogen Heap",
-    "bpm": 120,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Past Life",
-    "artist": "Tame Impala",
-    "bpm": 146,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "rockstar (feat. 21 Savage)",
-    "artist": "Post Malone",
-    "bpm": 160,
     "key_camelot": "4A"
   },
   {
-    "name": "Mr. Rager",
-    "artist": "Kid Cudi",
-    "bpm": 102,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "The Moment",
-    "artist": "Tame Impala",
-    "bpm": 119,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "White Iverson",
-    "artist": "Post Malone",
-    "bpm": 130,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Deja Vu",
-    "artist": "Post Malone",
-    "bpm": 134,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Posthumous Forgiveness",
-    "artist": "Tame Impala",
-    "bpm": 154,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Guilty Conscience",
-    "artist": "070 Shake",
-    "bpm": 180,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "She",
-    "artist": "Tyler, The Creator",
-    "bpm": 83,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Are You Bored Yet? (feat. Clairo)",
-    "artist": "Wallows",
+    "name": "Say My Name",
+    "artist": "Souhail Artwork",
     "bpm": 120,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Self Control",
-    "artist": "Frank Ocean",
-    "bpm": 80,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Nikes",
-    "artist": "Frank Ocean",
-    "bpm": 138,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "I Don't Think I Can Do This Again (with Clairo)",
-    "artist": "Mura Masa",
-    "bpm": 139,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "New Person, Same Old Mistakes",
-    "artist": "Tame Impala",
-    "bpm": 152,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Eventually",
-    "artist": "Tame Impala",
-    "bpm": 78,
-    "key_camelot": "8A"
+    "key_camelot": "7B"
   },{
-    "name": "Ain't No Grave",
-    "artist": "Johnny Cash",
-    "bpm": 80,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Hurt",
-    "artist": "Johnny Cash",
+    "name": "Con la Misma Piedra",
+    "artist": "Julio Iglesias",
     "bpm": 90,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Veridis Quo",
-    "artist": "Daft Punk",
-    "bpm": 107,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Ivy",
-    "artist": "Frank Ocean",
-    "bpm": 116,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Show Me How",
-    "artist": "Men I Trust",
-    "bpm": 166,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Washing Machine Heart",
-    "artist": "Mitski",
-    "bpm": 106,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "'Cause I'm A Man",
-    "artist": "Tame Impala",
-    "bpm": 145,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Pink + White",
-    "artist": "Frank Ocean",
-    "bpm": 160,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Redemption Day",
-    "artist": "Johnny Cash",
-    "bpm": 92,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Genesis",
-    "artist": "Grimes",
-    "bpm": 166,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Instant Destiny",
-    "artist": "Tame Impala",
-    "bpm": 166,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Wow.",
-    "artist": "Post Malone",
-    "bpm": 100,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Gossip",
-    "artist": "Tame Impala",
-    "bpm": 119,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Chamber Of Reflection",
-    "artist": "Mac DeMarco",
-    "bpm": 131,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Flaming Hot Cheetos",
-    "artist": "Clairo",
-    "bpm": 110,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "hotline (edit)",
-    "artist": "Billie Eilish",
-    "bpm": 57,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Female Energy, Part 2",
-    "artist": "WILLOW",
-    "bpm": 120,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "No One Noticed",
-    "artist": "The Marías",
-    "bpm": 98,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Bubble Gum",
-    "artist": "Clairo",
-    "bpm": 208,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Spin Me Around",
-    "artist": "The Marías",
-    "bpm": 76,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "BANDIT",
-    "artist": "Don Toliver",
-    "bpm": 130,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "if u think i'm pretty",
-    "artist": "Artemas",
-    "bpm": 144,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Una Velita",
-    "artist": "Bad Bunny",
-    "bpm": 114,
-    "key_camelot": "9A"
-  },{
-    "name": "Juna",
-    "artist": "Clairo",
-    "bpm": 142,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Sexy to Someone",
-    "artist": "Clairo",
-    "bpm": 98,
     "key_camelot": "5A"
   },
   {
-    "name": "Glimpse of Us",
-    "artist": "Joji",
-    "bpm": 170,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Die For You",
-    "artist": "Joji",
-    "bpm": 148,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Flowers",
-    "artist": "WILLOW",
-    "bpm": 87,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Mystery of Love",
-    "artist": "Sufjan Stevens",
-    "bpm": 132,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Angel",
-    "artist": "FINNEAS",
-    "bpm": 130,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Amour plastique",
-    "artist": "Videoclub",
-    "bpm": 120,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Música da Lagoa",
-    "artist": "Hermeto Pascoal",
-    "bpm": 102,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Sorri, Sou Rei (feat. Claudia Leitte)",
-    "artist": "Natiruts",
-    "bpm": 101,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Pérola Negra (feat. Luiz Melodia) - Ao Vivo",
-    "artist": "Natiruts",
-    "bpm": 130,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Sorri, Sou Rei - Faixa Bônus Ao Vivo",
-    "artist": "Natiruts",
-    "bpm": 103,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Supernova - Ao Vivo",
-    "artist": "Natiruts",
-    "bpm": 100,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "No Mar - Ao Vivo",
-    "artist": "Natiruts",
-    "bpm": 105,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Breathe (In the Air)",
-    "artist": "Pink Floyd",
-    "bpm": 128,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "In My Room",
-    "artist": "Frank Ocean",
-    "bpm": 158,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Chanel",
-    "artist": "Frank Ocean",
-    "bpm": 110,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Whisper Of A Thrill",
-    "artist": "Thomas Newman",
-    "bpm": 126,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Where This Flower Blooms (feat. Frank Ocean)",
-    "artist": "Tyler, The Creator",
-    "bpm": 130,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "16",
-    "artist": "Baby Keem",
-    "bpm": 94,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Parallel Desire",
-    "artist": "Vera Blue",
-    "bpm": 100,
-    "key_camelot": "5A"
-  },{
-    "name": "I Wish you Roses",
-    "artist": "Kali Uchis",
-    "bpm": 142,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "storm",
-    "artist": "Night Tapes",
-    "bpm": 120,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "But, I loved",
-    "artist": "Highasakite",
-    "bpm": 101,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Ex-Factor",
-    "artist": "Ms. Lauryn Hill",
-    "bpm": 80,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Melting",
-    "artist": "Kali Uchis",
-    "bpm": 115,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "25 Metres",
-    "artist": "Silver Gore",
-    "bpm": 143,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "NIGHTS LIKE THIS PT 2",
-    "artist": "The Kid LAROI",
-    "bpm": 95,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Mrs Magic",
-    "artist": "Strawberry Guy",
-    "bpm": 133,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "BLUE",
-    "artist": "Billie Eilish",
-    "bpm": 142,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "360",
-    "artist": "Charli xcx",
-    "bpm": 120,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Only In My Dreams",
-    "artist": "The Marías",
-    "bpm": 144,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "The Abyss (feat. Lana Del Rey)",
-    "artist": "The Weeknd",
-    "bpm": 81,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "The Mannequin Song",
-    "artist": "Hotel Ugly",
-    "bpm": 130,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Pendant",
-    "artist": "Cuco",
-    "bpm": 135,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Ocho Rios",
-    "artist": "Daniel Caesar",
-    "bpm": 128,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Lithonia",
-    "artist": "Childish Gambino",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Image",
-    "artist": "Magdalena Bay",
-    "bpm": 128,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "My Love Mine All Mine",
-    "artist": "Mitski",
-    "bpm": 114,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Novacane",
-    "artist": "Frank Ocean",
-    "bpm": 94,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Who Hurt You?",
-    "artist": "Daniel Caesar",
-    "bpm": 105,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Alesis",
-    "artist": "Mk.gee",
-    "bpm": 108,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "luther (with sza)",
-    "artist": "Kendrick Lamar",
-    "bpm": 138,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Kyle (i found you)",
-    "artist": "Fred again..",
-    "bpm": 112,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Midnight",
-    "artist": "James Blake",
-    "bpm": 72,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Death & Romance",
-    "artist": "Magdalena Bay",
-    "bpm": 106,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "NO SZNS",
-    "artist": "Jean Dawson",
-    "bpm": 112,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Open Arms (feat. Travis Scott)",
-    "artist": "SZA",
-    "bpm": 78,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Fallout (with Gus Dapperton, Lil Yachty & Joey Bada$$)",
-    "artist": "Lyrical Lemonade",
-    "bpm": 130,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Space Oddity - 2015 Remaster",
-    "artist": "David Bowie",
-    "bpm": 134,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Float (feat. Seun Kuti & Egypt 80)",
-    "artist": "Janelle Monáe",
-    "bpm": 126,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Distance",
-    "artist": "Yebba",
-    "bpm": 140,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "JACKIE BROWN",
-    "artist": "Brent Faiyaz",
-    "bpm": 138,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "adore u",
-    "artist": "Fred again..",
-    "bpm": 124,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Girl With The Tattoo Enter.lewd",
-    "artist": "Miguel",
-    "bpm": 113,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Die For Me (feat. Lil Yachty)",
-    "artist": "Jean Dawson",
-    "bpm": 132,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "EYES",
-    "artist": "The Blaze",
-    "bpm": 120,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Dead Man Walking",
-    "artist": "Brent Faiyaz",
-    "bpm": 144,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "30 For 30 (with Kendrick Lamar)",
-    "artist": "SZA",
-    "bpm": 140,
-    "key_camelot": "12A"
-  },{
-    "name": "Innerbloom - Radio Edit",
-    "artist": "RÜFÜS DU SOL",
-    "bpm": 122,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Good Looking",
-    "artist": "Suki Waterhouse",
-    "bpm": 150,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "PIMMIE'S DILEMMA",
-    "artist": "Pimmie",
-    "bpm": 130,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Let Go",
-    "artist": "Ark Patrol",
+    "name": "Vuela Alto",
+    "artist": "Julio Iglesias",
     "bpm": 82,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Show Me Love",
-    "artist": "WizTheMc",
-    "bpm": 107,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Double Fantasy (with Future)",
-    "artist": "The Weeknd",
-    "bpm": 119,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "ILYSM",
-    "artist": "Kali Uchis",
-    "bpm": 131,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "did i tell u that i miss u",
-    "artist": "adore",
-    "bpm": 112,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Tadow",
-    "artist": "Masego",
-    "bpm": 122,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Pretend Lovers",
-    "artist": "Montell Fish",
-    "bpm": 120,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Solitude - Felsmann + Tiley Reinterpretation",
-    "artist": "M83",
-    "bpm": 122,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Die For You - Remix",
-    "artist": "The Weeknd",
-    "bpm": 67,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Hell N Back",
-    "artist": "Bakar",
-    "bpm": 210,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "You & Me - Flume Remix",
-    "artist": "Disclosure",
-    "bpm": 75,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Valentina",
-    "artist": "Daniel Caesar",
-    "bpm": 92,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Saturn",
-    "artist": "SZA",
-    "bpm": 178,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Yeah - bonus",
-    "artist": "Mac Miller",
-    "bpm": 148,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Seasons",
-    "artist": "Sam Austins",
-    "bpm": 137,
     "key_camelot": "11A"
   },
   {
-    "name": "Echo",
-    "artist": "The Marías",
-    "bpm": 81,
-    "key_camelot": "7A"
+    "name": "Soy un Truhán, Soy un Señor",
+    "artist": "Julio Iglesias",
+    "bpm": 99,
+    "key_camelot": "8B"
   },
   {
-    "name": "End of Beginning",
-    "artist": "Djo",
-    "bpm": 160,
+    "name": "Me Olvidé De Vivir",
+    "artist": "Julio Iglesias",
+    "bpm": 124,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Je n'ai pas changé (No Vengo Ni Voy)",
+    "artist": "Julio Iglesias",
+    "bpm": 109,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Hey - Spanish",
+    "artist": "Julio Iglesias",
+    "bpm": 104,
     "key_camelot": "10B"
   },
   {
-    "name": "the perfect pair",
-    "artist": "beabadoobee",
-    "bpm": 146,
-    "key_camelot": "1B"
-  },{
-    "name": "Afro Trap Pt. 7 (La puissance)",
-    "artist": "MHD",
-    "bpm": 120,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Fresh Morocco",
-    "artist": "Aiman JR",
+    "name": "Bamboleo",
+    "artist": "Julio Iglesias",
     "bpm": 103,
-    "key_camelot": "4A"
+    "key_camelot": "9A"
   },
   {
-    "name": "Madrid",
-    "artist": "Aiman JR",
-    "bpm": 138,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Ma rue n'est pas à vendre",
-    "artist": "Moha La Squale",
-    "bpm": 90,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Bandolero",
-    "artist": "Moha La Squale",
+    "name": "Me Va, Me Va",
+    "artist": "Julio Iglesias",
     "bpm": 100,
-    "key_camelot": "8A"
+    "key_camelot": "10B"
   },
   {
-    "name": "Bendero",
-    "artist": "Moha La Squale",
-    "bpm": 90,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Vatos Locos",
-    "artist": "Jul",
-    "bpm": 189,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Bande organisée",
-    "artist": "Kofs",
-    "bpm": 143,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Amigo",
-    "artist": "Cheb Bilal",
-    "bpm": 110,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Beso Prohibido",
-    "artist": "Beny Jr",
-    "bpm": 107,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Eurovision (feat. Rondodasosa, Baby Gang, A2 Anti, Morad, Beny Jr, Ashe 22 & Freeze corleone)",
-    "artist": "Central Cee",
-    "bpm": 144,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Color Caramelo",
-    "artist": "Beny Jr",
-    "bpm": 132,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Mariachi",
-    "artist": "Beny Jr",
-    "bpm": 125,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Combo la L",
-    "artist": "Beny Jr",
-    "bpm": 137,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Parao",
-    "artist": "Beny Jr",
-    "bpm": 117,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Kardash",
-    "artist": "Beny Jr",
-    "bpm": 95,
-    "key_camelot": "7A"
-  },
-  {
-    "name": "A Escondidas",
-    "artist": "Skyhook",
-    "bpm": 98,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "Pelele",
-    "artist": "Morad",
-    "bpm": 145,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Se Grita",
-    "artist": "Morad",
-    "bpm": 94,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Casablanca (feat. Morad)",
-    "artist": "Baby Gang",
-    "bpm": 120,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "La street",
-    "artist": "Jul",
-    "bpm": 135,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Paris Como Hakimi",
-    "artist": "Morad",
-    "bpm": 133,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Cómo Están?",
-    "artist": "Morad",
-    "bpm": 87,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Les Duele",
-    "artist": "Morad",
-    "bpm": 128,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Chandal",
-    "artist": "Morad",
-    "bpm": 131,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Seguimos",
-    "artist": "Morad",
-    "bpm": 90,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Yo No Voy",
-    "artist": "Morad",
-    "bpm": 144,
-    "key_camelot": "7A"
-  },
-  {
-    "name": "Normal",
-    "artist": "Morad",
-    "bpm": 90,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "No Hace Na",
-    "artist": "Morad",
-    "bpm": 104,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Recuerdos - Freestyle",
-    "artist": "Morad",
-    "bpm": 131,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Pensamientos",
-    "artist": "Morad",
-    "bpm": 104,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Que Viene el Álbum - Freestyle",
-    "artist": "Morad",
-    "bpm": 125,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Lo Que Quiera",
-    "artist": "Morad",
-    "bpm": 196,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Frontera Nada",
-    "artist": "TiiwTiiw",
-    "bpm": 180,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Oh qu'elle est belle",
-    "artist": "Jul",
-    "bpm": 97,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Maghrebins",
-    "artist": "Mister You",
-    "bpm": 78,
-    "key_camelot": "6A"
-  },{
-    "name": "ENAMORAO' DE MÍ",
-    "artist": "3dnan",
-    "bpm": 126,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "AMOR AL AZAR",
-    "artist": "3dnan",
-    "bpm": 100,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Tourner Dans Le Vide",
-    "artist": "Indila",
-    "bpm": 120,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Thé à la menthe (The Lazer Dance Version) [Instrumental]",
-    "artist": "La Caution",
+    "name": "Agua Dulce, Agua Salá",
+    "artist": "Julio Iglesias",
     "bpm": 99,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Busca de Más",
-    "artist": "Wise",
-    "bpm": 118,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Afro Trap Part. 11 (King Kong)",
-    "artist": "MHD",
-    "bpm": 124,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Réseaux",
-    "artist": "Niska",
-    "bpm": 150,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Dolce Camara",
-    "artist": "Booba",
-    "bpm": 112,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Meleğim",
-    "artist": "Soolking",
-    "bpm": 95,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Casanova",
-    "artist": "Soolking",
-    "bpm": 132,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Cheb Marlboro",
-    "artist": "Khaled",
-    "bpm": 176,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Chouf U Skout",
-    "artist": "Khaled",
-    "bpm": 88,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Hiya",
-    "artist": "Khaled",
-    "bpm": 145,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "La Vendicion",
-    "artist": "Khaled",
-    "bpm": 91,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Volando Recto",
-    "artist": "Khaled",
-    "bpm": 95,
-    "key_camelot": "9A"
-  },{
-    "name": "Wombass",
-    "artist": "Tiësto",
-    "bpm": 125,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Body Work",
-    "artist": "Pickle",
-    "bpm": 126,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Blow",
-    "artist": "Pickle",
-    "bpm": 125,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Losing It",
-    "artist": "FISHER",
-    "bpm": 125,
     "key_camelot": "10B"
   },
   {
-    "name": "ALL MY FRIENDS ARE IN THE BATHROOM",
-    "artist": "FJAAK",
-    "bpm": 133,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Galactic Symphony",
-    "artist": "Mandragora",
-    "bpm": 100,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "To Ü (feat. AlunaGeorge)",
-    "artist": "Jack Ü",
-    "bpm": 160,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Mind (feat. Kai)",
-    "artist": "Jack Ü",
-    "bpm": 174,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Would You Ever",
-    "artist": "Skrillex",
+    "name": "Gozar La Vida",
+    "artist": "Julio Iglesias",
     "bpm": 126,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Corazon Espinado (feat. Mana)",
+    "artist": "Santana",
+    "bpm": 120,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "¿Y Cómo Es Él?",
+    "artist": "José Luis Perales",
+    "bpm": 170,
     "key_camelot": "6B"
   },
   {
-    "name": "Show Me Love - Skrillex Remix",
-    "artist": "Hundred Waters",
-    "bpm": 130,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Summit (feat. Ellie Goulding)",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Internet Friends",
-    "artist": "Knife Party",
-    "bpm": 128,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Illuminati",
-    "artist": "ShayGray",
-    "bpm": 144,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Piece Of Your Heart",
-    "artist": "MEDUZA",
-    "bpm": 124,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Deep Down Low",
-    "artist": "Valentino Khan",
-    "bpm": 126,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Memories (feat. Kid Cudi)",
-    "artist": "David Guetta",
-    "bpm": 130,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Harder, Better, Faster, Stronger",
-    "artist": "Daft Punk",
-    "bpm": 123,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Robot Rock",
-    "artist": "Daft Punk",
-    "bpm": 112,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "The Parade - Original Radio Version",
-    "artist": "Da Corry",
-    "bpm": 132,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Bridged By A Lightwave - Radio Edit",
-    "artist": "deadmau5",
-    "bpm": 128,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "GG",
-    "artist": "deadmau5",
-    "bpm": 128,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Bonfire",
-    "artist": "Knife Party",
-    "bpm": 174,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Mumbai Power",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Stars Come Out",
-    "artist": "Zedd",
-    "bpm": 128,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Kyoto (feat. Sirah)",
-    "artist": "Skrillex",
-    "bpm": 175,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Dancin (feat. Luvli) - Krono Remix",
-    "artist": "Aaron Smith",
-    "bpm": 120,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "U Got That",
-    "artist": "Halogen",
-    "bpm": 124,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "In My Mind",
-    "artist": "Dynoro",
-    "bpm": 126,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Heads Will Roll - A-Trak Remix",
-    "artist": "Yeah Yeah Yeahs",
-    "bpm": 132,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Bunnydance",
-    "artist": "Oliver Heldens",
-    "bpm": 126,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Planet Rock",
-    "artist": "Afrika Bambaataa",
-    "bpm": 127,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "World Destruction",
-    "artist": "Time Zone",
-    "bpm": 138,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Afrika Shox",
-    "artist": "Leftfield",
-    "bpm": 130,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "212",
-    "artist": "Azealia Banks",
-    "bpm": 126,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Supernature",
-    "artist": "Cerrone",
-    "bpm": 123,
-    "key_camelot": "4A"
-  },{
-    "name": "Voodoo?",
-    "artist": "L'Impératrice",
-    "bpm": 108,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "White Lines (Don't Do It)",
-    "artist": "Grandmaster Flash",
-    "bpm": 115,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Run Baby Run",
-    "artist": "Paul Ritch",
-    "bpm": 126,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "How Deep Is Your Love",
-    "artist": "Calvin Harris",
-    "bpm": 122,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Vapo Vapo",
-    "artist": "Mandragora",
-    "bpm": 150,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Memories (feat. Kid Cudi) - 2021 Remix",
-    "artist": "David Guetta",
-    "bpm": 127,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Get Got",
-    "artist": "Death Grips",
-    "bpm": 87,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Freed From Desire",
-    "artist": "Gala",
-    "bpm": 129,
-    "key_camelot": "7A"
-  },
-  {
-    "name": "Bassiani",
-    "artist": "FJAAK",
-    "bpm": 135,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Over",
-    "artist": "Tsuki",
-    "bpm": 134,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Oblivion",
-    "artist": "Grimes",
-    "bpm": 156,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Cry (feat. Grimes)",
-    "artist": "Ashnikko",
-    "bpm": 174,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Liverpool Street In The Rain",
-    "artist": "Mall Grab",
-    "bpm": 130,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "COASTED - Jay Robinson Remix",
-    "artist": "deadmau5",
-    "bpm": 124,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Over",
-    "artist": "C.O.Z",
-    "bpm": 125,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "the last dance",
-    "artist": "ricky retro",
-    "bpm": 124,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Home",
-    "artist": "Solomun",
-    "bpm": 120,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Gravity",
-    "artist": "Boris Brejcha",
-    "bpm": 125,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Never Been Better",
-    "artist": "Mandragora",
-    "bpm": 136,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Saxo Aletoso (Mashbeat)",
-    "artist": "Aleteo Musik",
-    "bpm": 128,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Me Provocas (Mashbeat)",
-    "artist": "Aleteo Musik",
-    "bpm": 128,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Sailor Moon Mashbeat Guaracha Mix",
-    "artist": "Aleteo Musik",
-    "bpm": 127,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Ritmo (Mashbeat)",
-    "artist": "Aleteo Musik",
-    "bpm": 126,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Pre Continental Colonization Trap",
-    "artist": "Javier Estrada",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Somos Mayas",
-    "artist": "Javier Estrada",
-    "bpm": 132,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "La Noche del Jaguar",
-    "artist": "Javier Estrada",
-    "bpm": 132,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Single Feather Remix (feat. Tribe Called Red)",
-    "artist": "Black Bear",
-    "bpm": 104,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Old School Is for Lovers (feat. Morningstar River)",
-    "artist": "Shub",
-    "bpm": 140,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "M.O.S.T.C.O. (feat. Northern Cree Singers)",
-    "artist": "Shub",
-    "bpm": 150,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Native Puppy Love",
-    "artist": "The Halluci Nation",
-    "bpm": 130,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Smoke Circle",
-    "artist": "Akkord",
-    "bpm": 200,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Stadium Pow Wow",
-    "artist": "The Halluci Nation",
-    "bpm": 140,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
-    "artist": "ABBA",
-    "bpm": 120,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Rasputin",
-    "artist": "Majestic",
-    "bpm": 128,
-    "key_camelot": "11A"
-  },{
-    "name": "in heat.",
-    "artist": "Hentai Xander",
-    "bpm": 128,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Distance - Volac Remix",
-    "artist": "Apashe",
-    "bpm": 126,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "300000003",
-    "artist": "999999999",
-    "bpm": 133,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Ani Kuni - Edit",
-    "artist": "Polo & Pan",
-    "bpm": 121,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Nana",
-    "artist": "Polo & Pan",
+    "name": "Un Velero Llamado Libertad",
+    "artist": "José Luis Perales",
     "bpm": 94,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Canopée",
-    "artist": "Polo & Pan",
-    "bpm": 96,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Ani Kuni",
-    "artist": "Polo & Pan",
-    "bpm": 121,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Tunnel",
-    "artist": "Polo & Pan",
-    "bpm": 120,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Quien Es El Patron?",
-    "artist": "Systema Solar",
-    "bpm": 130,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Quien es el patron?",
-    "artist": "Systema Solar",
-    "bpm": 115,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Orion - Original",
-    "artist": "Onur Özer",
-    "bpm": 127,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Rock 'n' Roll (Will Take You to the Mountain)",
-    "artist": "Skrillex",
-    "bpm": 128,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "First of the Year (Equinox)",
-    "artist": "Skrillex",
-    "bpm": 116,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Bangarang (feat. Sirah)",
-    "artist": "Skrillex",
-    "bpm": 110,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Try It Out (with Alvin Risk) - Neon Mix",
-    "artist": "Skrillex",
-    "bpm": 139,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Ruffneck - Full Flex",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Jungle",
-    "artist": "Fred again..",
-    "bpm": 134,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Supersonic (My Existence) [with Noisia, josh pan & Dylan Brady]",
-    "artist": "Skrillex",
-    "bpm": 172,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Goosebumps - Remix",
-    "artist": "Travis Scott",
-    "bpm": 125,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Butterflies",
-    "artist": "Skrillex",
-    "bpm": 128,
-    "key_camelot": "7A"
-  },
-  {
-    "name": "Make It Bun Dem",
-    "artist": "Skrillex",
-    "bpm": 105,
-    "key_camelot": "9B"
-  },{
-    "name": "voltage (see you again)",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Where Are Ü Now (with Justin Bieber)",
-    "artist": "Jack Ü",
-    "bpm": 139,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "VOLVER",
-    "artist": "Tainy",
-    "bpm": 155,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "In Da Getto",
-    "artist": "J Balvin",
-    "bpm": 127,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "LA NOCHE",
-    "artist": "Chris Lake",
-    "bpm": 127,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Rumble",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "glow",
-    "artist": "Fred again..",
-    "bpm": 129,
     "key_camelot": "12B"
   },
   {
-    "name": "Baby again..",
-    "artist": "Fred again..",
-    "bpm": 127,
-    "key_camelot": "10B"
+    "name": "Rodrigo: Concierto De Aranjuez: 2. Adagio",
+    "artist": "Paco de Lucía",
+    "bpm": 74,
+    "key_camelot": "10A"
   },
   {
-    "name": "HUMBLE. - SKRILLEX REMIX",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "RATATA",
-    "artist": "Skrillex",
-    "bpm": 124,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "fuze",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "move ting",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Fine Day Anthem",
-    "artist": "Skrillex",
-    "bpm": 138,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Supersonic (my existence)",
-    "artist": "Skrillex",
-    "bpm": 86,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Wild for the Night (feat. Skrillex & Birdy Nam Nam)",
-    "artist": "A$AP Rocky",
-    "bpm": 140,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "SPITFIRE",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "hit me where it hurts x",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "THINGS I PROMISED",
-    "artist": "Skrillex",
-    "bpm": 148,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "while you were sleeping",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "Working For It",
-    "artist": "ZHU",
+    "name": "Mediterranean Sundance / Rio Ancho",
+    "artist": "Al Di Meola",
     "bpm": 100,
-    "key_camelot": "4A"
+    "key_camelot": "9A"
   },
   {
-    "name": "Scary Monsters and Nice Sprites",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "ANDY",
-    "artist": "Skrillex",
-    "bpm": 75,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "En Mi Cuarto",
-    "artist": "JHAYCO",
-    "bpm": 115,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Ego Death (feat. Kanye West, FKA twigs & Skrillex)",
-    "artist": "Ty Dolla $ign",
-    "bpm": 111,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "RECOVERY",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Get Up! (feat. Skrillex)",
-    "artist": "Korn",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "TEARS LOST DROP",
-    "artist": "Skrillex",
-    "bpm": 150,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Leave Me Like This",
-    "artist": "Skrillex",
-    "bpm": 125,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Push",
-    "artist": "Skrillex",
-    "bpm": 140,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "HOLD ON",
-    "artist": "Skrillex",
-    "bpm": 149,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "BADDERS",
-    "artist": "PEEKABOO",
-    "bpm": 73,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "El Chapo - Bonus Track",
-    "artist": "The Game",
-    "bpm": 127,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Don't Go (with Justin Bieber & Don Toliver)",
-    "artist": "Skrillex",
-    "bpm": 75,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Hydrate",
-    "artist": "Skrillex",
-    "bpm": 75,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Face My Fears (English Version)",
-    "artist": "Hikaru Utada",
-    "bpm": 160,
-    "key_camelot": "12A"
-  },{
-    "name": "Ragga Bomb (with Ragga Twins)",
-    "artist": "Skrillex",
-    "bpm": 174,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Take Ü There (feat. Kiesza)",
-    "artist": "Jack Ü",
-    "bpm": 160,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Under The Sheets - Jakwob Remix",
-    "artist": "Ellie Goulding",
-    "bpm": 138,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Make It Bun Dem",
-    "artist": "Skrillex",
+    "name": "La Flor De La Canela",
+    "artist": "Paco de Lucía",
     "bpm": 105,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Mediterráneo",
+    "artist": "Joan Manuel Serrat",
+    "bpm": 100,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Cantares",
+    "artist": "Joan Manuel Serrat",
+    "bpm": 126,
     "key_camelot": "9B"
-  },
-  {
-    "name": "Night (Radio Edit) [Extended]",
-    "artist": "Benga",
-    "bpm": 140,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Levels - Skrillex Remix",
-    "artist": "Avicii",
-    "bpm": 140,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "In For The Kill - Skream's Let's Get Ravey Remix",
-    "artist": "La Roux",
-    "bpm": 146,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Katy on a Mission",
-    "artist": "Katy B",
-    "bpm": 140,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Decisions (feat. Miley Cyrus)",
-    "artist": "Borgore",
-    "bpm": 140,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Changes",
-    "artist": "Mala",
-    "bpm": 139,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "I Can't Stop",
-    "artist": "Flux Pavilion",
-    "bpm": 140,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Eyes on Fire - Zeds Dead Remix",
-    "artist": "Blue Foundation",
-    "bpm": 145,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Intensive Snare feat. Skepta - Original Mix",
-    "artist": "Plastician",
-    "bpm": 70,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Lone Wolf",
-    "artist": "Zomboy",
-    "bpm": 150,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Skeng",
-    "artist": "The Bug",
-    "bpm": 140,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Centipede",
-    "artist": "Knife Party",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Stone Cold",
-    "artist": "groove chronicles",
-    "bpm": 135,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Hard",
-    "artist": "Breakage",
-    "bpm": 140,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Air & Lack Thereof",
-    "artist": "James Blake",
-    "bpm": 139,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Jah War - Loefah Remix",
-    "artist": "The Bug",
-    "bpm": 139,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Hyph Mngo",
-    "artist": "Joy Orbison",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Perfect Stranger (feat. Magnetic Man)",
-    "artist": "Katy B",
-    "bpm": 143,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Anti War Dub",
-    "artist": "Mala",
-    "bpm": 139,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Still Getting It",
-    "artist": "Foreign Beggars",
-    "bpm": 140,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Midnight Request Line",
-    "artist": "Skream",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Like A Bitch",
-    "artist": "Zomboy",
-    "bpm": 150,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Perfect Stranger (feat. Katy B)",
-    "artist": "Magnetic Man",
-    "bpm": 143,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Crush On You",
-    "artist": "NERO",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "The Knowledge",
-    "artist": "Toasty",
-    "bpm": 142,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "9 Samurai",
-    "artist": "Kode9",
-    "bpm": 140,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Wut",
-    "artist": "Girl Unit",
-    "bpm": 140,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Feel Good",
-    "artist": "Modestep",
-    "bpm": 140,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Broken Home",
-    "artist": "Burial",
-    "bpm": 140,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Innocence",
-    "artist": "NERO",
-    "bpm": 137,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Roll with the Punches",
-    "artist": "Peverelist",
-    "bpm": 138,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Heartbeat - Chase & Status We Just Bought A Guitar Mix",
-    "artist": "Nneka",
-    "bpm": 144,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Eastern Jam",
-    "artist": "Chase & Status",
-    "bpm": 140,
-    "key_camelot": "10A"
   },{
-    "name": "Liverpool Street In The Rain",
-    "artist": "Mall Grab",
-    "bpm": 130,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Menace II Society",
-    "artist": "Mall Grab",
-    "bpm": 128,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "District 8",
-    "artist": "FJAAK",
-    "bpm": 138,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "I Wish My Bird Was This Dirty",
-    "artist": "Sons Of Charlie",
-    "bpm": 140,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Rave 4 love",
-    "artist": "999999999",
-    "bpm": 133,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Groove District",
-    "artist": "Starjunk 95",
-    "bpm": 125,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Bayside - Radio Edit",
-    "artist": "Obskür",
-    "bpm": 123,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "It's Time Again",
-    "artist": "FJAAK",
-    "bpm": 133,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Love Shy - Subjoi's Tuff Jam Rework",
-    "artist": "Subjoi",
-    "bpm": 121,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "COULD BE WRONG",
-    "artist": "LOSTBOYJAY",
-    "bpm": 129,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Bancroft",
-    "artist": "Lemtom",
-    "bpm": 129,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Pigalle",
-    "artist": "Bellaire",
-    "bpm": 125,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "D&C",
-    "artist": "JAYC",
-    "bpm": 130,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "places to be",
-    "artist": "Fred again..",
-    "bpm": 174,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Beautiful People - Obskür Remix",
-    "artist": "Barbara Tucker",
-    "bpm": 128,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Da Fonk (feat. Joni)",
-    "artist": "Mochakk",
-    "bpm": 127,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Pilsplaat",
-    "artist": "Bonkers",
-    "bpm": 125,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Lost",
-    "artist": "RSCL",
-    "bpm": 126,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "FORMATIONS",
-    "artist": "Mild Minds",
-    "bpm": 114,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "GET LOST",
-    "artist": "MATVEÏ",
-    "bpm": 125,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "MARLBORO CLUB",
-    "artist": "PXRKX",
-    "bpm": 120,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Old' On",
-    "artist": "JACK MARLOW",
-    "bpm": 128,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Play My Tune",
-    "artist": "Lombard Street",
-    "bpm": 122,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Vent",
-    "artist": "NOIT",
-    "bpm": 126,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Namerakana",
-    "artist": "Lemtom",
-    "bpm": 130,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "Untitled28",
-    "artist": "Soft Blade",
-    "bpm": 120,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Hope he'll never die",
-    "artist": "Soft Blade",
-    "bpm": 125,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Polynomial-C",
-    "artist": "Aphex Twin",
-    "bpm": 72,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "wants and needs",
-    "artist": "Jake Antonio",
-    "bpm": 132,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Frankenstein - Joyhauser Mix",
-    "artist": "Editors",
-    "bpm": 128,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "On My Knees",
-    "artist": "RÜFÜS DU SOL",
-    "bpm": 120,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Unspoken Thoughts",
-    "artist": "Rad&Co",
-    "bpm": 127,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Vision",
-    "artist": "Palace",
-    "bpm": 128,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Wanna See U",
-    "artist": "Lemtom",
-    "bpm": 129,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Fast Life",
-    "artist": "GEE LEE",
-    "bpm": 125,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Shoreditch",
-    "artist": "Vard.",
-    "bpm": 132,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Bring It Back",
-    "artist": "SOSA",
-    "bpm": 132,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "LIQUOR STORE",
-    "artist": "Adi T",
-    "bpm": 120,
-    "key_camelot": "11A"
-  },{
-    "name": "Everything In Its Right Place - Blurry Face Films - Slowed",
-    "artist": "Alexandra Fever",
-    "bpm": 99,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Suffocation",
-    "artist": "Crystal Castles",
-    "bpm": 120,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "MICHELIN CLUB",
-    "artist": "MARXO",
-    "bpm": 120,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Stephanie",
-    "artist": "Cloonee",
-    "bpm": 130,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Make Me - Franky Rizardo Remix",
-    "artist": "Boral & Denham Audio",
-    "bpm": 130,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "You Are In My System - Club Mix",
-    "artist": "Kerri Chandler",
-    "bpm": 128,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Too Much For Me",
-    "artist": "SELKER",
-    "bpm": 128,
+    "name": "Baila Morena",
+    "artist": "Julio Iglesias",
+    "bpm": 82,
     "key_camelot": "6B"
   },
   {
-    "name": "U Weren't Here I Really Miss You",
-    "artist": "Cult Member",
-    "bpm": 123,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Free",
-    "artist": "Don Carlos",
-    "bpm": 123,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "LOST SIGNAL",
-    "artist": "Adi T",
-    "bpm": 119,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "404",
-    "artist": "Adi T",
-    "bpm": 115,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "HhhshsHHHHhaahhahhshs",
-    "artist": "Sgarz",
-    "bpm": 120,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "without me",
-    "artist": "Sillage",
-    "bpm": 130,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "ok, i can love u.",
-    "artist": "withoutessence",
+    "name": "Me Olvide De Vivir",
+    "artist": "Julio Iglesias",
     "bpm": 124,
-    "key_camelot": "2B"
+    "key_camelot": "8B"
   },
   {
-    "name": "Magic Button",
-    "artist": "EJ3000",
-    "bpm": 134,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "MAKING STANG",
-    "artist": "camo mane",
-    "bpm": 145,
+    "name": "Moralito (La Gota Fría) - Spanish",
+    "artist": "Julio Iglesias",
+    "bpm": 100,
     "key_camelot": "9B"
   },
   {
-    "name": "DEAD AND GONE",
-    "artist": "camo mane",
-    "bpm": 137,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "my body my software",
-    "artist": "joanna ^..^",
-    "bpm": 142,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Right Now",
-    "artist": "LNRT",
-    "bpm": 130,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Do To Me",
-    "artist": "Tim Sanders",
-    "bpm": 128,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Come Together",
-    "artist": "Nox Vahn",
-    "bpm": 79,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Uhu",
-    "artist": "Kleinefrigo",
-    "bpm": 125,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Start Movin",
-    "artist": "CHRONOSONDER",
-    "bpm": 125,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "While We're Young",
-    "artist": "No_4mat",
-    "bpm": 142,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Black Sapphire",
-    "artist": "AL-90",
-    "bpm": 114,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "nightrunner",
-    "artist": "Future Calling",
-    "bpm": 118,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Warm The Room",
-    "artist": "Vales",
-    "bpm": 125,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "FANTASY",
-    "artist": "Adi T",
-    "bpm": 121,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "All Night Long",
-    "artist": "Chris Stussy",
-    "bpm": 133,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "three",
-    "artist": "Cult Member",
-    "bpm": 126,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "BIOS",
-    "artist": "Zorrovian",
-    "bpm": 168,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Ascension",
-    "artist": "Marsh",
-    "bpm": 123,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Never Sleep Again",
-    "artist": "Solomun",
-    "bpm": 120,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Bass Inside",
-    "artist": "AC Slater",
-    "bpm": 126,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Glass Coffin, Pt. 2",
-    "artist": "Sidewalks and Skeletons",
-    "bpm": 127,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "The Progress",
-    "artist": "Kromestar",
-    "bpm": 85,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Keepmastik",
-    "artist": "Phlegmatic Dogs",
-    "bpm": 124,
-    "key_camelot": "9B"
-  },{
-    "name": "Rej",
-    "artist": "Âme",
-    "bpm": 126,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Adderall",
-    "artist": "Atom Pushers",
-    "bpm": 127,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "We Do What We Want",
-    "artist": "Alan Fitzpatrick",
-    "bpm": 126,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "Brian's Proper Dun One",
-    "artist": "Alan Fitzpatrick",
-    "bpm": 126,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Tsukuyomi",
-    "artist": "Lucas Martins",
-    "bpm": 144,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "The Plan",
-    "artist": "Am$trad Billionaire",
-    "bpm": 114,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Sandevistan",
-    "artist": "Revengeday",
-    "bpm": 135,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "ACID PLAAT",
-    "artist": "Krabi",
-    "bpm": 75,
-    "key_camelot": "12B"
-  },
-  {
-    "name": "Terrorist",
-    "artist": "Karma",
-    "bpm": 138,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "NUMB BELL",
-    "artist": "Moderat",
-    "bpm": 124,
+    "name": "Entre Dos Aguas - Remastered 2014",
+    "artist": "Paco de Lucía",
+    "bpm": 103,
     "key_camelot": "8A"
   },
   {
-    "name": "A New Error",
-    "artist": "Moderat",
-    "bpm": 111,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Milk",
-    "artist": "Moderat",
-    "bpm": 115,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Xtal",
-    "artist": "Aphex Twin",
-    "bpm": 115,
+    "name": "Mediterraneo",
+    "artist": "Joan Manuel Serrat",
+    "bpm": 100,
     "key_camelot": "8A"
-  },
-  {
-    "name": "Pulsewidth",
-    "artist": "Aphex Twin",
-    "bpm": 119,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "It's Not The Same",
-    "artist": "Yppah",
-    "bpm": 92,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Whether the Weather - Laurent Garnier Remix",
-    "artist": "Myd",
-    "bpm": 126,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Adieu",
-    "artist": "Tchami",
-    "bpm": 126,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Don't Let Go",
-    "artist": "Supershy",
-    "bpm": 121,
-    "key_camelot": "1A"
-  },
-  {
-    "name": "On Hold - Jamie xx Remix",
-    "artist": "The xx",
-    "bpm": 128,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "The Hacker x Desire - Silver Machine",
-    "artist": "Desire",
-    "bpm": 122,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "What To Do - &ME Remix",
-    "artist": "Guy Gerber",
-    "bpm": 122,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Juno Love",
-    "artist": "Nico Morano",
-    "bpm": 120,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Midnight In A Perfect World",
-    "artist": "DJ Shadow",
-    "bpm": 80,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "16114205181",
-    "artist": "Soft Blade",
-    "bpm": 125,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Dub City",
-    "artist": "DELACOUR",
-    "bpm": 126,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Told You",
-    "artist": "Jake Jeffery",
-    "bpm": 124,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Darling",
-    "artist": "Rad&Co",
-    "bpm": 125,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "groove that never stops",
-    "artist": "Jake Antonio",
-    "bpm": 130,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "1992",
-    "artist": "No_4mat",
-    "bpm": 128,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Deep Space",
-    "artist": "Malkov",
-    "bpm": 120,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "The Touch",
-    "artist": "Rampa",
-    "bpm": 125,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Cobra",
-    "artist": "SebaLazi",
-    "bpm": 110,
-    "key_camelot": "12A"
-  },
-  {
-    "name": "analog odyssey",
-    "artist": "lofi cassette",
-    "bpm": 119,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "velvet dreams",
-    "artist": "lofi cassette",
-    "bpm": 119,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "sunset serenade",
-    "artist": "lofi cassette",
-    "bpm": 119,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "desolate - Slowed",
-    "artist": "ByErik ♫",
-    "bpm": 168,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Urban Nights",
-    "artist": "Meanetik",
-    "bpm": 124,
-    "key_camelot": "4B"
-  },{
-    "name": "On Board",
-    "artist": "Dosem",
-    "bpm": 123,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "+100",
-    "artist": "Boris Brejcha",
-    "bpm": 125,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Magic Hour",
-    "artist": "Satoshi Tomiie",
-    "bpm": 122,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "The 90's generation",
-    "artist": "Cosmjn",
-    "bpm": 127,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Buggin' - Edit",
-    "artist": "Hot Since 82",
-    "bpm": 124,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Eye of the Storm",
-    "artist": "Hot Since 82",
-    "bpm": 120,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Nightfall",
-    "artist": "Hot Since 82",
-    "bpm": 123,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Paradise",
-    "artist": "dentist",
-    "bpm": 119,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Are You Sure?",
-    "artist": "ERHA",
-    "bpm": 130,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Everything",
-    "artist": "Mall Grab",
-    "bpm": 140,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Zerkalo",
-    "artist": "Soft Blade",
-    "bpm": 124,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Live from the ice cave",
-    "artist": "Soft Blade",
-    "bpm": 121,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Pesnya Volchonka",
-    "artist": "Soft Blade",
-    "bpm": 180,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "1992 - Slowed + Reverb Mix",
-    "artist": "No_4mat",
-    "bpm": 102,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Solitude",
-    "artist": "Juno",
-    "bpm": 111,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Untitled 14",
-    "artist": "AL-90",
-    "bpm": 107,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Fantastic Life",
-    "artist": "Cult Member",
-    "bpm": 122,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Lazer Sky",
-    "artist": "Cult Member",
-    "bpm": 121,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "Red Armor",
-    "artist": "Niki Istrefi",
-    "bpm": 140,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Temptation",
-    "artist": "Can U",
-    "bpm": 132,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Playin' Games",
-    "artist": "LNRT",
-    "bpm": 132,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "Outsider House",
-    "artist": "Can U",
-    "bpm": 125,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "FM'92",
-    "artist": "Willix",
-    "bpm": 132,
-    "key_camelot": "9A"
-  },
-  {
-    "name": "Embrace",
-    "artist": "Pastel Ghost",
-    "bpm": 128,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Nude",
-    "artist": "Soft Blade",
-    "bpm": 120,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "Porsche Majeure",
-    "artist": "TVAM",
-    "bpm": 88,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Solitude - Felsmann + Tiley Reinterpretation",
-    "artist": "M83",
-    "bpm": 122,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "I Lost 200€ in a Club",
-    "artist": "Tell",
-    "bpm": 117,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "First Time I Heard It",
-    "artist": "Video Unknown",
-    "bpm": 132,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Eternal Rest",
-    "artist": "Wuldo",
-    "bpm": 127,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Cinderella 99",
-    "artist": "Cult Member",
-    "bpm": 124,
-    "key_camelot": "7B"
-  },
-  {
-    "name": "Thinkin' Bout You",
-    "artist": "Hush Hush",
-    "bpm": 125,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "At Night",
-    "artist": "Dj Cinéma Quartier Latin",
-    "bpm": 127,
-    "key_camelot": "7A"
-  },
-  {
-    "name": "Risk",
-    "artist": "Paluma Sound",
-    "bpm": 118,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "Formula",
-    "artist": "Soft Blade",
-    "bpm": 120,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "Morphine",
-    "artist": "Boy Harsher",
-    "bpm": 130,
-    "key_camelot": "9B"
-  },{
-    "name": "In The After Hours",
-    "artist": "No_4mat",
-    "bpm": 138,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "The Cigarette",
-    "artist": "LNRT",
-    "bpm": 130,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Players Only",
-    "artist": "LNRT",
-    "bpm": 132,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "меланхолия нимфоманки",
-    "artist": "vecher 1998",
-    "bpm": 122,
-    "key_camelot": "5B"
-  },
-  {
-    "name": "One More Cartoon, Please",
-    "artist": "Niki Istrefi",
-    "bpm": 142,
-    "key_camelot": "1B"
-  },
-  {
-    "name": "Miami - Original Mix",
-    "artist": "Jasper Byrne",
-    "bpm": 95,
-    "key_camelot": "10B"
-  },
-  {
-    "name": "Posle Nas",
-    "artist": "Soft Blade",
-    "bpm": 136,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "Winona",
-    "artist": "DJ BORING",
-    "bpm": 122,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "Paris Hilton Is My Stylist",
-    "artist": "Kleinefrigo",
-    "bpm": 125,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "296/Simplicity",
-    "artist": "Fullempty",
-    "bpm": 129,
-    "key_camelot": "10A"
-  },
-  {
-    "name": "Mind Control",
-    "artist": "Berserk",
-    "bpm": 120,
-    "key_camelot": "8A"
-  },
-  {
-    "name": "You",
-    "artist": "Dj Cinéma Quartier Latin",
-    "bpm": 122,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "Time is a Loop",
-    "artist": "No_4mat",
-    "bpm": 128,
-    "key_camelot": "11B"
-  },
-  {
-    "name": "One Line",
-    "artist": "ERHA",
-    "bpm": 130,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "midnight district",
-    "artist": "airshade",
-    "bpm": 117,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "ur last text.",
-    "artist": "witxoutessence",
-    "bpm": 122,
-    "key_camelot": "11A"
-  },
-  {
-    "name": "Lolibox",
-    "artist": "Sewerslvt",
-    "bpm": 128,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "Before Your Eyes",
-    "artist": "Soft Blade",
-    "bpm": 172,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "What a Mess - Bauhouse Remix",
-    "artist": "Uliou",
-    "bpm": 132,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Positive",
-    "artist": "Jamback",
-    "bpm": 130,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "Allegri",
-    "artist": "Thylacine",
-    "bpm": 118,
-    "key_camelot": "3B"
-  },
-  {
-    "name": "shattered love heart",
-    "artist": "witxoutessence",
-    "bpm": 122,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "distance",
-    "artist": "dlsctr4k",
-    "bpm": 130,
-    "key_camelot": "2A"
-  },
-  {
-    "name": "People Of The Night",
-    "artist": "GIGSTA",
-    "bpm": 131,
-    "key_camelot": "5A"
-  },
-  {
-    "name": "comin at ya",
-    "artist": "upper class",
-    "bpm": 124,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "You Thought",
-    "artist": "Mall Grab",
-    "bpm": 136,
-    "key_camelot": "2B"
-  },
-  {
-    "name": "New York",
-    "artist": "Mall Grab",
-    "bpm": 143,
-    "key_camelot": "6B"
-  },
-  {
-    "name": "iluv",
-    "artist": "Etty",
-    "bpm": 138,
-    "key_camelot": "8B"
-  },
-  {
-    "name": "Workout",
-    "artist": "Mall Grab",
-    "bpm": 142,
-    "key_camelot": "4B"
-  },
-  {
-    "name": "78 To Stanley Bay",
-    "artist": "Chaos In The CBD",
-    "bpm": 119,
-    "key_camelot": "6A"
-  },
-  {
-    "name": "Alive - Solomun Remix",
-    "artist": "RÜFÜS DU SOL",
-    "bpm": 122,
-    "key_camelot": "3A"
-  },
-  {
-    "name": "and the colour red",
-    "artist": "Underworld",
-    "bpm": 127,
-    "key_camelot": "9B"
-  },
-  {
-    "name": "g-town euphoria (luna)",
-    "artist": "Underworld",
-    "bpm": 142,
-    "key_camelot": "4A"
-  },
-  {
-    "name": "denver luna",
-    "artist": "Underworld",
-    "bpm": 135,
-    "key_camelot": "4A"
   }
 ]
