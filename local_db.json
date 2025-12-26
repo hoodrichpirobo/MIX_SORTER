@@ -1067,5 +1067,1814 @@
     "artist": "Joan Manuel Serrat",
     "bpm": 100,
     "key_camelot": "8A"
+  },{
+    "name": "Out On Bail",
+    "artist": "YG",
+    "bpm": 204,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Do Not Disturb (feat. Kamaiyah, G-Eazy)",
+    "artist": "YG",
+    "bpm": 104,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "10 TIMES",
+    "artist": "YG",
+    "bpm": 103,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "SUU WHOOP",
+    "artist": "YG",
+    "bpm": 158,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "TOO COCKY",
+    "artist": "YG",
+    "bpm": 100,
+    "key_camelot": "7B"
+  },
+  {
+    "name": "BIG BANK (feat. 2 Chainz, Big Sean, Nicki Minaj)",
+    "artist": "YG",
+    "bpm": 204,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "666 (feat. YoungBoy Never Broke Again)",
+    "artist": "YG",
+    "bpm": 82,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "BOMPTOWN FINEST",
+    "artist": "YG",
+    "bpm": 94,
+    "key_camelot": "6A"
+  },
+  {
+    "name": "Don't Come To LA",
+    "artist": "YG",
+    "bpm": 100,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Why You Always Hatin?",
+    "artist": "YG",
+    "bpm": 93,
+    "key_camelot": "5A"
+  },
+  {
+    "name": "Blacks & Browns",
+    "artist": "YG",
+    "bpm": 92,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Meet The Flockers",
+    "artist": "YG",
+    "bpm": 85,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "My Nigga",
+    "artist": "YG",
+    "bpm": 171,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Really Be (Smokin N Drinkin)",
+    "artist": "YG",
+    "bpm": 146,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Bompton",
+    "artist": "YG",
+    "bpm": 95,
+    "key_camelot": "6B"
+  },
+  {
+    "name": "King's Dead (feat. Future)",
+    "artist": "Jay Rock",
+    "bpm": 82,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Wow Freestyle (feat. Kendrick Lamar)",
+    "artist": "Jay Rock",
+    "bpm": 150,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Hood Gone Love It (feat. Kendrick Lamar)",
+    "artist": "Jay Rock",
+    "bpm": 92,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Gangsta",
+    "artist": "ScHoolboy Q",
+    "bpm": 129,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Collard Greens",
+    "artist": "ScHoolboy Q",
+    "bpm": 154,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Hell Of A Night",
+    "artist": "ScHoolboy Q",
+    "bpm": 124,
+    "key_camelot": "7A"
+  },
+  {
+    "name": "Break The Bank",
+    "artist": "ScHoolboy Q",
+    "bpm": 80,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Man Of The Year",
+    "artist": "ScHoolboy Q",
+    "bpm": 112,
+    "key_camelot": "5B"
+  },
+  {
+    "name": "Chopstix (feat. Travis Scott)",
+    "artist": "ScHoolboy Q",
+    "bpm": 128,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "5200",
+    "artist": "ScHoolboy Q",
+    "bpm": 128,
+    "key_camelot": "12B"
+  },
+  {
+    "name": "Floating (feat. 21 Savage)",
+    "artist": "ScHoolboy Q",
+    "bpm": 140,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Dangerous (feat. Kid Cudi)",
+    "artist": "ScHoolboy Q",
+    "bpm": 172,
+    "key_camelot": "7B"
+  },
+  {
+    "name": "Water (feat. Lil Baby)",
+    "artist": "ScHoolboy Q",
+    "bpm": 131,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Hands On The Wheel (feat. A$AP Rocky)",
+    "artist": "ScHoolboy Q",
+    "bpm": 128,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "To Tha Beat (F'd Up)",
+    "artist": "ScHoolboy Q",
+    "bpm": 70,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "THat Part",
+    "artist": "ScHoolboy Q",
+    "bpm": 113,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Sherane a.k.a Master Splinter's Daughter",
+    "artist": "Kendrick Lamar",
+    "bpm": 82,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Backseat Freestyle",
+    "artist": "Kendrick Lamar",
+    "bpm": 78,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Money Trees",
+    "artist": "Kendrick Lamar",
+    "bpm": 72,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "m.A.A.d city",
+    "artist": "Kendrick Lamar",
+    "bpm": 91,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Swimming Pools (Drank) - Extended Version",
+    "artist": "Kendrick Lamar",
+    "bpm": 74,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Real",
+    "artist": "Kendrick Lamar",
+    "bpm": 100,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Compton",
+    "artist": "Kendrick Lamar",
+    "bpm": 171,
+    "key_camelot": "12A"
+  },{
+    "name": "Wesley's Theory",
+    "artist": "Kendrick Lamar",
+    "bpm": 114,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "King Kunta",
+    "artist": "Kendrick Lamar",
+    "bpm": 107,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "These Walls",
+    "artist": "Kendrick Lamar",
+    "bpm": 108,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "u",
+    "artist": "Kendrick Lamar",
+    "bpm": 72,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Alright",
+    "artist": "Kendrick Lamar",
+    "bpm": 110,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Hood Politics",
+    "artist": "Kendrick Lamar",
+    "bpm": 88,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "How Much A Dollar Cost",
+    "artist": "Kendrick Lamar",
+    "bpm": 88,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "The Blacker The Berry",
+    "artist": "Kendrick Lamar",
+    "bpm": 176,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "i",
+    "artist": "Kendrick Lamar",
+    "bpm": 120,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "BLOOD.",
+    "artist": "Kendrick Lamar",
+    "bpm": 157,
+    "key_camelot": "1A"
+  },
+  {
+    "name": "DNA.",
+    "artist": "Kendrick Lamar",
+    "bpm": 140,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "YAH.",
+    "artist": "Kendrick Lamar",
+    "bpm": 70,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "ELEMENT.",
+    "artist": "Kendrick Lamar",
+    "bpm": 190,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "FEEL.",
+    "artist": "Kendrick Lamar",
+    "bpm": 110,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "LOYALTY. FEAT. RIHANNA.",
+    "artist": "Kendrick Lamar",
+    "bpm": 111,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "bpm": 150,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "LUST.",
+    "artist": "Kendrick Lamar",
+    "bpm": 94,
+    "key_camelot": "2A"
+  },
+  {
+    "name": "XXX. FEAT. U2.",
+    "artist": "Kendrick Lamar",
+    "bpm": 170,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "FEAR.",
+    "artist": "Kendrick Lamar",
+    "bpm": 150,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "DUCKWORTH.",
+    "artist": "Kendrick Lamar",
+    "bpm": 175,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Ambitionz Az A Ridah",
+    "artist": "2Pac",
+    "bpm": 87,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "2 Of Amerikaz Most Wanted (ft. Snoop Doggy Dog)",
+    "artist": "2Pac",
+    "bpm": 99,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Only God Can Judge Me (ft. Rappin' 4-Tay)",
+    "artist": "2Pac",
+    "bpm": 90,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "California Love (remix) (ft. Dr. Dre, Roger Troutman)",
+    "artist": "2Pac",
+    "bpm": 92,
+    "key_camelot": "7B"
+  },
+  {
+    "name": "Wonda Why They Call U B____",
+    "artist": "2Pac",
+    "bpm": 101,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "All Eyez On Me (ft. Big Syke)",
+    "artist": "2Pac",
+    "bpm": 93,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Ambitionz Az A Ridah - Live",
+    "artist": "2Pac",
+    "bpm": 87,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "So Many Tears - Live",
+    "artist": "2Pac",
+    "bpm": 93,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Troublesome - Live",
+    "artist": "2Pac",
+    "bpm": 98,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Hit 'Em Up - Live",
+    "artist": "2Pac",
+    "bpm": 94,
+    "key_camelot": "6A"
+  },
+  {
+    "name": "Murder Was The Case - Live",
+    "artist": "Snoop Dogg",
+    "bpm": 175,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "The Shiznit - Live",
+    "artist": "Snoop Dogg",
+    "bpm": 96,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "G'z And Hustlas - Live",
+    "artist": "Snoop Dogg",
+    "bpm": 91,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Who Am I (What's My Name) - Live",
+    "artist": "Snoop Dogg",
+    "bpm": 97,
+    "key_camelot": "6A"
+  },
+  {
+    "name": "For My Niggaz And Bitches - Live",
+    "artist": "Snoop Dogg",
+    "bpm": 87,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Gin And Juice - Live",
+    "artist": "Snoop Dogg",
+    "bpm": 94,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "2 Of Amerikaz Most Wanted - Live",
+    "artist": "2Pac",
+    "bpm": 100,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Hail Mary",
+    "artist": "Makaveli",
+    "bpm": 82,
+    "key_camelot": "3A"
+  },{
+    "name": "To Live And Die In L.A.",
+    "artist": "Makaveli",
+    "bpm": 174,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Me And My Girlfriend",
+    "artist": "Makaveli",
+    "bpm": 86,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "The Watcher",
+    "artist": "Dr. Dre",
+    "bpm": 98,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Fuck You",
+    "artist": "Dr. Dre",
+    "bpm": 92,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Still D.R.E.",
+    "artist": "Dr. Dre",
+    "bpm": 93,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Big Ego's",
+    "artist": "Dr. Dre",
+    "bpm": 89,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Xxplosive",
+    "artist": "Dr. Dre",
+    "bpm": 169,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "What's The Difference",
+    "artist": "Dr. Dre",
+    "bpm": 92,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Forgot About Dre",
+    "artist": "Dr. Dre",
+    "bpm": 134,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Let's Get High",
+    "artist": "Dr. Dre",
+    "bpm": 99,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Bitch Niggaz",
+    "artist": "Dr. Dre",
+    "bpm": 76,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Murder Ink",
+    "artist": "Dr. Dre",
+    "bpm": 88,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Some L.A. Niggaz",
+    "artist": "Dr. Dre",
+    "bpm": 89,
+    "key_camelot": "7B"
+  },
+  {
+    "name": "Ackrite",
+    "artist": "Dr. Dre",
+    "bpm": 94,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Bang Bang",
+    "artist": "Dr. Dre",
+    "bpm": 95,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Nuthin' But A \"G\" Thang",
+    "artist": "Dr. Dre",
+    "bpm": 95,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "I Got 5 On It",
+    "artist": "Luniz",
+    "bpm": 174,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Fuck Tha Police",
+    "artist": "N.W.A.",
+    "bpm": 99,
+    "key_camelot": "1A"
+  },
+  {
+    "name": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "bpm": 80,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Straight Outta Compton",
+    "artist": "N.W.A.",
+    "bpm": 103,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Bow Down",
+    "artist": "Westside Connection",
+    "bpm": 93,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "This Is How We Do It",
+    "artist": "Montell Jordan",
+    "bpm": 104,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Gangsta Nation",
+    "artist": "Westside Connection",
+    "bpm": 95,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Chill Bill (feat. J. Davi$ & Spooks)",
+    "artist": "Rob $tone",
+    "bpm": 108,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Finer Things",
+    "artist": "Kamaiyah",
+    "bpm": 93,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Players Club",
+    "artist": "Kamaiyah",
+    "bpm": 96,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Digits",
+    "artist": "Kamaiyah",
+    "bpm": 97,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Rather Give You",
+    "artist": "Kamaiyah",
+    "bpm": 96,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Gimme Dat",
+    "artist": "Kamaiyah",
+    "bpm": 98,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Gang Gang",
+    "artist": "Kamaiyah",
+    "bpm": 98,
+    "key_camelot": "7A"
+  },
+  {
+    "name": "Oakland Nights",
+    "artist": "Kamaiyah",
+    "bpm": 100,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "Undercover",
+    "artist": "Kamaiyah",
+    "bpm": 90,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "How I Move",
+    "artist": "Kamaiyah",
+    "bpm": 94,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "No More Parties In LA",
+    "artist": "Kanye West",
+    "bpm": 93,
+    "key_camelot": "7B"
+  },{
+    "name": "You Know How We Do It - Remastered",
+    "artist": "Ice Cube",
+    "bpm": 93,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Real Muthaphuckkin G's",
+    "artist": "Eazy-E",
+    "bpm": 170,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "It Was A Good Day",
+    "artist": "Ice Cube",
+    "bpm": 82,
+    "key_camelot": "6A"
+  },
+  {
+    "name": "Check Yo Self - Remix",
+    "artist": "Ice Cube",
+    "bpm": 101,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Boyz-N-The-Hood",
+    "artist": "Eazy-E",
+    "bpm": 88,
+    "key_camelot": "5B"
+  },
+  {
+    "name": "Straight Up Menace",
+    "artist": "MC Eiht",
+    "bpm": 80,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "How We Do",
+    "artist": "The Game",
+    "bpm": 98,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Thotiana",
+    "artist": "Blueface",
+    "bpm": 104,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Respect My Cryppin'",
+    "artist": "Blueface",
+    "bpm": 96,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Dead Locs",
+    "artist": "Blueface",
+    "bpm": 104,
+    "key_camelot": "1A"
+  },
+  {
+    "name": "How We Do It (feat. Wiz Khalifa)",
+    "artist": "Shoreline Mafia",
+    "bpm": 112,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Pretty Boy (feat. Lil Yachty)",
+    "artist": "Joji",
+    "bpm": 156,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Hot Now (Aubrey) [feat. Rowlan]",
+    "artist": "Katori Walker",
+    "bpm": 93,
+    "key_camelot": "7A"
+  },
+  {
+    "name": "Blood Walk",
+    "artist": "YG",
+    "bpm": 108,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "American Boy",
+    "artist": "Estelle",
+    "bpm": 118,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Paramedic!",
+    "artist": "SOB X RBE",
+    "bpm": 97,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Big Shot (with Travis Scott)",
+    "artist": "Kendrick Lamar",
+    "bpm": 130,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Deep Cover",
+    "artist": "Snoop Dogg",
+    "bpm": 95,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Hoo-Bangin' (WSCG Style)",
+    "artist": "Westside Connection",
+    "bpm": 92,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Hoe Shit",
+    "artist": "Shoreline Mafia",
+    "bpm": 103,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "Bottle Service",
+    "artist": "Shoreline Mafia",
+    "bpm": 100,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "BANDEMIC (E.D.D)",
+    "artist": "OHGEESY",
+    "bpm": 99,
+    "key_camelot": "6B"
+  },
+  {
+    "name": "Gettin' It (feat. Parliament Funkadelic)",
+    "artist": "Too $hort",
+    "bpm": 84,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "This D.J.",
+    "artist": "Warren G",
+    "bpm": 92,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "I'm a Player - Street Version",
+    "artist": "Too $hort",
+    "bpm": 89,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "The Humpty Dance",
+    "artist": "Digital Underground",
+    "bpm": 104,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "X",
+    "artist": "Xzibit",
+    "bpm": 97,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Tonite",
+    "artist": "DJ Quik",
+    "bpm": 105,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Grinding All My Life",
+    "artist": "Nipsey Hussle",
+    "bpm": 180,
+    "key_camelot": "2A"
+  },
+  {
+    "name": "FTP",
+    "artist": "YG",
+    "bpm": 100,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Cali Agents: The Anthem",
+    "artist": "Cali Agents",
+    "bpm": 94,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "Bitch Please II",
+    "artist": "Eminem",
+    "bpm": 96,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "2 Of Amerikaz Most Wanted",
+    "artist": "2Pac",
+    "bpm": 99,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "On My Momma",
+    "artist": "Victoria Monét",
+    "bpm": 148,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "SAUCE",
+    "artist": "REASON",
+    "bpm": 108,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "What You Need (Kdot)",
+    "artist": "Katori Walker",
+    "bpm": 75,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Wat's Wrong (feat. Zacari & Kendrick Lamar)",
+    "artist": "Isaiah Rashad",
+    "bpm": 126,
+    "key_camelot": "1A"
+  },{
+    "name": "4r Da Squaw",
+    "artist": "Isaiah Rashad",
+    "bpm": 144,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Many Men (Curtis)",
+    "artist": "Katori Walker",
+    "bpm": 84,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Cartoon",
+    "artist": "Kendrick Lamar",
+    "bpm": 114,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Occupied (feat. Rob Vicious & Fenix Flexin)",
+    "artist": "Shoreline Mafia",
+    "bpm": 85,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Heavy",
+    "artist": "Shoreline Mafia",
+    "bpm": 180,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Caroline",
+    "artist": "Aminé",
+    "bpm": 120,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "RATCHET SATURN GIRL",
+    "artist": "Aminé",
+    "bpm": 39,
+    "key_camelot": "5B"
+  },
+  {
+    "name": "Spice Girl",
+    "artist": "Aminé",
+    "bpm": 78,
+    "key_camelot": "5A"
+  },
+  {
+    "name": "No Vaseline",
+    "artist": "Ice Cube",
+    "bpm": 106,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Hussle in the House",
+    "artist": "Nipsey Hussle",
+    "bpm": 88,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Birds & The Beez",
+    "artist": "ScHoolboy Q",
+    "bpm": 96,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "So Many Tears",
+    "artist": "2Pac",
+    "bpm": 93,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "If I Die 2Nite",
+    "artist": "2Pac",
+    "bpm": 91,
+    "key_camelot": "1A"
+  },
+  {
+    "name": "Temptations",
+    "artist": "2Pac",
+    "bpm": 91,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Young Niggaz",
+    "artist": "2Pac",
+    "bpm": 101,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Heavy In The Game",
+    "artist": "2Pac",
+    "bpm": 91,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Dear Mama",
+    "artist": "2Pac",
+    "bpm": 84,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Old School",
+    "artist": "2Pac",
+    "bpm": 91,
+    "key_camelot": "1A"
+  },
+  {
+    "name": "Fuck The World",
+    "artist": "2Pac",
+    "bpm": 95,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Death Around The Corner",
+    "artist": "2Pac",
+    "bpm": 93,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Outlaw",
+    "artist": "2Pac",
+    "bpm": 79,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Holler If Ya' Hear Me",
+    "artist": "2Pac",
+    "bpm": 111,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Hit 'em Up",
+    "artist": "2Pac",
+    "bpm": 96,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Ballad Of A Dead Soulja",
+    "artist": "2Pac",
+    "bpm": 103,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Trapped",
+    "artist": "2Pac",
+    "bpm": 88,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Bands (feat. OhGeesy, Fenix Flexin & Master Kato)",
+    "artist": "Shoreline Mafia",
+    "bpm": 100,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "Pressure (feat. OhGeesy & Fenix Flexin)",
+    "artist": "Shoreline Mafia",
+    "bpm": 103,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Disgusting",
+    "artist": "Shoreline Mafia",
+    "bpm": 140,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Perc Popper",
+    "artist": "Shoreline Mafia",
+    "bpm": 105,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Big Racks",
+    "artist": "Mac P Dawg",
+    "bpm": 95,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Up Nxt",
+    "artist": "Mac P Dawg",
+    "bpm": 80,
+    "key_camelot": "5B"
+  },
+  {
+    "name": "Let Me Know (feat. Ohgeesy)",
+    "artist": "Mac P Dawg",
+    "bpm": 91,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Aww Shit",
+    "artist": "Shoreline Mafia",
+    "bpm": 105,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Gas",
+    "artist": "Shoreline Mafia",
+    "bpm": 101,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "untitled 02 | 06.23.2014.",
+    "artist": "Kendrick Lamar",
+    "bpm": 89,
+    "key_camelot": "7B"
+  },
+  {
+    "name": "untitled 07 | 2014 - 2016",
+    "artist": "Kendrick Lamar",
+    "bpm": 127,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "The Heart Part 4",
+    "artist": "Kendrick Lamar",
+    "bpm": 129,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "untitled 07 | levitate",
+    "artist": "Kendrick Lamar",
+    "bpm": 127,
+    "key_camelot": "3B"
+  },{
+    "name": "Gees",
+    "artist": "Mac Miller",
+    "bpm": 188,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Yonkers",
+    "artist": "Tyler, The Creator",
+    "bpm": 79,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Racks in the Middle (feat. Roddy Ricch and Hit-Boy)",
+    "artist": "Nipsey Hussle",
+    "bpm": 79,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Last Time That I Checc'd (feat. YG)",
+    "artist": "Nipsey Hussle",
+    "bpm": 96,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Hussle & Motivate",
+    "artist": "Nipsey Hussle",
+    "bpm": 120,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "ICY GRL",
+    "artist": "Saweetie",
+    "bpm": 103,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "The Race",
+    "artist": "Tay-K",
+    "bpm": 160,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "M.... She Wrote",
+    "artist": "Tay-K",
+    "bpm": 160,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "I <3 My Choppa",
+    "artist": "Tay-K",
+    "bpm": 160,
+    "key_camelot": "5A"
+  },
+  {
+    "name": "Hard (feat. Tay-K and BlocBoy JB)",
+    "artist": "No Jumper",
+    "bpm": 84,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "L.A. Times (feat. REASON)",
+    "artist": "Katori Walker",
+    "bpm": 80,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Trap House (feat. Shoreline Mafia)",
+    "artist": "03 Greedo",
+    "bpm": 97,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "Substance",
+    "artist": "03 Greedo",
+    "bpm": 71,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Troublesome '96",
+    "artist": "2Pac",
+    "bpm": 98,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Hit 'Em Up - Single Version",
+    "artist": "2Pac",
+    "bpm": 95,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "For Me",
+    "artist": "Fenix Flexin",
+    "bpm": 136,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Get Fly (feat. DaBaby)",
+    "artist": "OHGEESY",
+    "bpm": 204,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "South Central Gospel",
+    "artist": "Tru",
+    "bpm": 176,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "Stay Dangerous",
+    "artist": "Bravo the Bagchaser",
+    "bpm": 98,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "no sense",
+    "artist": "Baby Keem",
+    "bpm": 180,
+    "key_camelot": "5A"
+  },
+  {
+    "name": "durag activity (with Travis Scott)",
+    "artist": "Baby Keem",
+    "bpm": 80,
+    "key_camelot": "5A"
+  },
+  {
+    "name": "AF1",
+    "artist": "Coast Contra",
+    "bpm": 147,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "SWEET / I THOUGHT YOU WANTED TO DANCE (feat. Brent Faiyaz & Fana Hues)",
+    "artist": "Tyler, The Creator",
+    "bpm": 140,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "My Nigga",
+    "artist": "YG",
+    "bpm": 171,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "family ties (with Kendrick Lamar)",
+    "artist": "Baby Keem",
+    "bpm": 134,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Imagine",
+    "artist": "Snoop Dogg",
+    "bpm": 87,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Gettin' It (feat. Parliament Funkadelic)",
+    "artist": "Too $hort",
+    "bpm": 84,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Startn Up (feat. Central Cee)",
+    "artist": "OHGEESY",
+    "bpm": 160,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "The Chronic (Intro)",
+    "artist": "Dr. Dre",
+    "bpm": 179,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Fuck Wit Dre Day (And Everybody's Celebratin')",
+    "artist": "Dr. Dre",
+    "bpm": 94,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Let Me Ride",
+    "artist": "Dr. Dre",
+    "bpm": 93,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "The Day The Niggaz Took Over",
+    "artist": "Dr. Dre",
+    "bpm": 94,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Nuthin' But A \"G\" Thang",
+    "artist": "Dr. Dre",
+    "bpm": 95,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Deeez Nuuuts",
+    "artist": "Dr. Dre",
+    "bpm": 94,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Lil' Ghetto Boy",
+    "artist": "Dr. Dre",
+    "bpm": 185,
+    "key_camelot": "7A"
+  },{
+    "name": "A Nigga Witta Gun",
+    "artist": "Dr. Dre",
+    "bpm": 87,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Rat-Tat-Tat-Tat",
+    "artist": "Dr. Dre",
+    "bpm": 173,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "The $20 Sack Pyramid",
+    "artist": "Dr. Dre",
+    "bpm": 132,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Lyrical Gangbang",
+    "artist": "Dr. Dre",
+    "bpm": 81,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "High Powered",
+    "artist": "Dr. Dre",
+    "bpm": 76,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "The Doctor's Office",
+    "artist": "Dr. Dre",
+    "bpm": 79,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Stranded On Death Row",
+    "artist": "Dr. Dre",
+    "bpm": 91,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "The Roach (The Chronic Outro)",
+    "artist": "Dr. Dre",
+    "bpm": 87,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Bitches Ain't Shit",
+    "artist": "Dr. Dre",
+    "bpm": 93,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Gin and Juice",
+    "artist": "Snoop Dogg",
+    "bpm": 95,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Ambitionz Az A Ridah",
+    "artist": "2Pac",
+    "bpm": 87,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "NISSAN ALTIMA",
+    "artist": "Doechii",
+    "bpm": 117,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "ROCKIN",
+    "artist": "Shoreline Mafia",
+    "bpm": 108,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "You Know How We Do It",
+    "artist": "Ice Cube",
+    "bpm": 93,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "No More ?'s",
+    "artist": "Eazy-E",
+    "bpm": 106,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "A Bitch Iz A Bitch",
+    "artist": "N.W.A.",
+    "bpm": 97,
+    "key_camelot": "12B"
+  },
+  {
+    "name": "Gin And Juice (feat. Dat Nigga Daz)",
+    "artist": "Snoop Dogg",
+    "bpm": 96,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Just A Friend",
+    "artist": "Biz Markie",
+    "bpm": 85,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "All Eyez On Me",
+    "artist": "2Pac",
+    "bpm": 93,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "C.R.E.A.M. (Cash Rules Everything Around Me)",
+    "artist": "Wu-Tang Clan",
+    "bpm": 181,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Who Shot Ya? - 2005 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 92,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Ain't No Fun (If the Homies Cant Have None) (feat. Nate Dogg, Warren G & Kurupt)",
+    "artist": "Snoop Dogg",
+    "bpm": 100,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Ms. Jackson",
+    "artist": "Outkast",
+    "bpm": 95,
+    "key_camelot": "9A"
+  },
+  {
+    "name": "Boyz-N-The-Hood - Remix",
+    "artist": "Eazy-E",
+    "bpm": 88,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Keep Ya Head Up",
+    "artist": "2Pac",
+    "bpm": 172,
+    "key_camelot": "12B"
+  },
+  {
+    "name": "Gin N Juice (feat. Dat Nigga Daz)",
+    "artist": "Snoop Dogg",
+    "bpm": 95,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "California Love - Original Version",
+    "artist": "2Pac",
+    "bpm": 92,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Just A Lil Bit",
+    "artist": "50 Cent",
+    "bpm": 97,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "The Next Episode",
+    "artist": "Dr. Dre",
+    "bpm": 95,
+    "key_camelot": "2A"
+  },
+  {
+    "name": "Hypnotize - 2007 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 94,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "Gold Digger",
+    "artist": "Kanye West",
+    "bpm": 93,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "P.I.M.P.",
+    "artist": "50 Cent",
+    "bpm": 87,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Gangsta's Paradise (feat. L.V.)",
+    "artist": "Coolio",
+    "bpm": 80,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "X Gon' Give It To Ya",
+    "artist": "DMX",
+    "bpm": 95,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Many Men (Wish Death)",
+    "artist": "50 Cent",
+    "bpm": 108,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "In Da Club",
+    "artist": "50 Cent",
+    "bpm": 90,
+    "key_camelot": "11A"
+  },{
+    "name": "Drop It Like It's Hot",
+    "artist": "Snoop Dogg",
+    "bpm": 92,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "My Name Is",
+    "artist": "Eminem",
+    "bpm": 85,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Big Poppa - 2007 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 85,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Where The Hood At",
+    "artist": "DMX",
+    "bpm": 186,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Who Am I (What's My Name)?",
+    "artist": "Snoop Dogg",
+    "bpm": 97,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Ain't No Fun (If the Homies Cant Have None)",
+    "artist": "Snoop Dogg",
+    "bpm": 100,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Without Me",
+    "artist": "Eminem",
+    "bpm": 112,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "My Name Is",
+    "artist": "Eminem",
+    "bpm": 85,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "The Real Slim Shady",
+    "artist": "Eminem",
+    "bpm": 104,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Big Poppa - 2005 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 84,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Heat",
+    "artist": "50 Cent",
+    "bpm": 81,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Friday",
+    "artist": "Ice Cube",
+    "bpm": 186,
+    "key_camelot": "1B"
+  },
+  {
+    "name": "Keep Their Heads Ringin'",
+    "artist": "Dr. Dre",
+    "bpm": 91,
+    "key_camelot": "8A"
+  },
+  {
+    "name": "Express Yourself",
+    "artist": "N.W.A.",
+    "bpm": 95,
+    "key_camelot": "1A"
+  },
+  {
+    "name": "Candy Shop",
+    "artist": "50 Cent",
+    "bpm": 129,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "If I Can't",
+    "artist": "50 Cent",
+    "bpm": 94,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "Appetite For Destruction",
+    "artist": "N.W.A.",
+    "bpm": 106,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Gimme the Loot - 2005 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 94,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "What You Wanna Do?",
+    "artist": "Kausion",
+    "bpm": 104,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Gangsta Gangsta",
+    "artist": "N.W.A.",
+    "bpm": 98,
+    "key_camelot": "11A"
+  },
+  {
+    "name": "Mind Playing Tricks on Me",
+    "artist": "Geto Boys",
+    "bpm": 94,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Nothin' But The Cavi Hit",
+    "artist": "Mack 10",
+    "bpm": 98,
+    "key_camelot": "12A"
+  },
+  {
+    "name": "1st of Tha Month",
+    "artist": "Bone Thugs-N-Harmony",
+    "bpm": 74,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "The Murda Show (with MC Eiht)",
+    "artist": "Spice 1",
+    "bpm": 90,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "We Roll Deep",
+    "artist": "The Conscious Daughters",
+    "bpm": 84,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Captain Save A Hoe",
+    "artist": "E-40",
+    "bpm": 83,
+    "key_camelot": "9B"
+  },{
+    "name": "Played Like A Piano",
+    "artist": "King Tee",
+    "bpm": 90,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "So You Want to Be a Gangster",
+    "artist": "Too $hort",
+    "bpm": 111,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Dollaz + Sense",
+    "artist": "DJ Quik",
+    "bpm": 99,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Can't C Me",
+    "artist": "2Pac",
+    "bpm": 95,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Dope Man",
+    "artist": "N.W.A.",
+    "bpm": 176,
+    "key_camelot": "10A"
+  },
+  {
+    "name": "San Andreas Theme Song",
+    "artist": "Young Maylay",
+    "bpm": 97,
+    "key_camelot": "4A"
+  },
+  {
+    "name": "Foe Life",
+    "artist": "Mack 10",
+    "bpm": 91,
+    "key_camelot": "4B"
+  },
+  {
+    "name": "Juicy - 2005 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 97,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "Till I Collapse",
+    "artist": "Eminem",
+    "bpm": 171,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "I Get Around",
+    "artist": "2Pac",
+    "bpm": 96,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Chin Check",
+    "artist": "N.W.A.",
+    "bpm": 100,
+    "key_camelot": "10B"
+  },
+  {
+    "name": "Bitch Please",
+    "artist": "Snoop Dogg",
+    "bpm": 95,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Do For Love",
+    "artist": "2Pac",
+    "bpm": 95,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "CEO",
+    "artist": "Snoop Dogg",
+    "bpm": 102,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Deep Cover",
+    "artist": "Snoop Dogg",
+    "bpm": 95,
+    "key_camelot": "2B"
+  },
+  {
+    "name": "Why We Thugs",
+    "artist": "Ice Cube",
+    "bpm": 101,
+    "key_camelot": "3B"
+  },
+  {
+    "name": "Gangsta Bitch",
+    "artist": "Apache",
+    "bpm": 97,
+    "key_camelot": "9B"
+  },
+  {
+    "name": "Hello",
+    "artist": "Ice Cube",
+    "bpm": 91,
+    "key_camelot": "3A"
+  },
+  {
+    "name": "Twinz (Deep Cover 98) (feat. Fat Joe)",
+    "artist": "Big Pun",
+    "bpm": 95,
+    "key_camelot": "8B"
+  },
+  {
+    "name": "Hypnotize - 2014 Remaster",
+    "artist": "The Notorious B.I.G.",
+    "bpm": 94,
+    "key_camelot": "11B"
+  },
+  {
+    "name": "Eazy-Duz-It",
+    "artist": "Eazy-E",
+    "bpm": 91,
+    "key_camelot": "10B"
   }
 ]
