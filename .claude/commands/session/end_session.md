@@ -1,0 +1,191 @@
+---
+allowed-tools: Bash, Read, Write, Edit, Glob, Grep
+description: End the current session with summary, accomplishments, and next steps (project)
+argument-hint: [optional: quick summary]
+---
+
+# End Session Protocol
+
+You are ending the current development session. This protocol captures work done and prepares context for the next session.
+
+## Step 1: Verify Active Session
+
+Check for the active session marker:
+
+```bash
+cat .claude/sessions/.session-active.json 2>/dev/null
+```
+
+**If no active session exists**:
+> "No active session found. Would you like me to create a session summary anyway based on recent git activity?"
+
+If user agrees, create an ad-hoc session entry with current timestamp for both start and end.
+
+## Step 2: Capture Final Git State
+
+```bash
+# Get current branch
+git branch --show-current
+
+# Get current HEAD
+git rev-parse --short HEAD
+
+# Get git status
+git status --porcelain
+
+# Get commits since session start (use initial_commit from .session-active.json)
+git log --oneline <initial_commit>..HEAD 2>/dev/null
+
+# Get changed files
+git diff --name-only <initial_commit> 2>/dev/null
+```
+
+## Step 3: Check Branch Consistency
+
+Compare the current branch with the session's starting branch.
+
+**If branch changed**:
+> "Warning: You started on branch `<original>` but are now on `<current>`.
+> The session will be recorded with the original branch.
+> Consider using `/session:end_session` before switching branches next time."
+
+## Step 4: Analyze Track Progress
+
+If the session has an active track:
+
+1. Read `orchestrator/tracks/<track>/plan.md`
+2. Count tasks:
+   - Completed `[x]`
+   - In progress `[~]`
+   - Pending `[ ]`
+3. Compare with start to determine progress
+
+## Step 5: Generate Session Summary
+
+**Automatically analyze the session** (do NOT ask the user for this):
+
+Based on:
+- Commits made during the session
+- Files modified
+- Track progress
+- Conversation context from this session
+
+Generate a concise summary that includes:
+- What was accomplished (features, fixes, refactors)
+- Key decisions made (and why)
+- Any blockers or issues encountered
+- Technical context that would help future sessions
+
+The summary should be 2-4 sentences, focused on **what matters for continuity**.
+
+Example:
+> "Implemented user onboarding form with 4 steps (personal info, goals, schedule, preferences). Decided to use Zustand for form state because Redux was overkill for this scope. Hit a blocker with Supabase RLS policies - need to configure them next session."
+
+## Step 6: Determine Next Steps
+
+Based on:
+- Current track's `plan.md` (next pending tasks)
+- Any uncommitted work
+- Blockers that need resolution
+
+Generate `next_steps` - what should be done in the next session.
+
+## Step 7: Append to Session Log
+
+Create the session entry and append it to the log:
+
+```bash
+# Append JSON line to log (ensure it's a single line)
+echo '<session_json>' >> .claude/sessions/session-log.jsonl
+```
+
+Session JSON structure:
+```json
+{
+  "id": "<from .session-active.json>",
+  "started_at": "<from .session-active.json>",
+  "ended_at": "<current ISO 8601 timestamp>",
+  "status": "completed",
+  "git": {
+    "branch": "<original branch from .session-active.json>",
+    "initial_commit": "<from .session-active.json>",
+    "final_commit": "<current HEAD>"
+  },
+  "project": "<from .session-active.json>",
+  "track": "<from .session-active.json>",
+  "summary": "<AI-generated summary>",
+  "files_modified": ["<list of files changed>"],
+  "next_steps": "<what to do next session>"
+}
+```
+
+**Important**: The JSON must be a single line (no newlines inside) for JSONL format.
+
+## Step 8: Clean Up
+
+Delete the active session marker:
+
+```bash
+rm .claude/sessions/.session-active.json
+```
+
+## Step 9: Final Report
+
+Output a formatted summary for the user:
+
+```
+## Session Complete: <session_id>
+
+**Duration**: <start_time> → <end_time>
+**Branch**: <branch>
+**Commits**: <count> commits
+
+### Summary
+<AI-generated summary>
+
+### Files Modified
+- <file1>
+- <file2>
+- ...
+
+### Track Progress
+**<track_id>**: <tasks_completed> tasks completed this session
+
+### Next Session
+<next_steps>
+
+---
+Session saved to log. Run `/session:start_session` next time to restore context.
+```
+
+---
+
+## Edge Cases
+
+### No Commits Made
+If no commits were made during the session:
+- Note "No commits made" in the summary
+- Still capture the work context from conversation
+- Ask if there's uncommitted work that should be noted
+
+### Uncommitted Changes
+If there are uncommitted changes:
+> "You have uncommitted changes. Would you like to:
+> 1. Commit them now before closing the session
+> 2. Note them for the next session
+> 3. Discard (they'll still be in your working directory)"
+
+### Very Short Session
+If session is < 5 minutes with no commits:
+> "This was a very short session with no commits. Would you like to:
+> 1. Close it anyway (will be logged)
+> 2. Cancel and continue working"
+
+---
+
+## Important Notes
+
+- The summary is **generated by the AI**, not asked from the user - this reduces friction
+- All data goes to a single `session-log.jsonl` file (append-only)
+- The `.session-active.json` marker is deleted to indicate clean closure
+- Next session can pick up exactly where this one left off

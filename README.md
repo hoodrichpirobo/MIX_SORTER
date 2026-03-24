@@ -1,51 +1,74 @@
-Here is the **ultimate README.md** for `MIX_SORTER`.
+# MIX_SORTER
 
-I have updated it to reflect the **current architecture**: it now uses a **Local Database** (JSON) instead of external APIs, features **Advanced Fuzzy Matching**, and sorts by **Camelot Wheel**.
+Sort Spotify playlists for smoother harmonic mixing using your own local track metadata.
 
------
+MIX_SORTER is a Rust CLI that:
 
-# MIX\_SORTER 🎛️✨
+- reads a Spotify playlist
+- matches tracks against `local_db.json`
+- enriches them with BPM and Camelot key data
+- reorders the playlist by harmonic compatibility and tempo
+- writes the new order back to Spotify
 
-**Harmonic mixing for Spotify playlists — powered by Rust & Local Data.**
+This project exists because Spotify audio-feature workflows are no longer reliable enough for this use case. Instead of depending on deprecated or restricted metadata endpoints, MIX_SORTER treats your local database as the source of truth.
 
-> A high-performance CLI tool that reorders Spotify playlists by **Camelot Key** and **BPM**. Built to bypass Spotify's API restrictions by using a local database with advanced fuzzy matching logic.
+## Why It Is Useful
 
------
+If you already know the BPM and key of tracks in your own library, this tool gives you a practical way to keep Spotify playlists usable for DJ preparation.
 
-## 🔮 Why this exists
+The value is simple:
 
-Spotify recently restricted access to their **Audio Features** API (Key, BPM, Energy), breaking many DJ tools.
+- local control over metadata
+- no dependence on Spotify key/BPM endpoints
+- matching that tolerates title noise like remasters, edits, and formatting differences
+- deterministic playlist ordering for harmonic mixing
 
-**MIX\_SORTER** solves this by decoupling the data from the platform. instead of relying on a flaky or restricted API, it uses a **`local_db.json`** file as a source of truth. It matches your Spotify tracks against this database using a robust scoring algorithm to ensure the right metadata is applied, even if the titles differ slightly (e.g., *"Remastered 2009"* vs *"Original Mix"*).
+## What It Does
 
------
+Given a playlist ID or Spotify playlist URL, MIX_SORTER will:
 
-## ✨ Features
+1. authenticate with Spotify
+2. fetch all playlist tracks
+3. look up each track in `local_db.json`
+4. score possible matches using artist, title, and optional duration
+5. convert Camelot notation into sortable values
+6. sort matched tracks first, then append unmatched tracks at the end
+7. replace the playlist order on Spotify
 
-  * **⚡ Blazing Fast:** Written in Rust using `rspotify` and async/await.
-  * **🧠 Smart Matching:** Uses normalization (accent removal, case insensitivity) and fuzzy logic to match Spotify tracks to your local database.
-  * **🎚️ Harmonic Sorting:** Sorts tracks primarily by **Camelot Key** (1A → 1B → 2A...) for perfect harmonic mixing, and secondarily by **BPM**.
-  * **🛡️ Conflict Resolution:** Verifies matches using **Track Duration** (±5s tolerance) and **Artist Name** containment to distinguish between remixes and originals.
-  * **💾 Local Control:** You own your data. No API rate limits. No subscription fees.
+## Matching Rules
 
------
+The matcher is intentionally simple and inspectable.
 
-## 🛠️ Installation
+- Track titles are normalized before comparison
+- Exact artist matches score highest
+- Partial artist containment is allowed for cases like featured artists
+- Optional `duration_ms` helps separate originals from alternate edits or remixes
+- Exact normalized title matches get an extra boost
+- Tracks with invalid Camelot values are reported and skipped from enriched sorting
+- Tracks with no usable match stay in the playlist, but are placed after matched tracks
 
-### 1\. Prerequisites
+Terminal output includes markers such as:
 
-  * **Rust Toolchain:** [Install Rust](https://www.rust-lang.org/tools/install)
-  * **Spotify Developer App:** Create one at [developer.spotify.com](https://developer.spotify.com/dashboard).
-      * Set Redirect URI to: `http://localhost:8888/callback`
+- `[MATCH]` for successful enrichment
+- `[MISSING]` when no local metadata match is found
+- `[KEY ERROR]` when a local entry has an invalid Camelot key
 
-### 2\. Clone & Configure
+## Requirements
 
-```bash
-git clone https://github.com/your-username/MIX_SORTER.git
-cd MIX_SORTER
+- Rust toolchain
+- a Spotify developer app
+- a `.env` file with Spotify credentials
+- a local metadata file at `local_db.json`
+
+## Spotify App Setup
+
+Create a Spotify developer app and set the redirect URI to:
+
+```text
+http://localhost:8888/callback
 ```
 
-Create a `.env` file in the project root:
+Then create a `.env` file in the project root:
 
 ```ini
 RSPOTIFY_CLIENT_ID=your_client_id_here
@@ -53,9 +76,9 @@ RSPOTIFY_CLIENT_SECRET=your_client_secret_here
 RSPOTIFY_REDIRECT_URI=http://localhost:8888/callback
 ```
 
-### 3\. Prepare the Database
+## Local Database Format
 
-Ensure you have a `local_db.json` file in the root directory. It should look like this:
+`local_db.json` should be a JSON array of track records like this:
 
 ```json
 [
@@ -75,75 +98,80 @@ Ensure you have a `local_db.json` file in the root directory. It should look lik
 ]
 ```
 
------
+Fields:
 
-## 🚀 Usage
+- `name`: track title
+- `artist`: artist name used for matching
+- `bpm`: tempo used for sorting
+- `key_camelot`: Camelot key like `5A` or `10B`
+- `duration_ms`: optional but recommended for distinguishing different versions
 
-Run the tool by passing a **Spotify Playlist ID** or **URL**:
+## Usage
+
+Run with a raw playlist ID:
 
 ```bash
-# Using ID
 cargo run -- 2nOsiUa2nlXBGuDMjDIbDb
+```
 
-# Using URL
+Or with a Spotify playlist URL:
+
+```bash
 cargo run -- "https://open.spotify.com/playlist/2nOsiUa2nlXBGuDMjDIbDb"
 ```
 
-### What happens next?
+The CLI also accepts a Spotify URI:
 
-1.  **Authentication:** A browser window opens. Log in to Spotify to authorize the app.
-2.  **Fetching:** The app downloads your playlist tracks.
-3.  **Enriching:** It scans your `local_db.json` to find metadata for every track using the fuzzy matcher.
-4.  **Sorting:** Tracks are reordered:
-      * **Primary:** Camelot Key (1A, 1B, 2A, 2B...)
-      * **Secondary:** BPM (Ascending)
-5.  **Updating:** The playlist on Spotify is instantly updated with the new order.
+```bash
+cargo run -- "spotify:playlist:2nOsiUa2nlXBGuDMjDIbDb"
+```
 
------
+On first run, your browser should open for Spotify authorization.
 
-## 🧠 How the Matching Works
+## What Gets Sorted
 
-Since Spotify titles often contain "fluff" (e.g., *"- 2011 Remaster"*, *"feat. X"*), strict string matching fails. MIX\_SORTER uses a **Weighted Scoring System**:
+Tracks with valid local metadata are sorted by:
 
-1.  **Normalization:** Converts "Maldición" -\> "maldicion", removes curly quotes, trims whitespace.
-2.  **Lookup:** Finds potential candidates in the DB by normalized title.
-3.  **Scoring:**
-      * **+100 points:** Exact Artist match.
-      * **+80 points:** Partial Artist match (e.g. "Drake" in "Drake, Future").
-      * **+50 points:** Duration match (within 5 seconds).
-      * **-50 points:** Duration mismatch (likely a different remix).
-      * **+20 points:** Exact Title match (case-sensitive tie-breaker).
+1. Camelot wheel position
+2. BPM ascending within the same harmonic bucket
 
-Only the candidate with the highest positive score is selected.
+Tracks that cannot be enriched remain in the playlist and are appended after the matched tracks.
 
------
+## Current Project Shape
 
-## 📦 Project Structure
+- [src/main.rs](/home/hoodrichpirobo/projects/MIX_SORTER/src/main.rs): CLI entrypoint, matcher, sorting logic, Spotify integration, and regression tests
+- [local_db.json](/home/hoodrichpirobo/projects/MIX_SORTER/local_db.json): local metadata source
+- [orchestrator/](/home/hoodrichpirobo/projects/MIX_SORTER/orchestrator): project workflow and context documents
+- [.claude/commands](/home/hoodrichpirobo/projects/MIX_SORTER/.claude/commands): Claude-oriented project commands included with the repo
 
-  * `src/main.rs`: The core logic.
-      * `LocalTrackData`: Struct for JSON parsing.
-      * `find_best_match`: The fuzzy matching engine.
-      * `get_sort_weight`: Converts Camelot keys to sortable integers.
-      * `camelot_to_spotify`: Maps Camelot strings (e.g., "5A") to Spotify Pitch/Modality.
+## Development
 
------
+Recommended verification commands:
 
-## 🤝 Contributing
+```bash
+cargo fmt
+cargo clippy --all-targets --all-features
+cargo test
+```
 
-Got a better sorting algorithm? Want to add a CLI flag to reverse the sort order?
+At the time of the latest update, all three pass on the current codebase.
 
-1.  Fork it.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+## Known Limits
 
------
+- Matching quality is only as good as `local_db.json`
+- There is no dedicated UI yet; this is a CLI-first tool
+- Sorting is deterministic, but not “intelligent” beyond the current matching and harmonic rules
+- Large metadata libraries may eventually justify moving from JSON to a structured store, but JSON is still the right default for this project right now
 
-## 📄 License
+## Roadmap Direction
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Likely next improvements:
 
------
+- split core logic out of `main.rs` into dedicated modules
+- add import/export tooling for metadata maintenance
+- improve match explainability and confidence reporting
+- support richer metadata beyond BPM and Camelot key
 
-*“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.”*
+## License
+
+MIT. See [LICENSE](/home/hoodrichpirobo/projects/MIX_SORTER/LICENSE).
